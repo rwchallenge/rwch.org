@@ -1,0 +1,30 @@
+---
+import Bg from '@/components/Bg';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Container from '@/components/Container';
+import PageHeaderDesc from '@/components/PageHeaderDesc';
+import PageHeaderTitle from '@/components/PageHeaderTitle';
+import { ResourceList } from '@/components/Resource';
+---
+
+<BaseLayout title="Ресурсы">
+  <main class="relative z-0 text-center">
+    <Bg />
+
+    <section class="py-10 md:py-20">
+      <Container className="max-w-screen-lg">
+        <header>
+          <PageHeaderTitle>Ресурсы</PageHeaderTitle>
+          <PageHeaderDesc className="mt-2">
+            с помощью которых участники сообщества помогают друг другу в
+            реализации активностей
+          </PageHeaderDesc>
+        </header>
+      </Container>
+    </section>
+
+    <section class="pb-40">
+      <ResourceList />
+    </section>
+  </main>
+</BaseLayout>

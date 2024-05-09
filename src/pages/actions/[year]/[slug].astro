@@ -1,0 +1,32 @@
+---
+import { getCollection } from 'astro:content';
+
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { Action } from '@/components/Action';
+
+import '@/styles/post.css';
+
+const { props } = Astro;
+
+export async function getStaticPaths() {
+  const actions = await getCollection('actions');
+
+  const paths = actions
+    .map((action) => {
+      return action.data.map((item) => ({
+        params: {
+          year: action.id,
+          slug: item.slug,
+        },
+        props: { ...item },
+      }));
+    })
+    .flat();
+
+  return paths;
+}
+---
+
+<BaseLayout title={props.title}>
+  <Action {...props} />
+</BaseLayout>

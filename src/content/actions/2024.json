@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "slug": "pvl-w",
+    "url": "https://pvlpro.ru/?id=8&team=176",
+    "title": "ПВЛ Сезон 2023/2024",
+    "description": "\"Петербургская волейбольная лига\". Сезон 2023/2024. Женская \"Лига Б лайт+\". Женская команда.",
+    "category": "Volleyball",
+    "status": "Archive",
+    "begin": "2023-11-05",
+    "end": "2024-04-07",
+    "place": {
+      "name": "Волейбольное пространство \"Libero\"",
+      "url": "https://vk.com/pvl_libero",
+      "address": "Санкт-Петербург, 1-й Верхний пер., 2"
+    },
+    "images": [
+      "./images/2024/pvl/01.jpg",
+      "./images/2024/pvl/02.jpg",
+      "./images/2024/pvl/03.jpg",
+      "./images/2024/pvl/04.jpg",
+      "./images/2024/pvl/05.jpg",
+      "./images/2024/pvl/06.jpg",
+      "./images/2024/pvl/07.jpg",
+      "./images/2024/pvl/08.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "kvl-w-r2",
+    "url": "https://v-open.spb.ru/component/volleychamp/?view=players&tid=1137",
+    "title": "КВЛ Сезон 2023/2024 Второй круг Жен",
+    "description": "\"Клуб любителей волейбола\". Сезон 2023/2024. Второй круг. Женская лига \"С\". Женская команда.",
+    "category": "Volleyball",
+    "status": "Archive",
+    "begin": "2024-02-04",
+    "end": "2024-05-05",
+    "place": {
+      "name": "Школа 553",
+      "url": "https://spbschool553.com/sample-page/kontaktyi",
+      "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
+    },
+    "video": "https://youtu.be/AGRcBATtRiU"
+  },
+  {
+    "id": 3,
+    "slug": "kvl-m2-r2",
+    "url": "https://v-open.spb.ru/component/volleychamp/?view=players&tid=1002",
+    "title": "КВЛ Сезон 2023/2024 Второй круг Муж 2",
+    "description": "\"Клуб любителей волейбола\". Сезон 2023/2024. Второй круг. Медиум лига Юг. Вторая мужская команда.",
+    "category": "Volleyball",
+    "status": "Active",
+    "begin": "2024-02-14",
+    "end": "",
+    "place": {
+      "name": "Школа 553",
+      "url": "https://spbschool553.com/sample-page/kontaktyi",
+      "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
+    },
+    "video": "https://youtu.be/9xrsg7AISko"
+  },
+  {
+    "id": 4,
+    "slug": "kvl-m1-r2",
+    "url": "https://v-open.spb.ru/component/volleychamp/?view=players&tid=537",
+    "title": "КВЛ Сезон 2023/2024 Второй круг Муж",
+    "description": "\"Клуб любителей волейбола\". Сезон 2023/2024. Второй круг. Медиум лига Юг. Первая мужская команда.",
+    "category": "Volleyball",
+    "status": "Active",
+    "begin": "2024-02-15",
+    "end": "",
+    "place": {
+      "name": "Школа 553",
+      "url": "https://spbschool553.com/sample-page/kontaktyi",
+      "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
+    },
+    "video": "https://youtu.be/tsonjYcgGoU"
+  },
+  {
+    "id": 5,
+    "slug": "pfc",
+    "url": "https://pfchamp.ru/team/1350374",
+    "title": "Primer Football Cup Весна 2024",
+    "description": "Чемпионат \"Primer Football Cup\". Весна 2024. Первый дивизион.",
+    "category": "Football7",
+    "status": "Active",
+    "begin": "2024-01-20",
+    "end": "",
+    "place": {
+      "name": "Дворец спортивных игр \"Зенит\"",
+      "url": "http://dsizenit.ru",
+      "address": "Санкт-Петербург, ул. Бутлерова, д. 9"
+    },
+    "video": "https://youtu.be/kr-Bi6MCgA4"
+  },
+  {
+    "id": 6,
+    "slug": "sporting",
+    "url": "https://sporting-spb.ru/team/1259657",
+    "title": "Спортинг лига Весна 2024",
+    "description": "Чемпионат Спортинг лиги. Весна 2024.",
+    "category": "Football7",
+    "status": "Archive",
+    "begin": "2024-02-04",
+    "end": "2024-05-05",
+    "place": {
+      "name": "Дворец спортивных игр \"Зенит\"",
+      "url": "http://dsizenit.ru",
+      "address": "Санкт-Петербург, ул. Бутлерова, д. 9"
+    },
+    "images": [
+      "./images/2024/sporting_spring/01.jpg",
+      "./images/2024/sporting_spring/02.jpg",
+      "./images/2024/sporting_spring/03.jpg"
+    ],
+    "video": "https://youtu.be/6eMoGCYAC7I"
+  },
+  {
+    "id": 7,
+    "slug": "ole-t2",
+    "url": "https://olesports.ru/club/643aad36b6016f01578002de?team=643aad37b6016f01578002e0",
+    "title": "Оле Пари 8x8 Сезон 2024 Первая лига",
+    "description": "XVIII сезон 2024. Дивизион \"Московский\". Первая лига. Вторая команда.",
+    "category": "Football8",
+    "status": "Active",
+    "begin": "2024-04-13",
+    "end": "",
+    "place": {
+      "name": "Стадион \"Московский\"",
+      "url": "https://sport-mosk.ru",
+      "address": "Санкт-Петербург, Московский пр., д.102, корп.2, лит.А"
+    },
+    "video": "https://youtu.be/KOhzSD9tj9o"
+  },
+  {
+    "id": 8,
+    "slug": "ole-t1",
+    "url": "https://olesports.ru/club/643aad36b6016f01578002de",
+    "title": "Оле Пари 8x8 Сезон 2024 Суперлига",
+    "description": "XVIII сезон 2024. Суперлига. Первая команда.",
+    "category": "Football8",
+    "status": "Active",
+    "begin": "2024-04-14",
+    "end": "",
+    "place": {
+      "name": "СК \"Политехник\"",
+      "url": "https://sport.spbstu.ru",
+      "address": "Санкт-Петербург, ул. Политехническая, д. 27"
+    },
+    "video": "https://youtu.be/IuvS3E4aRUI"
+  },
+  {
+    "id": 9,
+    "slug": "rwgames",
+    "title": "RWGames Второй сезон",
+    "description": "Второй сезон. Соревнования команд из 2 человек в разнообразных видах активностей.",
+    "category": "RWAction",
+    "status": "Target",
+    "video": "https://youtu.be/I64NjoavFio"
+  },
+  {
+    "id": 10,
+    "slug": "volley-fest",
+    "title": "Волейбольный сбор 2024",
+    "description": "Сбор в игровом формате по итогам сезона.",
+    "category": "RWAction",
+    "status": "Target"
+  },
+  {
+    "id": 11,
+    "slug": "spbchamp",
+    "url": "https://stat.ffspb.org/tournament37617",
+    "title": "Чемпионат СПб по футболу 2024",
+    "description": "Чемпионат Санкт-Петербурга по футболу среди мужских команд высшей лиги спортивного сезона 2024 года.",
+    "welcome": {
+      "header": "Приглашение",
+      "content": [
+        "<p>",
+        "Наша команда по итогам прошлогоднего чемпионата заслужила право выступления в высшей лиге в этом году.",
+        "</p>",
+        "<p>",
+        "Видео и фото ниже с прошлогоднего чемпионата и кубка.",
+        "</p>",
+        "<p>",
+        "Ищем поддержку или <a href='mailto:fc@rwch.org'>сотрудничество</a> на данную активность.",
+        "</p>"
+      ]
+    },
+    "category": "Football",
+    "status": "Target",
+    "begin": "2024-05-15",
+    "end": "",
+    "place": {
+      "name": "СК \"Nova Arena\"",
+      "url": "https://www.novaarena.ru",
+      "address": "Санкт-Петербург, Гражданский проспект, 100"
+    },
+    "video": "https://youtu.be/qMROeXh90w0",
+    "images": [
+      "./images/2023/spbchamp/01.jpg",
+      "./images/2023/spbchamp/02.jpg",
+      "./images/2023/spbchamp/03.jpg",
+      "./images/2023/spbchamp/04.jpg",
+      "./images/2023/spbchamp/05.jpg",
+      "./images/2023/spbchamp/06.jpg",
+      "./images/2023/spbchamp/07.jpg",
+      "./images/2023/spbchamp/08.jpg",
+      "./images/2023/spbchamp/09.jpg",
+      "./images/2023/spbchamp/10.jpg",
+      "./images/2023/spbchamp/11.jpg",
+      "./images/2023/spbchamp/12.jpg",
+      "./images/2023/spbchamp/13.jpg",
+      "./images/2023/spbchamp/14.jpg",
+      "./images/2023/spbchamp/15.jpg",
+      "./images/2023/spbchamp/16.jpg"
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+---
+import Button from '@/components/Button';
+import Icon from './ActionCreateIcon.astro';
+import { Category } from './types';
+---
+
+<div
+  class="items-center rounded-3xl border-2 border-emerald-300/10 bg-emerald-300/3 px-10 py-8 text-left text-emerald-100 md:mx-32 md:flex md:px-16 md:py-10"
+>
+  <div class="grow">
+    <h4 class="text-2xl font-semibold text-emerald-400">
+      Бросьте или примите вызов
+    </h4>
+    <p class="">
+      Разместите здесь информацию о вашей активности.<br />
+      Найдите активности сообщества с меткой: <br />
+      {`"${Category.RWAction}"`}.
+    </p>
+
+    <Button
+      type="button"
+      href="mailto:challenge@rwch.org"
+      className="-ml-1 mt-4 hidden bg-emerald-400 font-medium text-zinc-950 md:inline-flex"
+    >
+      Напишите нам
+    </Button>
+  </div>
+
+  <div class="mt-6 md:mt-0">
+    <ul class="space-y-2">
+      <li class="flex items-center gap-1">
+        <Icon /> Пригласите нашу команду участвовать
+      </li>
+      <li class="flex items-center gap-1">
+        <Icon /> Разместите объявление об активности
+      </li>
+      <li class="flex items-center gap-1">
+        <Icon /> Найдите участников
+      </li>
+      <li class="flex items-center gap-1">
+        <Icon /> Найдите поддержку
+      </li>
+    </ul>
+  </div>
+
+  <Button
+    type="button"
+    href="mailto:challenge@rwch.org"
+    className="-ml-1 mt-6 bg-emerald-400 font-medium text-zinc-950 md:hidden"
+  >
+    Contact Us
+  </Button>
+</div>

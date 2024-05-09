@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content';
+
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { Team } from '@/components/Team';
+
+import '@/styles/post.css';
+
+const { team } = Astro.props;
+
+export async function getStaticPaths() {
+  const teams = await getCollection('teams');
+
+  const paths = teams.map((team) => ({
+    params: {
+      slug: team.slug,
+    },
+    props: { team },
+  }));
+
+  return paths;
+}
+---
+
+<BaseLayout title={team.data.title}>
+  <Team team={team} />
+</BaseLayout>

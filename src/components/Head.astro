@@ -1,0 +1,29 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  keywords: string;
+  image?: string;
+  canonicalUrl: string;
+  type: 'website' | 'article';
+}
+
+const { title, description, keywords, image, canonicalUrl, type } = Astro.props;
+---
+
+<title>
+  {
+    title === undefined
+      ? 'RWChallenge: Real World Challenge'
+      : `${title} | RWChallenge`
+  }
+</title>
+<meta name="description" content={description} />
+<meta name="keywords" content={keywords} />
+<link rel="canonical" href={canonicalUrl} />
+
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonicalUrl} />
+<meta property="og:image" content={image} />
+<meta property="og:type" content={type} />

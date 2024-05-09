@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content';
+
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { Resource } from '@/components/Resource';
+
+import '@/styles/post.css';
+
+const { resource } = Astro.props;
+
+export async function getStaticPaths() {
+  const resources = await getCollection('resources');
+
+  const paths = resources.map((resource) => ({
+    params: {
+      slug: resource.slug,
+    },
+    props: { resource },
+  }));
+
+  return paths;
+}
+---
+
+<BaseLayout title={resource.data.title}>
+  <Resource resource={resource} />
+</BaseLayout>

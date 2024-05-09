@@ -1,0 +1,319 @@
+[
+  {
+    "id": 1,
+    "slug": "ole-prem-futsal",
+    "url": "https://olesports.ru",
+    "title": "Оле Premium X6 Сезон 2021/2022",
+    "description": "XXVI сезон 2021/2022.",
+    "category": "Football6",
+    "status": "Archive",
+    "begin": "2021-10-11",
+    "end": "2022-01-31",
+    "place": {
+      "name": "СПб ГБУ Центр физической культуры, спорта и здоровья Калининского района",
+      "url": "https://fokalin.ru",
+      "address": "Санкт-Петербург, ул. Демьяна Бедного, д.9"
+    },
+    "video": "https://youtu.be/GwjKxZQTjEA"
+  },
+  {
+    "id": 2,
+    "slug": "kvl-m",
+    "url": "https://v-open.spb.ru/index.php?option=com_volleychamp&view=players&op=3&tid=920&hid=42",
+    "title": "КВЛ Сезон 2021/2022 Второй круг",
+    "description": "\"Клуб любителей волейбола\". Сезон 2021/2022. Второй круг. Лига Лайт-Юг Группа 3. Мужская команда.",
+    "category": "Volleyball",
+    "status": "Archive",
+    "begin": "2022-02-05",
+    "end": "2022-04-30",
+    "place": {
+      "name": "Школа 213",
+      "url": "http://213school.ru",
+      "address": "Санкт-Петербург, ул. Белградская, дом 20, корпус 2, литер А"
+    },
+    "video": "https://youtu.be/cI8e6TGAvKk"
+  },
+  {
+    "id": 3,
+    "slug": "step-cup",
+    "url": "https://stepanovsport.ru",
+    "title": "Кубок лиги Степанова 2022",
+    "description": "Лига Степанова. Кубок Любительской лиги 2022.",
+    "category": "Football5",
+    "status": "Archive",
+    "begin": "2022-05-16",
+    "end": "2022-07-04",
+    "place": {
+      "name": "СК \"Nova Arena\"",
+      "url": "https://www.novaarena.ru",
+      "address": "Санкт-Петербург, Гражданский проспект, 100"
+    },
+    "video": "https://youtu.be/H_nQrjvo8i4"
+  },
+  {
+    "id": 4,
+    "slug": "svetdeti",
+    "url": "https://svetdeti.org/footballcup",
+    "title": "Гол в ворота болезни",
+    "description": "Благотворительнй турнир.",
+    "category": "Football7",
+    "status": "Archive",
+    "begin": "2022-05-29",
+    "end": "2022-05-29",
+    "place": {
+      "name": "Академия ФК \"Зенит\"",
+      "url": "https://fc-zenit.ru/academy",
+      "address": "Санкт-Петербург, ул. Верности, 21"
+    },
+    "images": [
+      "./images/2022/svetdeti/01.jpg",
+      "./images/2022/svetdeti/02.jpg",
+      "./images/2022/svetdeti/03.jpg",
+      "./images/2022/svetdeti/04.jpg",
+      "./images/2022/svetdeti/05.jpg",
+      "./images/2022/svetdeti/06.jpg",
+      "./images/2022/svetdeti/07.jpg",
+      "./images/2022/svetdeti/08.jpg",
+      "./images/2022/svetdeti/09.jpg",
+      "./images/2022/svetdeti/10.jpg",
+      "./images/2022/svetdeti/11.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "ole-prem-street",
+    "url": "https://olesports.ru",
+    "title": "Оле Premium X6 Сезон Лето 2022",
+    "description": "ХXVIII сезон. Лето 2022.",
+    "category": "Football6",
+    "status": "Archive",
+    "begin": "2022-07-08",
+    "end": "2022-09-27",
+    "place": {
+      "name": "СК \"Политехник\"",
+      "url": "https://sport.spbstu.ru",
+      "address": "Санкт-Петербург, ул. Политехническая, д. 27"
+    },
+    "video": "https://youtu.be/N43EQRpykCk"
+  },
+  {
+    "id": 6,
+    "slug": "summer-fest",
+    "title": "Летний сбор 2022",
+    "description": "Общий сбор футбольной и волейбольной команд.",
+    "welcome": {
+      "header": "Приглашение",
+      "content": [
+        "<p>",
+        "22.07 - 23.07 планируем летний сбор наших команд (волейбольной и футбольной).<br>",
+        "Место - ориентировочно база или парк отдыха в часовой доступности от города.",
+        "</p>",
+        "<p>",
+        "Командное (все участники будут разделены на команды по 5-6 человек) прохождение полосы препятствий из развлечений, доступных в выбранном месте: на земле - спортивные площадки и транспортные средства, на воде - озеро или бассейн, в воздухе - веревочный парк и активности в помещениях).",
+        "</p>"
+      ]
+    },
+    "category": "RWAction",
+    "status": "Archive",
+    "begin": "2022-07-22",
+    "end": "2022-07-23",
+    "place": {
+      "name": "Загородный клуб \"Орех\"",
+      "url": "https://orech.ru",
+      "address": "Ленинградская область, Приозерский район, 47 км Приозерского шоссе, посёлок Орехово, ул. Морская"
+    },
+    "video": "https://youtu.be/TmdxDKMKCxk",
+    "images": [
+      "./images/2022/summerfest/01.jpg",
+      "./images/2022/summerfest/02.jpg",
+      "./images/2022/summerfest/03.jpg",
+      "./images/2022/summerfest/04.jpg",
+      "./images/2022/summerfest/05.jpg",
+      "./images/2022/summerfest/06.jpg",
+      "./images/2022/summerfest/07.jpg",
+      "./images/2022/summerfest/08.jpg",
+      "./images/2022/summerfest/09.jpg",
+      "./images/2022/summerfest/10.jpg",
+      "./images/2022/summerfest/11.jpg",
+      "./images/2022/summerfest/12.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "sporting",
+    "url": "https://sporting-spb.ru/team/1259657",
+    "title": "Спортинг лига Осень 2022",
+    "description": "Чемпионат Спортинг лиги. Осень 2022.",
+    "category": "Football7",
+    "status": "Archive",
+    "begin": "2022-09-25",
+    "end": "2022-12-18",
+    "place": {
+      "name": "Дворец спортивных игр \"Зенит\"",
+      "url": "http://dsizenit.ru",
+      "address": "Санкт-Петербург, ул. Бутлерова, д. 9"
+    },
+    "video": "https://youtu.be/30NU2BfZyGU"
+  },
+  {
+    "id": 8,
+    "slug": "kvl-m2-r2",
+    "url": "https://v-open.spb.ru/index.php?option=com_volleychamp&view=players&op=3&tid=1002&hid=44",
+    "title": "КВЛ Сезон 2022/2023 Первый круг Муж 2",
+    "description": "\"Клуб любителей волейбола\". Сезон 2022/2023. Первый круг. Медиум лига Юг. Вторая мужская команда.",
+    "category": "Volleyball",
+    "status": "Archive",
+    "begin": "2022-10-09",
+    "end": "2022-12-20",
+    "place": {
+      "name": "Школа 213",
+      "url": "http://213school.ru",
+      "address": "Санкт-Петербург, ул. Белградская, дом 20, корпус 2, литер А"
+    },
+    "video": "https://youtu.be/JZdGK-cihU0"
+  },
+  {
+    "id": 9,
+    "slug": "kvl-m1-r2",
+    "url": "https://v-open.spb.ru/index.php?option=com_volleychamp&view=players&op=3&tid=537&hid=44",
+    "title": "КВЛ Сезон 2022/2023 Первый круг Муж",
+    "description": "\"Клуб любителей волейбола\". Сезон 2022/2023. Первый круг. Медиум лига Юг. Первая мужская команда.",
+    "category": "Volleyball",
+    "status": "Archive",
+    "begin": "2022-10-09",
+    "end": "2022-12-20",
+    "place": {
+      "name": "Школа 213",
+      "url": "http://213school.ru",
+      "address": "Санкт-Петербург, ул. Белградская, дом 20, корпус 2, литер А"
+    },
+    "video": "https://youtu.be/lP9gwsyJz6Y"
+  },
+  {
+    "id": 10,
+    "slug": "rwgames1",
+    "title": "RWGames #1",
+    "description": "Игра первая. Среди футболистов.",
+    "welcome": {
+      "header": "Приглашение",
+      "content": [
+        "<p>",
+        "СБ 03.12 20:00 - 23:00.<br>",
+        "Старт игрового шоу \"RWGames\"!<br>",
+        "Игра первая.",
+        "</p>",
+        "<p style='margin-bottom: 1rem'>Список участников:</p>",
+        "<ol><li>Егор Яковлев, Иван Пономарев.</li><li>Роман Трифанов, Дмитрий Бобров.</li><li>Дмитрий Красовский, Андрей Яковлев</li><li>Роман Красовский, Раф.</li></ol>",
+        "<p>",
+        "В шоу будут соревнования в командах из 2 человек. Сперва приглашаются игроки футбольной команды, которые в течение прошедшего года участвовали в соревнованиях.",
+        "</p>",
+        "<p>",
+        "Шоу будет состоять из нескольких игровых дней. В каждом игровом дне будут новые участники и среди них будет определена команда победитель, которая примет участие в финальной игре. Игровые дни планируем проводить раз в неделю в ПТ или СБ.",
+        "</p>",
+        "<p>",
+        "Один игровой день состоит из нескольких раундов: футбольный, не футбольный и финальная гонка. Вся игра должна уложиться в 3 часа.",
+        "</p>",
+        "<p>",
+        "Все шоу будет сниматься на видео и по итогам будет опубликована запись игр на нашем <a href='https://www.youtube.com/@rwch_team' target='_blank'>Youtube канале</a>.",
+        "</p>"
+      ]
+    },
+    "category": "RWAction",
+    "status": "Archive",
+    "begin": "2022-12-03",
+    "end": "2022-12-03",
+    "place": {
+      "name": "Спортивный Центр \"Сосновка Парк\"",
+      "url": "https://parksosnovka.ru",
+      "address": "Санкт-Петербург, ул. Жака Дюкло 20Б"
+    },
+    "video": "https://youtu.be/NKwKsc0ZK_Y"
+  },
+  {
+    "id": 11,
+    "slug": "rwgames2",
+    "title": "RWGames #2",
+    "description": "Игра вторая. Среди волейболистов.",
+    "welcome": {
+      "header": "Приглашение",
+      "content": [
+        "<p>",
+        "ВС 11.12 16:00 - 18:00. Сбор в 15:45.<br>",
+        "Старт игрового шоу \"RWGames\" для волейбольной команды!<br>",
+        "Игра вторая. Первая игра уже состоялась с участием футбольной команды.",
+        "</p>",
+        "<p style='margin-bottom: 1rem'>Список участников:</p>",
+        "<ol><li>Саша Маточкин, Яша Крылов.</li><li>Паша Лаптев, Денис Кузьмин.</li><li>Егор Вершанский, Ринат Кулиев.</li><li>Марк Иванов, Егор Левичев.</li></ol>",
+        "<p>",
+        "В шоу будут соревнования в командах из 2 человек. Сперва приглашаются игроки волейбольной команды, которые в течение прошедшего года участвовали в соревнованиях.",
+        "</p>",
+        "<p>",
+        "Шоу будет состоять из нескольких игровых дней. В каждом игровом дне будут новые участники и среди них будет определена команда победитель, которая примет участие в финальной игре. Игровые дни планируем проводить раз в одну или две недели.",
+        "</p>",
+        "<p>",
+        "Один игровой день состоит из нескольких раундов: волейбольный, произвольный и финальная гонка. Вся игра должна уложиться в 2 часа.",
+        "</p>",
+        "<p>",
+        "Все шоу будет сниматься на видео и по итогам будет опубликована запись игр на нашем <a href='https://www.youtube.com/@rwch_team' target='_blank'>Youtube канале</a>.",
+        "</p>"
+      ]
+    },
+    "category": "RWAction",
+    "status": "Archive",
+    "begin": "2022-12-11",
+    "end": "2022-12-11",
+    "place": {
+      "name": "Школа 213",
+      "url": "http://213school.ru",
+      "address": "Санкт-Петербург, ул. Белградская, дом 20, корпус 2, литер А"
+    },
+    "video": "https://youtu.be/Us8yX5yUgxA"
+  },
+  {
+    "id": 12,
+    "slug": "rwgames3",
+    "title": "RWGames #3",
+    "description": "Игра третья. Среди футболистов.",
+    "welcome": {
+      "header": "Приглашение",
+      "content": [
+        "<p>",
+        "ЧТ 22.12 19:00 - 21:30 (сбор в 18:45 в зале для настольного тенниса).<br>",
+        "RWGames. Игра третья (вторая игра прошла с участниками волейбольной команды).",
+        "</p>",
+        "<p style='margin-bottom: 1rem'>Список участников:</p>",
+        "<ol><li>Миша Семенов, Витя Крышанов.</li><li>Рома Красовский, Валя Михайлов.</li></ol>",
+        "<p>",
+        "Эпизоды из первой игры уже можно посмотреть на нашем <a href='https://www.youtube.com/@rwch_team' target='_blank'>Youtube канале</a>.",
+        "</p>"
+      ]
+    },
+    "category": "RWAction",
+    "status": "Archive",
+    "begin": "2022-12-22",
+    "end": "2022-12-22",
+    "place": {
+      "name": "Energy Arena",
+      "url": "https://energyarena.ru",
+      "address": "Санкт-Петербург, дорога на Каменку, 12"
+    },
+    "images": [
+      "./images/2022/rwgames-3/01.jpg",
+      "./images/2022/rwgames-3/02.jpg",
+      "./images/2022/rwgames-3/03.jpg",
+      "./images/2022/rwgames-3/04.jpg",
+      "./images/2022/rwgames-3/05.jpg",
+      "./images/2022/rwgames-3/06.jpg",
+      "./images/2022/rwgames-3/07.jpg",
+      "./images/2022/rwgames-3/08.jpg",
+      "./images/2022/rwgames-3/09.jpg",
+      "./images/2022/rwgames-3/10.jpg",
+      "./images/2022/rwgames-3/11.jpg",
+      "./images/2022/rwgames-3/12.jpg",
+      "./images/2022/rwgames-3/13.jpg",
+      "./images/2022/rwgames-3/14.jpg",
+      "./images/2022/rwgames-3/15.jpg",
+      "./images/2022/rwgames-3/16.jpg"
+    ]
+  }
+]

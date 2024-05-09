@@ -1,0 +1,60 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Bg from '@/components/Bg';
+import Container from '@/components/Container';
+import PageHeaderDesc from '@/components/PageHeaderDesc';
+import PageHeaderTitle from '@/components/PageHeaderTitle';
+import {
+  SupportToggle,
+  SupportRwEnterprise,
+  SupportRwCard,
+  SupportRwFaq,
+} from '@/components/Support';
+
+import '@/styles/support.css';
+---
+
+<BaseLayout title="Поддержать">
+  <main class="relative z-0 text-center">
+    <Bg className="opacity-10" />
+
+    <section class="py-16 md:pb-32 md:pt-20">
+      <Container className="max-w-screen-lg">
+        <header>
+          <PageHeaderTitle>Поддержать активности сообщества</PageHeaderTitle>
+          <PageHeaderDesc className="mt-2">
+            Много интересных идей и активностей сообщества ждут ресурсов для
+            реализации.
+          </PageHeaderDesc>
+        </header>
+      </Container>
+
+      <div class="mt-6 md:mt-8">
+        <Container>
+          <div>
+            <SupportToggle product={'/'} client:load />
+
+            <div class="mt-16 md:mt-20">
+              <SupportRwCard />
+
+              <div class="mt-10 md:mt-20">
+                <SupportRwEnterprise />
+              </div>
+
+              <div class="mt-32 md:mt-40">
+                <Container className="max-w-screen-md">
+                  <PageHeaderTitle as="h2" className="mb md:text-4xl">
+                    FAQ
+                  </PageHeaderTitle>
+                  <div class="mt-10">
+                    <SupportRwFaq client:load />
+                  </div>
+                </Container>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </div>
+    </section>
+  </main>
+</BaseLayout>

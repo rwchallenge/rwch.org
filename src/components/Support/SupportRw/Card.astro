@@ -1,0 +1,64 @@
+---
+import { PayYoomoney } from '@/components/Pay';
+---
+
+<div class="grid gap-6 md:grid-cols-3">
+  <div
+    class="flex flex-col items-center gap-6 rounded-3xl bg-white/5 px-4 py-8"
+  >
+    <div class="grow">
+      <h4 class="mb-2 text-xl font-semibold text-emerald-400">Сборы</h4>
+    </div>
+    <div class="grow">
+      <div class="text-white/80">
+        Наши сборы проходили летом и зимой в игровых форматах.
+      </div>
+    </div>
+    <hr class="w-2/3 border-0 border-b border-b-white/5" />
+    <div>
+      <p class="text-white/40">Чем больше сборов, тем интереснее</p>
+    </div>
+    <hr class="w-2/3 border-0 border-b border-b-white/5" />
+    <PayYoomoney label="RWFest" client:load />
+  </div>
+
+  <div
+    class="flex flex-col items-center gap-6 rounded-3xl border-2 border-white/20 bg-white/10 px-4 py-8"
+  >
+    <div class="grow">
+      <h4 class="mb-2 text-xl font-semibold text-emerald-400">Общие нужды</h4>
+    </div>
+    <div class="grow">
+      <div class="text-white/80">
+        Направить финансы туда где в данный момент наибольшая потребность.
+      </div>
+    </div>
+    <hr class="w-2/3 border-0 border-b border-b-white/5" />
+    <div>
+      <p class="text-white/40">Чем больше активностей, тем интереснее</p>
+    </div>
+    <hr class="w-2/3 border-0 border-b border-b-white/5" />
+    <PayYoomoney label="RW" client:load />
+  </div>
+
+  <div
+    class="flex flex-col items-center gap-6 rounded-3xl bg-white/5 px-4 py-8"
+  >
+    <div>
+      <h4 class="mb-2 text-xl font-semibold text-emerald-400">RWGames</h4>
+    </div>
+
+    <div class="grow">
+      <div class="text-white/80">
+        Соревнование в различных видах активностей кроманд из 2 игроков.
+      </div>
+    </div>
+    <hr class="w-2/3 border-0 border-b border-b-white/5" />
+    <div>
+      <p class="text-white/40">Один сезон в году</p>
+    </div>
+    <hr class="w-2/3 border-0 border-b border-b-white/5" />
+
+    <PayYoomoney label="RWGames" client:load />
+  </div>
+</div>

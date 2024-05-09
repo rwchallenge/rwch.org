@@ -1,0 +1,35 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Bg from '@/components/Bg';
+import Container from '@/components/Container';
+import PageHeaderDesc from '@/components/PageHeaderDesc';
+import PageHeaderTitle from '@/components/PageHeaderTitle';
+
+import '@/styles/post.css';
+---
+
+<BaseLayout title="Вызов">
+  <main class="relative z-0 text-center">
+    <Bg />
+
+    <section class="py-16 md:pb-32 md:pt-20">
+      <Container className="max-w-screen-lg">
+        {/* header */}
+        <header>
+          <PageHeaderTitle> #rwchallenge </PageHeaderTitle>
+
+          <PageHeaderDesc className="mt-2">
+            <span class="grid gap-1 md:gap-2">
+              Примите вызов, сделайте пожертвование и помогите создать реальный
+              мир наполненный интересными активностями.
+            </span>
+            <br />
+            <span class="grid gap-1 md:gap-2">
+              Подробности о формате вызова появятся позже.
+            </span>
+          </PageHeaderDesc>
+        </header>
+      </Container>
+    </section>
+  </main>
+</BaseLayout>

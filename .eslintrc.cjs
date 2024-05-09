@@ -7,9 +7,6 @@ module.exports = {
   },
   plugins: ['import'],
   settings: {
-    'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx'],
-    },
     'import/resolver': {
       typescript: {
         alwaysTryTypes: true,
@@ -17,10 +14,26 @@ module.exports = {
       },
     },
   },
-  rules: {
-    'import/no-unresolved': 'error',
-  },
   overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      plugins: ['@typescript-eslint'],
+      parser: '@typescript-eslint/parser',
+      parserOptions: {
+        project: ['./tsconfig.json'],
+        ecmaVersion: 'latest',
+        sourceType: 'module',
+      },
+      extends: [
+        'plugin:@typescript-eslint/recommended',
+        'plugin:@typescript-eslint/recommended-requiring-type-checking',
+        'plugin:@typescript-eslint/strict',
+        'prettier',
+      ],
+      rules: {
+        '@typescript-eslint/triple-slash-reference': 'off',
+      },
+    },
     {
       files: ['*.js', '*.mjs', '*.cjs'],
       parserOptions: {
@@ -37,10 +50,8 @@ module.exports = {
         parser: '@typescript-eslint/parser',
         extraFileExtensions: ['.astro'],
       },
-      rules: {
-        // override/add rules settings here, such as:
-        // "astro/no-set-html-directive": "error"
-      },
+      processor: 'astro/client-side-ts',
+      rules: {},
     },
   ],
 };

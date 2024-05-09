@@ -1,0 +1,172 @@
+---
+import { Image } from 'astro:assets';
+
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Bg from '@/components/Bg';
+import Container from '@/components/Container';
+import {
+  IconUserGroup,
+  IconCalendarPlus,
+  IconRecycle,
+  InvestorList,
+} from '@/components/Investor';
+import PageBodyGradient from '@/components/PageBodyGradient';
+import PageHeaderDesc from '@/components/PageHeaderDesc';
+import PageHeaderTitle from '@/components/PageHeaderTitle';
+import teamImg from '@/content/teams/images/team.jpg';
+import ownerImg from '@/content/investors/images/owner.jpg';
+
+import '@/styles/post.css';
+---
+
+<BaseLayout title="О нас">
+  <main class="relative z-0 text-center">
+    <Bg />
+
+    <section class="py-16 md:pb-32 md:pt-20">
+      <Container className="max-w-screen-lg">
+        {/* header */}
+        <header>
+          <PageHeaderTitle>
+            Инвестируем в развитие
+            <br />
+            реального мира
+          </PageHeaderTitle>
+
+          <PageHeaderDesc className="mt-2">
+            <span class="grid gap-1 md:gap-2">
+              <span>
+                Наши усилия направлены на то, чтобы делать реальную жизнь
+                интереснее и доступнее в любом уголке нашей планеты.
+              </span>
+              <span>
+                Фокусом нашего внимания являются игровые и обучающие проекты в
+                реальном мире.
+              </span>
+            </span>
+          </PageHeaderDesc>
+        </header>
+
+        {/* mission */}
+        <div class="mt-10 grid gap-6 md:mt-20 md:grid-cols-3">
+          <div class="flex flex-col items-center">
+            <IconUserGroup
+              className="text-[60px] text-emerald-400 md:text-[70px]"
+            />
+            <h3 class="font-display mt-4 text-xl font-semibold">Сообщество</h3>
+            <p class="mx-12 mt-2 opacity-60 md:mx-6">
+              Найти и объединить людей, которые будут помогать друг другу.
+            </p>
+          </div>
+          <div class="flex flex-col items-center">
+            <IconCalendarPlus
+              className="text-[60px] text-emerald-400 md:text-[70px]"
+            />
+            <h3 class="font-display mt-4 text-xl font-semibold">Активности</h3>
+            <p class="mx-12 mt-2 opacity-60 md:mx-6">
+              Участвовать в активностях в реальном мире.<br />
+              И создавать свои.
+            </p>
+          </div>
+          <div class="flex flex-col items-center">
+            <IconRecycle
+              className="text-[60px] text-emerald-400 md:text-[70px]"
+            />
+            <h3 class="font-display mt-4 text-xl font-semibold">
+              Обмен ресурсами
+            </h3>
+            <p class="mx-12 mt-2 opacity-60 md:mx-6">
+              Навыки и умения, финансы, реквизит, площадки, оборудование.
+            </p>
+          </div>
+        </div>
+      </Container>
+    </section>
+
+    <section class="relative py-16 md:py-28">
+      <Bg className="top-32 h-1/2 bg-yellow-500" />
+      <Container className="max-w-screen-lg">
+        <header>
+          <PageHeaderTitle as="h2">Наша команда</PageHeaderTitle>
+          <PageHeaderDesc className="mt-4">
+            Мы учавствовали во многих активностях как участники и как
+            организаторы. <br />
+            И открыты к новым вызовам.<br />
+            Следите за нашими активностями и зовите участвовать в своих.
+          </PageHeaderDesc>
+        </header>
+
+        <div class="group/investor flex flex-col items-center">
+          <p class="mt-4">
+            <Image
+              class="rounded-3xl object-cover grayscale transition group-hover/investor:mix-blend-normal group-hover/investor:grayscale-0"
+              width={860}
+              src={teamImg}
+              alt="Команда"
+              loading="lazy"
+            />
+          </p>
+        </div>
+      </Container>
+    </section>
+
+    <section
+      class="relative z-0 mx-auto max-w-screen-md px-6 py-16 md:px-10 md:py-28"
+    >
+      <div class="post leading-p">
+        <div class="lg:-mx-40">
+          <div
+            class:list={[
+              'group/investor grid place-items-center gap-6 rounded-4xl',
+              'border-4 border-white/5 p-10 text-center md:px-20 md:py-16',
+            ]}
+          >
+            <Image
+              src={ownerImg}
+              alt="Основатель"
+              width={80}
+              height={80}
+              class="rounded-full object-cover grayscale transition group-hover/investor:mix-blend-normal group-hover/investor:grayscale-0"
+            />
+
+            <p
+              class="bg-gradient-to-br from-white to-[#6DBEA6] bg-clip-text text-xl font-medium text-transparent"
+            >
+              Сейчас я ощущаю себя героем фильма "Эта замечательная жизнь". Три
+              года я вкладываю свои ресурсы в развитие сообщества. За это время
+              оно приобрело такие масштабы, на которые уже не достаточно только
+              моих ресурсов. Пришло время привлекать новые ресурсы для
+              поддержания текущей деятельности и развития сообщества. Поэтому
+              если вам близки идеи сообщества, то <a href="/#community">
+                становитесь
+              </a> его участником и
+              <a href="/support"> поддержите </a> его доступными вам способами.
+            </p>
+
+            <div>
+              <span class="opacity-80">Дмитрий Красовский</span>
+              <span class="opacity-40">, Основатель RWChallenge</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative z-0 py-16 md:py-32">
+      <PageBodyGradient />
+
+      <Container className="max-w-screen-lg">
+        <header>
+          <PageHeaderTitle as="h2">Наши инвесторы</PageHeaderTitle>
+          <PageHeaderDesc className="mt-4">
+            Эти люди вкладывают свои энергию и ресурсы в развитие сообщества.
+          </PageHeaderDesc>
+        </header>
+
+        <div class="mt-12 md:mt-24">
+          <InvestorList />
+        </div>
+      </Container>
+    </section>
+  </main>
+</BaseLayout>

@@ -1,0 +1,14 @@
+@import "tailwindcss/base";
+@import "base";
+
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@keyframes animate-slide {
+  0% {
+    transform: translateZ(0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}

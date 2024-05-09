@@ -1,0 +1,143 @@
+---
+import { getCollection } from 'astro:content';
+
+import Bg from '@/components/Bg';
+import Container from '@/components/Container';
+import ActionCard from './ActionCard.astro';
+import {
+  SectionHeader,
+  SectionHeaderSummary,
+  SectionHeaderTitle,
+} from '@/components/SectionHeader';
+
+import {
+  CategoryMap,
+  type CategoryKey,
+  type StatusKey,
+  StatusMap,
+} from './types.ts';
+
+const { year } = Astro.props;
+const data = await getCollection('actions');
+const nowYear = new Date().getFullYear();
+
+const actions = data
+  .map((action) => {
+    if (
+      (year !== undefined && action.id === year) ||
+      (year === undefined && parseInt(action.id) === nowYear)
+    ) {
+      return action.data;
+    }
+
+    return undefined;
+  })
+  .flat()
+  .filter((a) => a !== undefined);
+---
+
+<section id="open-source" class="relative py-16 md:py-28">
+  <Bg className="top-32 h-1/2" />
+
+  <Container>
+    <SectionHeader className="relative z-10">
+      {
+        year === undefined ? (
+          <>
+            <SectionHeaderTitle>Активности</SectionHeaderTitle>
+            <SectionHeaderSummary>
+              плановые и в которых участвуем в данный момент
+            </SectionHeaderSummary>
+          </>
+        ) : parseInt(year) === new Date().getFullYear() ? (
+          <>
+            <SectionHeaderTitle>Активности {year} года</SectionHeaderTitle>
+            <SectionHeaderSummary>
+              плановые, в которых участвуем в данный момент и прошедшие
+            </SectionHeaderSummary>
+          </>
+        ) : (
+          <>
+            <SectionHeaderTitle>Активности {year} года</SectionHeaderTitle>
+            <SectionHeaderSummary>
+              в которых мы принимали участвие или которые создавали
+            </SectionHeaderSummary>
+          </>
+        )
+      }
+    </SectionHeader>
+
+    <div
+      class="relative mt-10 grid gap-4 text-left md:mt-20 md:grid-cols-3 md:gap-6"
+    >
+      {/* top boxes */}
+      <div
+        class="absolute bottom-full mb-6 hidden w-full grid-cols-3 gap-6 opacity-[0.03] md:grid"
+      >
+        {
+          Array.from(Array(3).keys()).map(() => (
+            <div class="flex h-[180px] rounded-2xl border border-white" />
+          ))
+        }
+      </div>
+
+      {/* data */}
+      {
+        actions
+          .filter((a) => {
+            return (
+              a !== undefined &&
+              (year !== undefined ||
+                a.status === 'Target' ||
+                a.status === 'Active')
+            );
+          })
+          .sort((a, b) =>
+            a === undefined || b === undefined ? 0 : b.id - a.id,
+          )
+          .map((item) => {
+            if (item === undefined) {
+              return <Fragment />;
+            }
+
+            const categoryKey = CategoryMap.filter(
+              (cm) => cm.key === item.category,
+            )[0].key as CategoryKey;
+            const categoryVal = CategoryMap.filter(
+              (cm) => cm.key === item.category,
+            )[0].value;
+            const statusKey = StatusMap.filter(
+              (cm) => cm.key === item.status,
+            )[0].key as StatusKey;
+            const statusVal = StatusMap.filter(
+              (cm) => cm.key === item.status,
+            )[0].value;
+
+            return (
+              <ActionCard
+                title={item.title}
+                description={item.description}
+                href={`/actions/${year || new Date().getFullYear()}/${item.slug}`}
+                category={categoryKey}
+                status={statusKey}
+                categoryVal={categoryVal}
+                statusVal={statusVal}
+                end={item?.end}
+              />
+            );
+          })
+      }
+
+      {/* bottom boxes */}
+      <div
+        class="absolute top-full mt-6 hidden w-full grid-cols-3 gap-6 opacity-[0.03] md:grid"
+      >
+        {
+          Array.from(Array(3).keys()).map(() => (
+            <div class="flex h-[180px] rounded-2xl border border-white" />
+          ))
+        }
+      </div>
+    </div>
+  </Container>
+</section>

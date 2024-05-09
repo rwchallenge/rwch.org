@@ -1,0 +1,15 @@
+---
+import { getCollection } from 'astro:content';
+import Container from '@/components/Container';
+import ResourceCard from './ResourceCard.astro';
+
+const resources = await getCollection('resources');
+---
+
+<Container className="max-w-screen-md space-y-6 text-left">
+  {
+    resources
+      .sort((a, b) => a.data.sort - b.data.sort)
+      .map((resource) => <ResourceCard resource={resource} />)
+  }
+</Container>

@@ -1,0 +1,105 @@
+---
+import BaseHead from '@/components/Head.astro';
+import Footer from '@/components/Footer';
+import Header from '@/components/Header';
+import HeaderMobile from '@/components/Header/HeaderMobile';
+import '@fontsource-variable/inter';
+
+import '@/styles/main.css';
+
+const { title } = Astro.props;
+const { PUBLIC_YANDEX_METRIKA } = import.meta.env;
+
+// canonicalUrl="https://rwch.org/"
+---
+
+<html lang="en" class="min-h-screen scroll-smooth antialiased md:text-base">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="generator" content={Astro.generator} />
+    <BaseHead
+      title={title}
+      description="Выбери реальный мир наполненный интересными активностями"
+      keywords="rwchallenge,real world,challenge,real world challenge,events,games,activity"
+      canonicalUrl={`${Astro.site?.protocol}//${Astro.site?.host}${Astro.url.pathname}`}
+      type="website"
+    />
+  </head>
+  <body class="pt-[70px] md:pt-[80px]">
+    <Header client:load />
+    <HeaderMobile client:load />
+    <slot />
+    <Footer />
+
+    <script is:inline define:vars={{ PUBLIC_YANDEX_METRIKA }}>
+      const theme = (() => {
+        if (
+          typeof localStorage !== 'undefined' &&
+          localStorage.getItem('theme')
+        ) {
+          return localStorage.getItem('theme');
+        }
+
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          return 'dark';
+        }
+
+        return 'light';
+      })();
+
+      document.documentElement.classList.add('dark');
+
+      window.localStorage.setItem('theme', theme);
+
+      (function (m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        for (var j = 0; j < document.scripts.length; j++) {
+          if (document.scripts[j].src === r) {
+            return;
+          }
+        }
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(
+        window,
+        document,
+        'script',
+        'https://mc.yandex.ru/metrika/tag.js',
+        'ym',
+      );
+
+      ym(PUBLIC_YANDEX_METRIKA, 'init', {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+      });
+    </script>
+    <noscript>
+      <div>
+        <img
+          src={`https://mc.yandex.ru/watch/${PUBLIC_YANDEX_METRIKA}`}
+          style="position:absolute; left:-9999px;"
+          alt=""
+        />
+      </div>
+    </noscript>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+---
+import { PayYoomoney } from '@/components/Pay';
+---
+
+<div class="grid gap-6 md:grid-cols-3">
+  <div
+    class="flex flex-col items-center gap-6 rounded-3xl bg-white/5 px-4 py-8"
+  >
+    <div class="grow">
+      <h4 class="mb-2 text-xl font-semibold text-emerald-400">Формат 8х8</h4>
+    </div>
+    <div class="grow">
+      <div class="text-white/80">
+        Команда участвует в "Оле Пари 8х8" в двух дивизионах: суперлига и первый
+        дивизион
+      </div>
+    </div>
+    <hr class="w-2/3 border-0 border-b border-b-white/5" />
+    <div>
+      <p class="text-white/40">Две игры + одна тренировка в неделю</p>
+    </div>
+    <hr class="w-2/3 border-0 border-b border-b-white/5" />
+    <PayYoomoney label="Football8" client:load />
+  </div>
+
+  <div
+    class="flex flex-col items-center gap-6 rounded-3xl border-2 border-white/20 bg-white/10 px-4 py-8"
+  >
+    <div class="grow">
+      <h4 class="mb-2 text-xl font-semibold text-emerald-400">Формат 11х11</h4>
+    </div>
+    <div class="grow">
+      <div class="text-white/80">
+        Команда участвует в Чемпионате Санкт-Петербурга по футболу среди мужских
+        команд высшей лиги
+      </div>
+    </div>
+    <hr class="w-2/3 border-0 border-b border-b-white/5" />
+    <div>
+      <p class="text-white/40">Игра раз в неделю</p>
+    </div>
+    <hr class="w-2/3 border-0 border-b border-b-white/5" />
+    <PayYoomoney label="Football" client:load />
+  </div>
+
+  <div
+    class="flex flex-col items-center gap-6 rounded-3xl bg-white/5 px-4 py-8"
+  >
+    <div class="grow">
+      <h4 class="mb-2 text-xl font-semibold text-emerald-400">Формат 7х7</h4>
+    </div>
+
+    <div class="grow">
+      <div class="text-white/80">
+        Команда участвует в двух турнирах: ПФК и Спортинг-лига
+      </div>
+    </div>
+    <hr class="w-2/3 border-0 border-b border-b-white/5" />
+    <div>
+      <p class="text-white/40">Две игры в неделю</p>
+    </div>
+    <hr class="w-2/3 border-0 border-b border-b-white/5" />
+    <PayYoomoney label="Football7" client:load />
+  </div>
+</div>

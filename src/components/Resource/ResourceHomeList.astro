@@ -1,0 +1,36 @@
+---
+import { getCollection } from 'astro:content';
+
+import Bg from '@/components/Bg';
+import Container from '@/components/Container';
+import {
+  SectionHeader,
+  SectionHeaderSummary,
+  SectionHeaderTitle,
+} from '@/components/SectionHeader';
+import ResourceHomeCard from './ResourceHomeCard.astro';
+
+const resources = await getCollection('resources');
+---
+
+<section id="resources" class="relative py-16 md:py-28">
+  <Bg className="top-32 h-1/2" />
+
+  <Container>
+    <SectionHeader>
+      <SectionHeaderTitle>Ресурсы</SectionHeaderTitle>
+      <SectionHeaderSummary>
+        с помощью которых участники сообщества помогают друг другу в реализации
+        активностей
+      </SectionHeaderSummary>
+    </SectionHeader>
+
+    <div class="mt-10 grid gap-4 text-left md:mt-20 md:grid-cols-6 md:gap-6">
+      {
+        resources
+          .sort((a, b) => a.data.sort - b.data.sort)
+          .map((resource) => <ResourceHomeCard resource={resource} />)
+      }
+    </div>
+  </Container>
+</section>

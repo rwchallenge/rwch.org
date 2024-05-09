@@ -1,0 +1,54 @@
+---
+import { getCollection } from 'astro:content';
+
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { ActionList, ActionCreate } from '@/components/Action';
+import Container from '@/components/Container';
+import PageHeaderTitle from '@/components/PageHeaderTitle';
+import ActionFaq from '@/components/Action/ActionFaq';
+
+const { year } = Astro.params;
+
+export async function getStaticPaths() {
+  const actions = await getCollection('actions');
+
+  const paths = actions.map((action) => ({
+    params: {
+      year: action.id,
+    },
+  }));
+
+  return paths;
+}
+---
+
+<style is:global>
+  .faq [data-state='open'] + [data-state='closed'] {
+    @apply border-t-transparent;
+  }
+
+  .faq .faq-body a {
+    @apply text-emerald-400 underline;
+  }
+</style>
+
+<BaseLayout title="Активности">
+  <main class="relative z-0 text-center">
+    <ActionList year={year} />
+
+    <section id="action-create" class="mx-auto max-w-screen-xl px-6 md:px-10">
+      <ActionCreate />
+    </section>
+
+    <section id="faq" class="mt-32 md:mt-40">
+      <Container className="max-w-screen-md">
+        <PageHeaderTitle as="h2" className="mb md:text-4xl">
+          FAQ
+        </PageHeaderTitle>
+        <div class="mt-10">
+          <ActionFaq client:load />
+        </div>
+      </Container>
+    </section>
+  </main>
+</BaseLayout>

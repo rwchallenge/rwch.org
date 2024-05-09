@@ -1,0 +1,66 @@
+---
+import { PayYoomoney } from '@/components/Pay';
+---
+
+<div class="grid gap-6 md:grid-cols-3">
+  <div
+    class="flex flex-col items-center gap-6 rounded-3xl bg-white/5 px-4 py-8"
+  >
+    <div class="grow">
+      <h4 class="mb-2 text-xl font-semibold text-emerald-400">
+        Мужская команда
+      </h4>
+    </div>
+    <div class="grow">
+      <div class="text-white/80">
+        Две команды участвует в КВЛ, лига Медиум Юг
+      </div>
+    </div>
+    <hr class="w-2/3 border-0 border-b border-b-white/5" />
+    <div>
+      <p class="text-white/40">Игра раз в неделю + тренировки</p>
+    </div>
+    <hr class="w-2/3 border-0 border-b border-b-white/5" />
+    <PayYoomoney label="VolleyballM" client:load />
+  </div>
+
+  <div
+    class="flex flex-col items-center gap-6 rounded-3xl border-2 border-white/20 bg-white/10 px-4 py-8"
+  >
+    <div class="grow">
+      <h4 class="mb-2 text-xl font-semibold text-emerald-400">Общие нужды</h4>
+    </div>
+    <div class="-mt-6 grow">
+      <div class="text-white/80">
+        Направить финансы туда где в данный момент наибольшая потребность.
+      </div>
+    </div>
+    <hr class="w-2/3 border-0 border-b border-b-white/5" />
+    <div>
+      <p class="text-white/40">Чем больше активностей, тем интереснее</p>
+    </div>
+    <hr class="w-2/3 border-0 border-b border-b-white/5" />
+    <PayYoomoney label="Volleyball" client:load />
+  </div>
+
+  <div
+    class="flex flex-col items-center gap-6 rounded-3xl bg-white/5 px-4 py-8"
+  >
+    <div>
+      <h4 class="mb-2 text-xl font-semibold text-emerald-400">
+        Женская команда
+      </h4>
+    </div>
+    <div>
+      <div class="text-white/80">
+        Команда участвует в КВЛ, лига Женская "С". И в ПВЛ, лига "Б лайт+"
+      </div>
+    </div>
+    <hr class="w-2/3 border-0 border-b border-b-white/5" />
+    <div>
+      <p class="text-white/40">Игра раз в неделю + тренировки</p>
+    </div>
+    <hr class="w-2/3 border-0 border-b border-b-white/5" />
+    <PayYoomoney label="VolleyballW" client:load />
+  </div>
+</div>

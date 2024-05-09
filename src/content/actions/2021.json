@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "slug": "step-cup",
+    "url": "https://stepanovsport.ru",
+    "title": "Кубок лиги Степанова 2021",
+    "description": "Лига Степанова. Кубок Любительской лиги 2021.",
+    "category": "Football5",
+    "status": "Archive",
+    "begin": "2021-04-26",
+    "end": "2021-06-04",
+    "place": {
+      "name": "СК \"Nova Arena\"",
+      "url": "https://www.novaarena.ru",
+      "address": "Санкт-Петербург, Гражданский проспект, 100"
+    },
+    "video": "https://youtu.be/9lajs9FVu7s"
+  },
+  {
+    "id": 2,
+    "slug": "first-fest",
+    "title": "Сбор по итогам первого турнира",
+    "description": "Сбор по случаю рождения нашей команды и успешного выступления в первом турнире.",
+    "welcome": {
+      "header": "Приглашение",
+      "content": [
+        "<p>",
+        "Приглашаем всех на сбор по случаю рождения нашей команды и успешного выступления в первом турнире!",
+        "</p>",
+        "<p>",
+        "Дата и время: 11.06.2021, начало 20:00 - окончание 00:00.",
+        "</p>",
+        "<p style='margin-bottom: 1rem'>Программа:</p>",
+        "<ol><li>20:00 - 21:20. Игровые челленджи на футбольное мастерство. Призы.</li><li>21:25 - 22:00. Игра 5х5 ветераны vs молодежь. Призы победившей команде.</li><li>22:15 - 00:00. Праздничное застолье в ресторане \"Трибуна\" и просмотр матча открытия Евро-2020.</li></ol>"
+      ]
+    },
+    "category": "RWAction",
+    "status": "Archive",
+    "begin": "2021-06-11",
+    "end": "2021-06-11",
+    "place": {
+      "name": "СК \"Nova Arena\"",
+      "url": "https://www.novaarena.ru",
+      "address": "Санкт-Петербург, Гражданский проспект, 100"
+    },
+    "video": "https://youtu.be/Uz8oxtdA6iY"
+  },
+  {
+    "id": 3,
+    "slug": "kvl-m",
+    "url": "https://v-open.spb.ru/index.php?option=com_volleychamp&view=players&op=3&tid=920&hid=40",
+    "title": "КВЛ Сезон 2021/2022 Первый круг",
+    "description": "\"Клуб любителей волейбола\". Сезон 2021/2022. Первый круг. Лига Лайт Юг Группа С. Мужская команда.",
+    "category": "Volleyball",
+    "status": "Archive",
+    "begin": "2021-10-17",
+    "end": "2021-12-19",
+    "place": {
+      "name": "Школа 213",
+      "url": "http://213school.ru",
+      "address": "Санкт-Петербург, ул. Белградская, дом 20, корпус 2, литер А"
+    },
+    "video": "https://youtu.be/xhRI30_BPYU"
+  },
+  {
+    "id": 4,
+    "slug": "winter-fest",
+    "title": "Зимний сбор 2021",
+    "description": "Общий сбор футбольной и волейбольной команд по итогам года.",
+    "category": "RWAction",
+    "status": "Archive",
+    "begin": "2021-12-24",
+    "end": "2021-12-26",
+    "place": {
+      "name": "Загородный Клуб \"ДАЧА\"",
+      "url": "https://www.dacha-ozero.ru",
+      "address": "Ленинградская область, Приозерский район, Петровское сельское поселение, тер. База отдыха Суходольское, зд. 16"
+    },
+    "images": [
+      "./images/2021/winterfest/01.jpg",
+      "./images/2021/winterfest/02.jpg",
+      "./images/2021/winterfest/03.jpg",
+      "./images/2021/winterfest/04.jpg",
+      "./images/2021/winterfest/05.jpg",
+      "./images/2021/winterfest/06.jpg",
+      "./images/2021/winterfest/07.jpg",
+      "./images/2021/winterfest/08.jpg",
+      "./images/2021/winterfest/09.jpg",
+      "./images/2021/winterfest/10.jpg"
+    ]
+  }
+]

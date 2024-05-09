@@ -1,0 +1,73 @@
+---
+import { type CollectionEntry } from 'astro:content';
+
+import Bg from '@/components/Bg';
+import Container from '@/components/Container';
+import PageBodyGradient from '@/components/PageBodyGradient';
+import Button from '@/components/Button';
+
+interface Props {
+  resource: CollectionEntry<'resources'>;
+}
+
+const { resource } = Astro.props;
+const { Content } = await resource.render();
+---
+
+<main class="relative z-0">
+  {resource.slug === 'people' && <Bg className="bg-red-500" />}
+  {resource.slug === 'equipment' && <Bg className="bg-blue-500" />}
+  {resource.slug === 'places' && <Bg className="bg-orange-500" />}
+  {resource.slug === 'finance' && <Bg className="bg-purple-500" />}
+
+  <article>
+    {/* Header */}
+    <header class="py-20 text-center">
+      <Container className="max-w-screen-lg">
+        {/* title */}
+        <h1
+          class="font-display mx-4 mt-2 text-4xl font-bold !leading-title md:text-6xl"
+        >
+          {resource.data.title}
+        </h1>
+
+        {/* meta */}
+        <div class="mt-6 flex flex-wrap items-center justify-center gap-4">
+          <div class="inline-flex gap-1 text-lg">
+            <span class="opacity-60">{resource.data.description}</span>
+          </div>
+        </div>
+
+        {/* skills */}
+        <div class="mt-6 flex flex-wrap items-center justify-center gap-2">
+          {
+            resource.data?.skills?.map((skill: string) => (
+              <span class="rounded bg-white/3 px-3 py-1 text-zinc-400">
+                {skill}
+              </span>
+            ))
+          }
+        </div>
+
+        <Button
+          type="button"
+          href="https://t.me/rw_community"
+          className="mt-10 bg-emerald-400 text-zinc-950"
+        >
+          Присоединиться
+        </Button>
+      </Container>
+    </header>
+
+    {/* Body */}
+    <div class="relative z-0 pt-10">
+      <PageBodyGradient />
+
+      <Container className="max-w-screen-md">
+        <div class="post leading-p">
+          <Content />
+        </div>
+      </Container>
+    </div>
+  </article>
+</main>

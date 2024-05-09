@@ -1,0 +1,30 @@
+---
+import { type CollectionEntry } from 'astro:content';
+
+interface Props {
+  resource: CollectionEntry<'resources'>;
+}
+
+const { resource } = Astro.props;
+---
+
+<a
+  class="group/job-item grid rounded-lg bg-white/3 p-6 transition hover:bg-emerald-200/5 md:rounded-3xl md:p-8"
+  href={`/resources/${resource.slug}`}
+>
+  <h2
+    class="font-display text-xl font-semibold text-emerald-400 group-hover/job-item:underline"
+  >
+    {resource.data.title}
+  </h2>
+
+  <p class="mt-1 opacity-80">{resource.data.description}</p>
+
+  <div class="mt-6 flex flex-wrap items-center gap-1">
+    {
+      resource.data?.skills?.map((skill: string) => (
+        <span class="rounded bg-white/3 px-3 py-1 text-zinc-400">{skill}</span>
+      ))
+    }
+  </div>
+</a>

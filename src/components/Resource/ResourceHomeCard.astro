@@ -1,0 +1,77 @@
+---
+import {
+  IconUsersGroup,
+  IconCategory2,
+  IconMapPin,
+  IconCreditCard,
+} from '@tabler/icons-react';
+
+const { resource } = Astro.props;
+---
+
+<div
+  class:list={[
+    'group/box-body relative z-0 grid gap-6 md:gap-8',
+    'md:col-span-3',
+  ]}
+>
+  <a
+    class:list={[
+      'group/box-body grid rounded-lg bg-white/3 p-6 transition md:rounded-3xl md:p-8',
+      resource.slug === 'people' && 'hover:bg-red-200/5',
+      resource.slug === 'equipment' && 'hover:bg-blue-200/5',
+      resource.slug === 'places' && 'hover:bg-orange-200/5',
+      resource.slug === 'finance' && 'hover:bg-purple-200/5',
+    ]}
+    href={`/resources/${resource.slug}`}
+  >
+    <h4
+      class:list={[
+        'font-display flex items-center gap-2 text-xl font-semibold group-hover/box-body:underline md:text-2xl',
+        resource.slug === 'people' && 'text-red-300',
+        resource.slug === 'equipment' && 'text-blue-300',
+        resource.slug === 'places' && 'text-orange-300',
+        resource.slug === 'finance' && 'text-purple-300',
+      ]}
+    >
+      {
+        resource.slug === 'people' && (
+          <IconUsersGroup
+            className="text-red-300"
+            size={40}
+            strokeWidth={1.5}
+          />
+        )
+      }
+      {
+        resource.slug === 'equipment' && (
+          <IconCategory2
+            className="text-blue-300"
+            size={40}
+            strokeWidth={1.5}
+          />
+        )
+      }
+      {
+        resource.slug === 'places' && (
+          <IconMapPin className="text-orange-300" size={40} strokeWidth={1.5} />
+        )
+      }
+      {
+        resource.slug === 'finance' && (
+          <IconCreditCard
+            className="text-purple-300"
+            size={40}
+            strokeWidth={1.5}
+          />
+        )
+      }
+      <span>{resource.data.title}</span>
+    </h4>
+    <p class="mt-2 opacity-60 md:mt-3">
+      {resource.data.description}
+      <br />
+      <br />
+    </p>
+  </a>
+</div>

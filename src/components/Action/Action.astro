@@ -1,0 +1,211 @@
+---
+import { Image } from 'astro:assets';
+import { YouTube } from 'astro-embed';
+
+import Icon, { ICON_NAMES } from '@/components/Icon';
+import Button from '@/components/Button';
+import Container from '@/components/Container';
+import Carousel from '@/components/Carousel';
+import { PayYoomoney } from '@/components/Pay';
+import { Category, CategoryMap, StatusMap } from './types';
+import ActionMetaRow from './ActionMetaRow.astro';
+
+const {
+  slug,
+  title,
+  description,
+  welcome,
+  url,
+  category,
+  status,
+  begin,
+  end,
+  place,
+  images,
+  video,
+} = Astro.props;
+---
+
+<main>
+  <Container>
+    <div class="mt-8 grid gap-8 text-left lg:mt-16 lg:grid-cols-3 lg:gap-16">
+      {/* meta */}
+      <div class="order-2 lg:sticky lg:order-1">
+        <div class="top-8 mb-8 rounded-2xl bg-emerald-100/5 p-6">
+          <div class="-mt-2">
+            <ActionMetaRow title="Активность">
+              {
+                (category as string).indexOf('Football') >= 0 ? (
+                  <span
+                    class="flex items-center gap-2 rounded
+                        bg-blue-300/10 p-1.5 pr-2 leading-none text-blue-300"
+                  >
+                    <Icon
+                      title={category}
+                      width={16}
+                      icon={ICON_NAMES.Football}
+                    />
+                    <span>
+                      {CategoryMap.filter((cm) => cm.key === category)[0].value}
+                    </span>
+                  </span>
+                ) : category === 'Volleyball' ? (
+                  <span
+                    class="flex items-center gap-2 rounded
+                        bg-yellow-300/10 p-1.5 pr-2 leading-none text-yellow-400"
+                  >
+                    <Icon
+                      title="Volleyball"
+                      width={16}
+                      icon={ICON_NAMES.Volleyball}
+                    />
+                    <span>Волейбол</span>
+                  </span>
+                ) : category === 'RWAction' ? (
+                  <span
+                    class="flex items-center gap-2 rounded
+                        bg-red-300/10 p-1.5 pr-2 leading-none text-red-300"
+                  >
+                    <Icon
+                      title="RWAction"
+                      width={16}
+                      icon={ICON_NAMES.Action}
+                    />
+                    <span>{Category.RWAction}</span>
+                  </span>
+                ) : (
+                  {}
+                )
+              }
+            </ActionMetaRow>
+
+            <ActionMetaRow title="Статус">
+              <span
+                class:list={[
+                  'flex items-center gap-2 rounded p-1.5 pr-2 leading-none',
+                  status === 'Active' && 'bg-emerald-300/10 text-emerald-400',
+                  status === 'Target' && 'bg-pink-300/10 text-pink-400',
+                  status === 'Archive' && 'bg-gray-300/10 text-gray-400',
+                ]}
+              >
+                {StatusMap.filter((cm) => cm.key === status)[0].value}
+              </span>
+            </ActionMetaRow>
+
+            <ActionMetaRow title="Начало">
+              <span>{begin && new Date(begin).toLocaleDateString()}</span>
+            </ActionMetaRow>
+
+            <ActionMetaRow title="Окончание">
+              <span>{end && new Date(end).toLocaleDateString()}</span>
+            </ActionMetaRow>
+
+            <ActionMetaRow title="Сайт">
+              {url && <Button href={url}>{title}</Button>}
+            </ActionMetaRow>
+          </div>
+        </div>
+        {
+          (status === 'Target' || status === 'Active') && (
+            <div class="rounded-2xl bg-emerald-100/5">
+              <div class="-mt-2">
+                <div class="flex flex-col items-center gap-4 rounded-3xl px-4 py-8">
+                  <div class="grow">
+                    <h4 class="mb-2 text-xl font-semibold text-emerald-400">
+                      Поддержать
+                    </h4>
+                  </div>
+                  <div class="grow">
+                    <div class="text-white/40">адресно данную активность</div>
+                  </div>
+                  <hr class="w-2/3 border-0 border-b border-b-white/5" />
+                  <PayYoomoney label={slug} client:load />
+                </div>
+              </div>
+            </div>
+          )
+        }
+      </div>
+
+      {/* post */}
+      <div class="order-1 lg:col-span-2">
+        <article>
+          <h1
+            class="font-display text-4xl font-bold !leading-title lg:text-5xl"
+          >
+            {title}
+          </h1>
+
+          <div class="post mt-8">
+            {description}
+          </div>
+
+          {
+            welcome && (
+              <section class="post mt-8">
+                <h3>{welcome.header}</h3>
+                {welcome.image && (
+                  <figure class="flex justify-center">
+                    <Image
+                      src={welcome.image}
+                      height={600}
+                      alt={welcome.header}
+                    />
+                  </figure>
+                )}
+                <Fragment set:html={welcome.content.join('')} />
+              </section>
+            )
+          }
+
+          {
+            video && (
+              <div class="post mt-8">
+                <h3>Видео</h3>
+                <div class="mt-4 xl:grid xl:grid-cols-12">
+                  <p />
+                  <p class="xl:col-span-10 xl:col-start-2">
+                    <YouTube id={video} />
+                  </p>
+                  <p />
+                </div>
+                <p class="mt-4">
+                  Другие игры смотрите на нашем{' '}
+                  <Button href={'https://www.youtube.com/@rwch_team'}>
+                    Youtube канале
+                  </Button>
+                </p>
+              </div>
+            )
+          }
+
+          {
+            images && (
+              <div class="post mt-8">
+                <h3>Фото</h3>
+                <Carousel numImages={images.length} client:load>
+                  {(images as ImageMetadata[]).map((img, i) => (
+                    <Image src={img} width={1024} alt={`Фото ${i}`} />
+                  ))}
+                </Carousel>
+              </div>
+            )
+          }
+
+          <div class="post mt-8">
+            <h3>Место</h3>
+            <p class="mt-4">
+              {
+                place?.url ? (
+                  <Button href={place.url}>{place.name}</Button>
+                ) : (
+                  <Fragment>В настоящий момент не определено.</Fragment>
+                )
+              }
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </Container>
+</main>
