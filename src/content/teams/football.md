@@ -40,8 +40,9 @@ draft: false
 - III место cеребряного плей-офф <a href="/actions/2022/step-cup">Кубка любительской лиги Степанова 2022</a>. Формат: 5х5 футзал.
 - I место <a href="/actions/2022/ole-prem-futsal">OLE Premium Осень/Зима 2021/2022</a>. Формат: 6х6 футзал.
 
-## Контакты для связи
+## Контакты
 
-Подписывайтесь на канал команды в Telegram <a href="https://t.me/rw_football" target="_blank">"RW Football"</a>.<br />
+Подписывайтесь на канал команды в Telegram <a href="https://t.me/rw_football" target="_blank">RW Football</a>.<br />
+Подписывайтесь на сообщество команды в VK <a href="https://vk.com/rw_football" target="_blank">Футбольная команда "Real World Challenge"</a>.<br />
 Напишите ваш вопрос или предложение на почту команды: [fc@rwch.org](mailto:fc@rwch.org).<br />
 Поддержите команду финансами: <a href="/support/football">сделать перевод</a>.

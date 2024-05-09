@@ -37,8 +37,9 @@ draft: false
 - I место Серебряного кубка Турнира URBO микст 4+2 27.03.2022.
 - III место Чемпионата <a href="/actions/2022/kvl-m">"Клуб волейболистов любителей" (КВЛ) сезона 2021/2022. Лига Лайт-Юг Группа 3</a>. Мужская команда.
 
-## Контакты для связи
+## Контакты
 
 Подписывайтесь на канал команды в Telegram <a href="https://t.me/rw_volleyball" target="_blank">"RW Volleyball"</a>.<br />
+Подписывайтесь на сообщество команды в VK <a href="https://vk.com/rw_volleyball" target="_blank">Волейбольная команда "Real World Challenge"</a>.<br />
 Напишите ваш вопрос или предложение на почту команды: [vc@rwch.org](mailto:vc@rwch.org).<br />
 Поддержите команду финансами: <a href="/support/volleyball">сделать перевод</a>.
