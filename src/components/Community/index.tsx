@@ -39,7 +39,7 @@ export default function HomeCommunity() {
             <CommunityBoxDesc>
               Смотрите нас на Youtube, чтобы быть в курсе последних событий.
             </CommunityBoxDesc>
-            <CommunityBoxButton href="https://www.youtube.com/@rwch_team">
+            <CommunityBoxButton href="https://www.youtube.com/@rw_challenge">
               Смотреть
             </CommunityBoxButton>
           </CommunityBox>
