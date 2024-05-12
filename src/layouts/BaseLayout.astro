@@ -9,8 +9,6 @@ import '@/styles/main.css';
 
 const { title } = Astro.props;
 const { PUBLIC_YANDEX_METRIKA } = import.meta.env;
-
-// canonicalUrl="https://rwch.org/"
 ---
 
 <html lang="en" class="min-h-screen scroll-smooth antialiased md:text-base">
@@ -30,7 +28,24 @@ const { PUBLIC_YANDEX_METRIKA } = import.meta.env;
     <BaseHead
       title={title}
       description="Выбери реальный мир наполненный интересными активностями"
-      keywords="rwchallenge,real world,challenge,real world challenge,events,games,activity"
+      keywords={[
+        'rwchallenge',
+        'real world',
+        'challenge',
+        'real world challenge',
+        'events',
+        'games',
+        'activity',
+        'рвчеллендж',
+        'реальный мир',
+        'челлендж',
+        'вызов',
+        'реальный челлендж',
+        'реальный вызов',
+        'события',
+        'игры',
+        'активности',
+      ].join()}
       canonicalUrl={`${Astro.site?.protocol}//${Astro.site?.host}${Astro.url.pathname}`}
       type="website"
     />

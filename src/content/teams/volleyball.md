@@ -39,7 +39,7 @@ draft: false
 
 ## Контакты
 
-Подписывайтесь на канал команды в Telegram <a href="https://t.me/rw_volleyball" target="_blank">"RW Volleyball"</a>.<br />
-Подписывайтесь на сообщество команды в VK <a href="https://vk.com/rw_volleyball" target="_blank">Волейбольная команда "Real World Challenge"</a>.<br />
+Подписывайтесь на канал команды в Telegram: <a href="https://t.me/rw_volleyball" target="_blank">RW Volleyball</a>.<br />
+Подписывайтесь на сообщество команды в VK: <a href="https://vk.com/rw_volleyball" target="_blank">Волейбольная команда "Real World Challenge"</a>.<br />
 Напишите ваш вопрос или предложение на почту команды: [vc@rwch.org](mailto:vc@rwch.org).<br />
 Поддержите команду финансами: <a href="/support/volleyball">сделать перевод</a>.

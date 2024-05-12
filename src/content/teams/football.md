@@ -42,7 +42,7 @@ draft: false
 
 ## Контакты
 
-Подписывайтесь на канал команды в Telegram <a href="https://t.me/rw_football" target="_blank">RW Football</a>.<br />
-Подписывайтесь на сообщество команды в VK <a href="https://vk.com/rw_football" target="_blank">Футбольная команда "Real World Challenge"</a>.<br />
+Подписывайтесь на канал команды в Telegram: <a href="https://t.me/rw_football" target="_blank">RW Football</a>.<br />
+Подписывайтесь на сообщество команды в VK: <a href="https://vk.com/rw_football" target="_blank">Футбольная команда "Real World Challenge"</a>.<br />
 Напишите ваш вопрос или предложение на почту команды: [fc@rwch.org](mailto:fc@rwch.org).<br />
 Поддержите команду финансами: <a href="/support/football">сделать перевод</a>.
