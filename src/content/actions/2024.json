@@ -49,9 +49,9 @@
     "title": "КВЛ Сезон 2023/2024 Второй круг Муж 2",
     "description": "\"Клуб любителей волейбола\". Сезон 2023/2024. Второй круг. Медиум лига Юг. Вторая мужская команда.",
     "category": "Volleyball",
-    "status": "Active",
+    "status": "Archive",
     "begin": "2024-02-14",
-    "end": "",
+    "end": "2024-05-15",
     "place": {
       "name": "Школа 553",
       "url": "https://spbschool553.com/sample-page/kontaktyi",
@@ -66,9 +66,9 @@
     "title": "КВЛ Сезон 2023/2024 Второй круг Муж",
     "description": "\"Клуб любителей волейбола\". Сезон 2023/2024. Второй круг. Медиум лига Юг. Первая мужская команда.",
     "category": "Volleyball",
-    "status": "Active",
+    "status": "Archive",
     "begin": "2024-02-15",
-    "end": "",
+    "end": "2024-05-15",
     "place": {
       "name": "Школа 553",
       "url": "https://spbschool553.com/sample-page/kontaktyi",
@@ -179,40 +179,28 @@
         "Наша команда по итогам прошлогоднего чемпионата заслужила право выступления в высшей лиге в этом году.",
         "</p>",
         "<p>",
-        "Видео и фото ниже с прошлогоднего чемпионата и кубка.",
-        "</p>",
-        "<p>",
         "Ищем поддержку или <a href='mailto:fc@rwch.org'>сотрудничество</a> на данную активность.",
         "</p>"
       ]
     },
     "category": "Football",
-    "status": "Target",
-    "begin": "2024-05-15",
+    "status": "Active",
+    "begin": "2024-05-16",
     "end": "",
     "place": {
       "name": "СК \"Nova Arena\"",
       "url": "https://www.novaarena.ru",
       "address": "Санкт-Петербург, Гражданский проспект, 100"
     },
-    "video": "https://youtu.be/qMROeXh90w0",
+    "video": "https://youtu.be/4YTa_Uuvc-o",
     "images": [
-      "./images/2023/spbchamp/01.jpg",
-      "./images/2023/spbchamp/02.jpg",
-      "./images/2023/spbchamp/03.jpg",
-      "./images/2023/spbchamp/04.jpg",
-      "./images/2023/spbchamp/05.jpg",
-      "./images/2023/spbchamp/06.jpg",
-      "./images/2023/spbchamp/07.jpg",
-      "./images/2023/spbchamp/08.jpg",
-      "./images/2023/spbchamp/09.jpg",
-      "./images/2023/spbchamp/10.jpg",
-      "./images/2023/spbchamp/11.jpg",
-      "./images/2023/spbchamp/12.jpg",
-      "./images/2023/spbchamp/13.jpg",
-      "./images/2023/spbchamp/14.jpg",
-      "./images/2023/spbchamp/15.jpg",
-      "./images/2023/spbchamp/16.jpg"
+      "./images/2024/spbchamp/01.jpg",
+      "./images/2024/spbchamp/02.jpg",
+      "./images/2024/spbchamp/03.jpg",
+      "./images/2024/spbchamp/04.jpg",
+      "./images/2024/spbchamp/05.jpg",
+      "./images/2024/spbchamp/06.jpg",
+      "./images/2024/spbchamp/07.jpg"
     ]
   }
 ]
