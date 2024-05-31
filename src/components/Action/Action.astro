@@ -197,7 +197,13 @@ const {
             <p class="mt-4">
               {
                 place?.url ? (
-                  <Button href={place.url}>{place.name}</Button>
+                  <>
+                    <Button className="mb-2" href={place.url}>
+                      {place.name}
+                    </Button>
+                    <br />
+                    <span>{place.address}</span>
+                  </>
                 ) : (
                   <Fragment>В настоящий момент не определено.</Fragment>
                 )
