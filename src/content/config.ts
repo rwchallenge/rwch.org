@@ -36,6 +36,13 @@ const actionsCollection = defineCollection({
           .optional(),
         images: z.array(image()).optional(),
         video: z.string().optional(),
+        result: z
+          .object({
+            header: z.string(),
+            image: image().optional(),
+            content: z.array(z.string()),
+          })
+          .optional(),
         draft: z.boolean().optional(),
         pubDate: z.date().optional(),
       }),

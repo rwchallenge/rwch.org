@@ -23,6 +23,7 @@ const {
   place,
   images,
   video,
+  result,
 } = Astro.props;
 ---
 
@@ -189,6 +190,24 @@ const {
                   ))}
                 </Carousel>
               </div>
+            )
+          }
+
+          {
+            result && (
+              <section class="post mt-8">
+                <h3>{result.header}</h3>
+                {result.image && (
+                  <figure class="flex justify-center">
+                    <Image
+                      src={result.image}
+                      height={600}
+                      alt={result.header}
+                    />
+                  </figure>
+                )}
+                <Fragment set:html={result.content.join('')} />
+              </section>
             )
           }
 
