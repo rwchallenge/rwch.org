@@ -37,10 +37,7 @@ const {
             <ActionMetaRow title="Активность">
               {
                 (category as string).indexOf('Football') >= 0 ? (
-                  <span
-                    class="flex items-center gap-2 rounded
-                        bg-blue-300/10 p-1.5 pr-2 leading-none text-blue-300"
-                  >
+                  <span class="flex items-center gap-2 rounded bg-blue-300/10 p-1.5 pr-2 leading-none text-blue-300">
                     <Icon
                       title={category}
                       width={16}
@@ -51,10 +48,7 @@ const {
                     </span>
                   </span>
                 ) : category === 'Volleyball' ? (
-                  <span
-                    class="flex items-center gap-2 rounded
-                        bg-yellow-300/10 p-1.5 pr-2 leading-none text-yellow-400"
-                  >
+                  <span class="flex items-center gap-2 rounded bg-yellow-300/10 p-1.5 pr-2 leading-none text-yellow-400">
                     <Icon
                       title="Volleyball"
                       width={16}
@@ -63,10 +57,7 @@ const {
                     <span>Волейбол</span>
                   </span>
                 ) : category === 'RWAction' ? (
-                  <span
-                    class="flex items-center gap-2 rounded
-                        bg-red-300/10 p-1.5 pr-2 leading-none text-red-300"
-                  >
+                  <span class="flex items-center gap-2 rounded bg-red-300/10 p-1.5 pr-2 leading-none text-red-300">
                     <Icon
                       title="RWAction"
                       width={16}

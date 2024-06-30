@@ -1,7 +1,12 @@
-import { Children, cloneElement, type HTMLProps, type ReactElement } from "react";
+import {
+  Children,
+  cloneElement,
+  type HTMLProps,
+  type ReactElement,
+} from 'react';
 
-import cx from "@/utils/cx";
-import Button, { type IButton } from "@/components/Button";
+import cx from '@/utils/cx';
+import Button, { type IButton } from '@/components/Button';
 import { Challenge } from './types';
 
 export default function HomeHeroChallenges({
@@ -17,7 +22,7 @@ export default function HomeHeroChallenges({
       onMouseLeave={() => setActiveChallenge(undefined)}
     >
       <HomeHeroChallenge
-        href={`/actions/${(new Date()).getFullYear()}`}
+        href={`/actions/${new Date().getFullYear()}`}
         activeChallenge={activeChallenge}
         onMouseEnter={() => setActiveChallenge(Challenge.PLAY)}
       >
@@ -27,7 +32,7 @@ export default function HomeHeroChallenges({
         <HeroChallengeDesc>в существующих активностях</HeroChallengeDesc>
         <HeroChallengeCta
           className={cx(
-            activeChallenge === Challenge.PLAY && "!bg-red-500 !text-white",
+            activeChallenge === Challenge.PLAY && '!bg-red-500 !text-white',
           )}
         >
           Принять вызов
@@ -35,17 +40,19 @@ export default function HomeHeroChallenges({
       </HomeHeroChallenge>
 
       <HomeHeroChallenge
-        href={`/actions/${(new Date()).getFullYear()}`}
+        href={`/actions/${new Date().getFullYear()}`}
         activeChallenge={activeChallenge}
         onMouseEnter={() => setActiveChallenge(Challenge.SHARE)}
       >
         <HeroChallengeTitle>
           <span>Делиться</span>
         </HeroChallengeTitle>
-        <HeroChallengeDesc>информацией о проведенных и плановых активностях</HeroChallengeDesc>
+        <HeroChallengeDesc>
+          информацией о проведенных и плановых активностях
+        </HeroChallengeDesc>
         <HeroChallengeCta
           className={cx(
-            activeChallenge === Challenge.SHARE && "!bg-blue-500 !text-white",
+            activeChallenge === Challenge.SHARE && '!bg-blue-500 !text-white',
           )}
         >
           Вдохновить(ся)
@@ -53,7 +60,7 @@ export default function HomeHeroChallenges({
       </HomeHeroChallenge>
 
       <HomeHeroChallenge
-        href={`/actions/${(new Date()).getFullYear()}`}
+        href={`/actions/${new Date().getFullYear()}`}
         activeChallenge={activeChallenge}
         onMouseEnter={() => setActiveChallenge(Challenge.CREATE)}
       >
@@ -63,7 +70,8 @@ export default function HomeHeroChallenges({
         <HeroChallengeDesc>активности и площадки для них</HeroChallengeDesc>
         <HeroChallengeCta
           className={cx(
-            activeChallenge === Challenge.CREATE && "!bg-orange-500 !text-white",
+            activeChallenge === Challenge.CREATE &&
+              '!bg-orange-500 !text-white',
           )}
         >
           Бросить вызов
@@ -78,10 +86,13 @@ export default function HomeHeroChallenges({
         <HeroChallengeTitle>
           <span>Поддерживать</span>
         </HeroChallengeTitle>
-        <HeroChallengeDesc>своими ресурсами и использовать ресурсы других участников сообщества</HeroChallengeDesc>
+        <HeroChallengeDesc>
+          своими ресурсами и использовать ресурсы других участников сообщества
+        </HeroChallengeDesc>
         <HeroChallengeCta
           className={cx(
-            activeChallenge === Challenge.SUPPORT && "!bg-purple-500 !text-white",
+            activeChallenge === Challenge.SUPPORT &&
+              '!bg-purple-500 !text-white',
           )}
         >
           Поддержать
@@ -101,33 +112,31 @@ function HomeHeroChallenge({
   href?: string;
   activeChallenge?: Challenge;
 }) {
-  const childs = Children.map(children as ReactElement, (child: ReactElement) => {
-    return cloneElement(child, {
-      ...child.props,
-      activeChallenge,
-      href,
-    } as HTMLProps<HTMLElement>);
-  });
+  const childs = Children.map(
+    children as ReactElement,
+    (child: ReactElement) => {
+      return cloneElement(child, {
+        ...child.props,
+        activeChallenge,
+        href,
+      } as HTMLProps<HTMLElement>);
+    },
+  );
 
   return (
     <div
       className={cx(
-        "group/hero-challenge",
-        "relative flex flex-col items-center p-6 md:p-8",
-        "cursor-default bg-black/10 dark:bg-white/5 backdrop-blur transition",
-        "rounded-lg",
-        "xl:first:!rounded-l-4xl xl:last:!rounded-r-4xl",
-        "hover:scale-[1.02] hover:bg-black/15 hover:dark:bg-white/10",
+        'group/hero-challenge',
+        'relative flex flex-col items-center p-6 md:p-8',
+        'cursor-default bg-black/10 backdrop-blur transition dark:bg-white/5',
+        'rounded-lg',
+        'xl:first:!rounded-l-4xl xl:last:!rounded-r-4xl',
+        'hover:scale-[1.02] hover:bg-black/15 hover:dark:bg-white/10',
         className,
       )}
       {...props}
     >
-      {href && (
-        <a
-          className="absolute inset-0 z-10"
-          href={href}
-        />
-      )}
+      {href && <a className="absolute inset-0 z-10" href={href} />}
       {childs}
     </div>
   );
@@ -140,8 +149,8 @@ function HeroChallengeTitle({
   return (
     <h3
       className={cx(
-        "flex items-center gap-1 text-zinc-950 dark:text-zinc-50",
-        "font-display text-xl font-medium leading-none md:text-2xl",
+        'flex items-center gap-1 text-zinc-950 dark:text-zinc-50',
+        'font-display text-xl font-medium leading-none md:text-2xl',
         className,
       )}
     >
@@ -155,7 +164,7 @@ function HeroChallengeDesc({
   className,
 }: HTMLProps<HTMLParagraphElement>) {
   return (
-    <p className={cx("mt-2 grow opacity-60 xl:mx-4", className)}>{children}</p>
+    <p className={cx('mt-2 grow opacity-60 xl:mx-4', className)}>{children}</p>
   );
 }
 
@@ -171,8 +180,10 @@ function HeroChallengeCta({
     <Button
       type="button"
       className={cx(
-        "mt-4 hidden md:inline-flex",
-        activeChallenge ? "bg-white/3 text-zinc-50" : "bg-zinc-50 text-zinc-950",
+        'mt-4 hidden md:inline-flex',
+        activeChallenge
+          ? 'bg-white/3 text-zinc-50'
+          : 'bg-zinc-50 text-zinc-950',
         className,
       )}
       target="_self"

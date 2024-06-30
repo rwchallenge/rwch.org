@@ -6,13 +6,16 @@ import Button from '@/components/Button';
 import Container from '@/components/Container';
 import { Logo } from '@/components/Logo';
 // import ThemeSwitcher from '@/components/ThemeSwitcher';
-import Navigation from "./Nav";
+import Navigation from './Nav';
 
-export default function Header({ className, ...props }: HTMLProps<HTMLElement>) {
+export default function Header({
+  className,
+  ...props
+}: HTMLProps<HTMLElement>) {
   const [fix, setFix] = useState(false);
   const { scrollY } = useScroll();
 
-  useMotionValueEvent(scrollY, "change", (latest) => {
+  useMotionValueEvent(scrollY, 'change', (latest) => {
     if (latest > 10) {
       setFix(true);
     } else {
@@ -23,7 +26,7 @@ export default function Header({ className, ...props }: HTMLProps<HTMLElement>) 
   return (
     <header
       className={cx(
-        "fixed inset-x-0 top-0 z-50 hidden bg-zinc-950/80 backdrop-blur transition will-change-auto md:block",
+        'fixed inset-x-0 top-0 z-50 hidden bg-zinc-950/80 backdrop-blur transition will-change-auto md:block',
         className,
       )}
       {...props}
@@ -31,7 +34,7 @@ export default function Header({ className, ...props }: HTMLProps<HTMLElement>) 
       <Container>
         <div
           className={cx(
-            "flex items-center border-b border-b-white/5 py-5 md:grid md:grid-cols-6",
+            'flex items-center border-b border-b-white/5 py-5 md:grid md:grid-cols-6',
           )}
         >
           <div className="flex">
@@ -49,7 +52,7 @@ export default function Header({ className, ...props }: HTMLProps<HTMLElement>) 
               type="button"
               hideIcon
               href="/rwchallenge"
-              className={cx("", fix ? "bg-emerald-500" : "")}
+              className={cx('', fix ? 'bg-emerald-500' : '')}
             >
               #rwchallenge
             </Button>

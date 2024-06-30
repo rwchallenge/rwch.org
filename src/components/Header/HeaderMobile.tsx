@@ -14,8 +14,8 @@ export default function HeaderMobile({ className, ...props }: IAppHeader) {
   return (
     <header
       className={cx(
-        "fixed inset-x-0 top-0 z-50 py-4 md:hidden",
-        "border-b border-b-white/5 bg-zinc-950",
+        'fixed inset-x-0 top-0 z-50 py-4 md:hidden',
+        'border-b border-b-white/5 bg-zinc-950',
         className,
       )}
       {...props}

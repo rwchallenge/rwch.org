@@ -1,5 +1,10 @@
-import * as NavigationMenu from "@radix-ui/react-navigation-menu";
-import { IconCategory2, IconUsersGroup, IconMapPin, IconCreditCard } from "@tabler/icons-react";
+import * as NavigationMenu from '@radix-ui/react-navigation-menu';
+import {
+  IconCategory2,
+  IconUsersGroup,
+  IconMapPin,
+  IconCreditCard,
+} from '@tabler/icons-react';
 
 import {
   ListItem,

@@ -34,7 +34,7 @@
 
 .post ul > li:before {
   @apply absolute left-0 h-0.5 w-3 rounded-full bg-emerald-800/40 dark:bg-zinc-600;
-  content: "";
+  content: '';
   top: 0.8em;
 }
 
@@ -55,8 +55,7 @@
 }
 
 .post code:not(pre > code) {
-  @apply rounded border border-emerald-800/10 bg-emerald-500/10
-    px-1 py-0.5 text-[0.86em] dark:border-white/3 dark:bg-emerald-100/10;
+  @apply rounded border border-emerald-800/10 bg-emerald-500/10 px-1 py-0.5 text-[0.86em] dark:border-white/3 dark:bg-emerald-100/10;
 }
 
 .post .subheading-anchor {

@@ -1,32 +1,32 @@
-import cx from "@/utils/cx";
-import { motion } from "framer-motion";
+import cx from '@/utils/cx';
+import { motion } from 'framer-motion';
 
 import {
   IconBallFootball,
   IconBallVolleyball,
-  IconStar
+  IconStar,
 } from '@tabler/icons-react';
 
 export default function ProductToggle({ product }: { product: string }) {
   return (
     <div className="flex justify-center">
       <div className="flex gap-3 rounded-xl border border-white/5 p-2">
-        {["/", "/football", "/volleyball"].map((key) => {
+        {['/', '/football', '/volleyball'].map((key) => {
           const isActive = product === key;
 
-          const isRw = key === "/";
-          const isFootball = key === "/football";
-          const isVolleyball = key === "/volleyball";
+          const isRw = key === '/';
+          const isFootball = key === '/football';
+          const isVolleyball = key === '/volleyball';
 
           return (
             <a
               key={key}
-              href={`/support${key === "/" ? "" : key}`}
+              href={`/support${key === '/' ? '' : key}`}
               className={cx(
-                "relative flex cursor-pointer select-none items-center gap-1",
-                "rounded-lg px-3 py-1.5 text-zinc-400 transition",
-                "hover:bg-white/10",
-                isActive && "!text-zinc-950 hover:bg-transparent",
+                'relative flex cursor-pointer select-none items-center gap-1',
+                'rounded-lg px-3 py-1.5 text-zinc-400 transition',
+                'hover:bg-white/10',
+                isActive && '!text-zinc-950 hover:bg-transparent',
               )}
               data-astro-prefetch
             >
@@ -45,9 +45,9 @@ export default function ProductToggle({ product }: { product: string }) {
                 {isVolleyball && <IconBallVolleyball width={20} />}
               </>
               <span className="grow px-1 font-medium">
-                {isRw && "RW"}
-                {isFootball && "Футбол"}
-                {isVolleyball && "Волейбол"}
+                {isRw && 'RW'}
+                {isFootball && 'Футбол'}
+                {isVolleyball && 'Волейбол'}
               </span>
             </a>
           );

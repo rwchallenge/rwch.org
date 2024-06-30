@@ -1,18 +1,18 @@
-import Bg from "@/components/Bg";
-import Container from "@/components/Container";
+import Bg from '@/components/Bg';
+import Container from '@/components/Container';
 import {
   SectionHeader,
   SectionHeaderSummary,
   SectionHeaderTitle,
-} from "@/components/SectionHeader";
-import Icon, { ICON_NAMES } from "@/components/Icon";
+} from '@/components/SectionHeader';
+import Icon, { ICON_NAMES } from '@/components/Icon';
 
 import {
   CommunityBox,
   CommunityBoxButton,
   CommunityBoxDesc,
   CommunityBoxTitle,
-} from "./Comp";
+} from './Comp';
 
 export default function HomeCommunity() {
   return (
@@ -24,7 +24,8 @@ export default function HomeCommunity() {
         <SectionHeader>
           <SectionHeaderTitle>Сообщество</SectionHeaderTitle>
           <SectionHeaderSummary>
-            присоединяйтесь к нашим публичным пространствам чтобы стать частью сообщества и не пропустить интересные события
+            присоединяйтесь к нашим публичным пространствам чтобы стать частью
+            сообщества и не пропустить интересные события
           </SectionHeaderSummary>
         </SectionHeader>
 
@@ -52,7 +53,8 @@ export default function HomeCommunity() {
             />
             <CommunityBoxTitle>Telegram</CommunityBoxTitle>
             <CommunityBoxDesc>
-              Присоединяйтесь к нашему сообществу Telegram, чтобы общаться с другими людьми.
+              Присоединяйтесь к нашему сообществу Telegram, чтобы общаться с
+              другими людьми.
             </CommunityBoxDesc>
             <CommunityBoxButton href="https://t.me/rw_challenge">
               Присоединиться
@@ -67,7 +69,8 @@ export default function HomeCommunity() {
             />
             <CommunityBoxTitle>ВКонтакте</CommunityBoxTitle>
             <CommunityBoxDesc>
-              Присоединяйтесь к нашему сообществу ВКонтакте, чтобы быть в курсе последних новостей.
+              Присоединяйтесь к нашему сообществу ВКонтакте, чтобы быть в курсе
+              последних новостей.
             </CommunityBoxDesc>
             <CommunityBoxButton href="https://vk.com/rwchallenge">
               Присоединиться
@@ -82,7 +85,8 @@ export default function HomeCommunity() {
             />
             <CommunityBoxTitle>Github</CommunityBoxTitle>
             <CommunityBoxDesc>
-              Исследуйте наши проекты, которые мы разработали с открытым исходным кодом.
+              Исследуйте наши проекты, которые мы разработали с открытым
+              исходным кодом.
             </CommunityBoxDesc>
             <CommunityBoxButton href="https://github.com/rwchallenge">
               Исследовать

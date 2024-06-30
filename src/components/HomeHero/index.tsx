@@ -1,10 +1,10 @@
-import { useState } from "react";
+import { useState } from 'react';
 
-import Container from "@/components/Container";
-import HomeHeroBg from "@/components/HomeHero/HeroBg";
-import HomeHeroCustomer from "@/components/HomeHero/HeroCustomer";
-import HomeHeroChallenges from "@/components/HomeHero/HeroCallenges";
-import HomeHeroSlogan from "@/components/HomeHero/HeroSlogan";
+import Container from '@/components/Container';
+import HomeHeroBg from '@/components/HomeHero/HeroBg';
+import HomeHeroCustomer from '@/components/HomeHero/HeroCustomer';
+import HomeHeroChallenges from '@/components/HomeHero/HeroCallenges';
+import HomeHeroSlogan from '@/components/HomeHero/HeroSlogan';
 
 import { Challenge } from './types';
 

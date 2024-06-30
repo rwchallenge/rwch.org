@@ -1,15 +1,15 @@
-import { type HTMLProps, type ReactNode } from "react";
+import { type HTMLProps, type ReactNode } from 'react';
 
-import cx from "@/utils/cx";
+import cx from '@/utils/cx';
 
-import Icon, { ICON_NAMES, type IconProps } from "@/components/Icon";
+import Icon, { ICON_NAMES, type IconProps } from '@/components/Icon';
 
 export interface IButton extends HTMLProps<HTMLAnchorElement> {
   children?: ReactNode;
   hideIcon?: boolean;
   icon?: ReactNode;
   iconProps?: IconProps;
-  type?: "button" | "link";
+  type?: 'button' | 'link';
 }
 
 export default function Button({
@@ -17,7 +17,7 @@ export default function Button({
   className,
   hideIcon,
   icon,
-  type = "link",
+  type = 'link',
   iconProps,
   ...props
 }: IButton) {
@@ -32,7 +32,7 @@ export default function Button({
     <a
       target="_blank"
       className={cx(
-        "group/link-new inline-flex cursor-pointer items-center transition",
+        'group/link-new inline-flex cursor-pointer items-center transition',
         classes[type],
         className,
       )}
@@ -45,10 +45,7 @@ export default function Button({
         <Icon
           icon={ICON_NAMES.ArrowUpRight}
           {...iconProps}
-          className={cx(
-            "ml-auto opacity-60",
-            iconProps?.className,
-          )}
+          className={cx('ml-auto opacity-60', iconProps?.className)}
         />
       )}
     </a>

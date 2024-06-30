@@ -1,4 +1,4 @@
-import type { SVGProps } from "react";
+import type { SVGProps } from 'react';
 
 export function IconFast(props: SVGProps<SVGSVGElement>) {
   return (
@@ -85,7 +85,7 @@ export function IconSocial(props: SVGProps<SVGSVGElement>) {
       strokeLinejoin="round"
       {...props}
     >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M5 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M19 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
@@ -111,7 +111,7 @@ export function IconUserGroup(props: SVGProps<SVGSVGElement>) {
       strokeLinejoin="round"
       {...props}
     >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10 13a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
       <path d="M8 21v-1a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v1" />
       <path d="M15 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
@@ -136,7 +136,7 @@ export function IconPackages(props: SVGProps<SVGSVGElement>) {
       strokeLinejoin="round"
       {...props}
     >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7 16.5l-5 -3l5 -3l5 3v5.5l-5 3z" />
       <path d="M2 13.5v5.5l5 3" />
       <path d="M7 16.545l5 -3.03" />
@@ -164,7 +164,7 @@ export function IconRecycle(props: SVGProps<SVGSVGElement>) {
       strokeLinejoin="round"
       {...props}
     >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 17l-2 2l2 2" />
       <path d="M10 19h9a2 2 0 0 0 1.75 -2.75l-.55 -1" />
       <path d="M8.536 11l-.732 -2.732l-2.732 .732" />
@@ -189,7 +189,7 @@ export function IconCalendarPlus(props: SVGProps<SVGSVGElement>) {
       strokeLinejoin="round"
       {...props}
     >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12.5 21h-6.5a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v5" />
       <path d="M16 3v4" />
       <path d="M8 3v4" />
@@ -214,7 +214,7 @@ export function IconUserPlus(props: SVGProps<SVGSVGElement>) {
       strokeLinejoin="round"
       {...props}
     >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
       <path d="M16 19h6" />
       <path d="M19 16v6" />

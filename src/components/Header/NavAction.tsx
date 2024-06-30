@@ -1,7 +1,5 @@
 import * as NavigationMenu from '@radix-ui/react-navigation-menu';
-import {
-  IconCalendar
-} from '@tabler/icons-react';
+import { IconCalendar } from '@tabler/icons-react';
 
 import {
   ListItem,
@@ -12,9 +10,7 @@ import {
 export default function NavigationItemAction() {
   return (
     <NavigationMenu.Item>
-      <NewNavigationTrigger>
-        Активности{" "}
-      </NewNavigationTrigger>
+      <NewNavigationTrigger>Активности </NewNavigationTrigger>
 
       <NewNavigationContent>
         <div className="grid w-[500px] gap-4 p-6">

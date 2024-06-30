@@ -1,6 +1,6 @@
-import { type ReactNode, type SVGProps } from "react";
+import { type ReactNode, type SVGProps } from 'react';
 
-import cx from "@/utils/cx";
+import cx from '@/utils/cx';
 
 export type IconProps = SVGProps<SVGSVGElement> & {
   icon?: keyof typeof ICON_NAMES;
@@ -24,7 +24,7 @@ export default function Icon({ icon, className, title, ...props }: IconProps) {
       viewBox="0 0 24 24"
       width="1em"
       height="1em"
-      className={cx("inline-flex shrink-0 text-xl", className)}
+      className={cx('inline-flex shrink-0 text-xl', className)}
       {...props}
     >
       {title && <title>{title}</title>}
@@ -34,26 +34,26 @@ export default function Icon({ icon, className, title, ...props }: IconProps) {
 }
 
 export enum ICON_NAMES {
-  ArrowUpRight = "ArrowUpRight",
-  ArrowDownLeft = "ArrowDownLeft",
-  ArrowRight = "ArrowRight",
-  Check = "Check",
-  CreditCard = "CreditCard",
-  CircleCheck = "CircleCheck",
-  Bolt = "Bolt",
-  FileText = "FileText",
-  Telegram = "Telegram",
-  Twitter = "Twitter",
-  Discord = "Discord",
-  Github = "Github",
-  Menu = "Menu",
-  Cancel = "Cancel",
-  Clipboard = "Clipboard",
-  VK = "VK",
-  Youtube = "Youtube",
-  Football = "Football",
-  Volleyball = "Volleyball",
-  Action = "Action"
+  ArrowUpRight = 'ArrowUpRight',
+  ArrowDownLeft = 'ArrowDownLeft',
+  ArrowRight = 'ArrowRight',
+  Check = 'Check',
+  CreditCard = 'CreditCard',
+  CircleCheck = 'CircleCheck',
+  Bolt = 'Bolt',
+  FileText = 'FileText',
+  Telegram = 'Telegram',
+  Twitter = 'Twitter',
+  Discord = 'Discord',
+  Github = 'Github',
+  Menu = 'Menu',
+  Cancel = 'Cancel',
+  Clipboard = 'Clipboard',
+  VK = 'VK',
+  Youtube = 'Youtube',
+  Football = 'Football',
+  Volleyball = 'Volleyball',
+  Action = 'Action',
 }
 
 const PATHS = {
@@ -63,11 +63,13 @@ const PATHS = {
       <polyline points="7 7 17 7 17 17" />
     </>
   ),
-  [ICON_NAMES.ArrowDownLeft]: (<>
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M17 7l-10 10" />
-  <path d="M16 17l-9 0l0 -9" />
-  </>),
+  [ICON_NAMES.ArrowDownLeft]: (
+    <>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M17 7l-10 10" />
+      <path d="M16 17l-9 0l0 -9" />
+    </>
+  ),
   [ICON_NAMES.Check]: (
     <>
       <path d="M5 12l5 5l10 -10" />
@@ -103,7 +105,7 @@ const PATHS = {
   ),
   [ICON_NAMES.Telegram]: (
     <>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4" />
     </>
   ),
@@ -154,7 +156,7 @@ const PATHS = {
   ),
   [ICON_NAMES.VK]: (
     <>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 19h-4a8 8 0 0 1 -8 -8v-5h4v5a4 4 0 0 0 4 4h0v-9h4v4.5l.03 0a4.531 4.531 0 0 0 3.97 -4.496h4l-.342 1.711a6.858 6.858 0 0 1 -3.658 4.789h0a5.34 5.34 0 0 1 3.566 4.111l.434 2.389h0h-4a4.531 4.531 0 0 0 -3.97 -4.496v4.5z" />
     </>
   ),
@@ -167,7 +169,7 @@ const PATHS = {
   ),
   [ICON_NAMES.Football]: (
     <>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 7l4.76 3.45l-1.76 5.55h-6l-1.76 -5.55z" />
       <path d="M12 7v-4m3 13l2.5 3m-.74 -8.55l3.74 -1.45m-11.44 7.05l-2.56 2.95m.74 -8.55l-3.74 -1.45" />
@@ -175,7 +177,7 @@ const PATHS = {
   ),
   [ICON_NAMES.Volleyball]: (
     <>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 12a8 8 0 0 0 8 4" />
       <path d="M7.5 13.5a12 12 0 0 0 8.5 6.5" />
@@ -187,8 +189,8 @@ const PATHS = {
   ),
   [ICON_NAMES.Action]: (
     <>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
     </>
-  )
+  ),
 };

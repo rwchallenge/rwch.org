@@ -1,28 +1,29 @@
 ---
 sort: 1
-title: "Волейбольная команда RWChallenge"
-description: "Две мужские команды и одна женская. Играем в классический волейбол."
+title: 'Волейбольная команда RWChallenge'
+description: 'Две мужские команды и одна женская. Играем в классический волейбол.'
 skills:
-  - "6x6 (классика)"
-  - "КВЛ"
-  - "ПВЛ"
-  - "Urbo Cup"
+  - '6x6 (классика)'
+  - 'КВЛ'
+  - 'ПВЛ'
+  - 'Urbo Cup'
 images:
-  - "./images/volleyball/01-urbo.jpg"
-  - "./images/volleyball/02-kvl.jpg"
-  - "./images/volleyball/03-urbo.jpg"
-  - "./images/volleyball/04-pvl-w.jpg"
-  - "./images/volleyball/05-kvl.jpg"
-  - "./images/volleyball/06-urbo.jpg"
-  - "./images/volleyball/07-urbo-w.jpg"
-  - "./images/volleyball/08-gatchina-w.jpg"
-url: "https://t.me/rw_volleyball"
+  - './images/volleyball/01-urbo.jpg'
+  - './images/volleyball/02-kvl.jpg'
+  - './images/volleyball/03-urbo.jpg'
+  - './images/volleyball/04-pvl-w.jpg'
+  - './images/volleyball/05-kvl.jpg'
+  - './images/volleyball/06-urbo.jpg'
+  - './images/volleyball/07-urbo-w.jpg'
+  - './images/volleyball/08-gatchina-w.jpg'
+url: 'https://t.me/rw_volleyball'
 draft: false
 ---
 
 Первая игра команды состоялась 30.05.2021 в однодневном турнире URBO микст 4+2 для команд уровня Light.<br />
 
 ## Сейчас наши команды (2 мужские и 1 женская) играют в турнирах:
+
 - <a href="/actions/2024/kvl-m1-r2">Клуб волейболистов любителей (КВЛ) Лига Медиум-Юг 2. Мужская команда "RWChallenge"</a>.
 - <a href="/actions/2024/kvl-m2-r2">Клуб волейболистов любителей (КВЛ) Лига Медиум-Юг 2. Мужская команда "RWChallenge 2"</a>.
 - <a href="/actions/2024/kvl-w-r2">Клуб волейболистов любителей (КВЛ) Лига Женская "С" Группа "С4". Женская команда "RWChallenge (w)"</a>.

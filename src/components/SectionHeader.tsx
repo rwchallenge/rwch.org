@@ -1,6 +1,6 @@
-import type { HTMLProps, ReactNode } from "react";
+import type { HTMLProps, ReactNode } from 'react';
 
-import cx from "@/utils/cx";
+import cx from '@/utils/cx';
 
 export interface ISectionHeader extends HTMLProps<HTMLDivElement> {
   children: ReactNode;
@@ -12,7 +12,7 @@ export function SectionHeader({
   ...props
 }: ISectionHeader) {
   return (
-    <header className={cx("mx-auto max-w-screen-md", className)} {...props}>
+    <header className={cx('mx-auto max-w-screen-md', className)} {...props}>
       {children}
     </header>
   );
@@ -26,7 +26,7 @@ export function SectionHeaderTitle({
   return (
     <h3
       className={cx(
-        "font-display text-4xl font-semibold md:text-6xl",
+        'font-display text-4xl font-semibold md:text-6xl',
         className,
       )}
       {...props}
@@ -44,7 +44,7 @@ export function SectionHeaderSummary({
   return (
     <p
       className={cx(
-        "mx-4 mt-2 text-lg opacity-40 md:mx-auto md:text-2xl",
+        'mx-4 mt-2 text-lg opacity-40 md:mx-auto md:text-2xl',
         className,
       )}
       {...props}

@@ -1,32 +1,33 @@
 ---
 sort: 1
-title: "Футбольная команда RWChallenge (РВЧеллендж)"
-description: "Мужская команда. Играем в различных форматах."
-skills: 
-  - "11x11 Чемпионат СПб"
-  - "8x8 Оле Пари"
-  - "7x7 Спортинг лига"
-  - "7x7 ПФК"
-  - "6x6 Оле Премиум"
-  - "5x5 (футзал) Кубок Степанова"
+title: 'Футбольная команда RWChallenge (РВЧеллендж)'
+description: 'Мужская команда. Играем в различных форматах.'
+skills:
+  - '11x11 Чемпионат СПб'
+  - '8x8 Оле Пари'
+  - '7x7 Спортинг лига'
+  - '7x7 ПФК'
+  - '6x6 Оле Премиум'
+  - '5x5 (футзал) Кубок Степанова'
 images:
-  - "./images/football/01-spbchamp.jpg"
-  - "./images/football/02-olepremium.jpg"
-  - "./images/football/03-sporting.jpg"
-  - "./images/football/04-olepremium.jpg"
-  - "./images/football/05-stepcup.jpg"
-  - "./images/football/06-sporting.jpg"
-  - "./images/football/07-sporting.jpg"
-  - "./images/football/08-sporting.jpg"
-  - "./images/football/09-sporting.jpg"
-  - "./images/football/10-pfc.jpg"
-url: "https://t.me/rw_football"
+  - './images/football/01-spbchamp.jpg'
+  - './images/football/02-olepremium.jpg'
+  - './images/football/03-sporting.jpg'
+  - './images/football/04-olepremium.jpg'
+  - './images/football/05-stepcup.jpg'
+  - './images/football/06-sporting.jpg'
+  - './images/football/07-sporting.jpg'
+  - './images/football/08-sporting.jpg'
+  - './images/football/09-sporting.jpg'
+  - './images/football/10-pfc.jpg'
+url: 'https://t.me/rw_football'
 draft: false
 ---
 
 Первая игра команды состоялась 26.04.2021 в Кубке любительской лиги Степанова в формате футзала.
 
 ## Сейчас команда играет в ведущих турнирах Санкт-Петербурга:
+
 - <a href="/actions/2024/spbchamp">Чемпионат города 11х11</a>.
 - <a href="/actions/2024/spbchamp-beach">Чемпионат города по пляжному футболу</a>.
 - <a href="/actions/2024/ole-t1">Суперлига Оле Пари 8х8</a>.

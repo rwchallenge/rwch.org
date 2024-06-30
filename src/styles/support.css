@@ -2,7 +2,7 @@ code {
   @apply rounded bg-emerald-300/10 px-1.5 py-1 font-mono text-sm font-medium text-emerald-200;
 }
 
-.faq [data-state="open"] + [data-state="closed"] {
+.faq [data-state='open'] + [data-state='closed'] {
   @apply border-t-transparent;
 }
 
@@ -11,7 +11,7 @@ code {
 }
 
 .mini-table {
-  @apply rounded-xl text-sm border-2 border-zinc-100;
+  @apply rounded-xl border-2 border-zinc-100 text-sm;
 }
 
 .mini-table :where(th, td) {

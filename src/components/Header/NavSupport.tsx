@@ -3,7 +3,7 @@ import {
   IconUserPlus,
   IconPigMoney,
   IconMail,
-  IconListCheck
+  IconListCheck,
 } from '@tabler/icons-react';
 
 import {
@@ -24,7 +24,8 @@ export default function NavigationItemCompany() {
             title1="Участием"
             icon={<IconUserPlus />}
           >
-            Подписывайтесь на наши публичные ресурсы. Присоединяйтесь к сообществу.
+            Подписывайтесь на наши публичные ресурсы. Присоединяйтесь к
+            сообществу.
           </ListItem>
 
           <ListItem
@@ -40,7 +41,8 @@ export default function NavigationItemCompany() {
             title1="Предожениями"
             icon={<IconMail />}
           >
-            Отправьте электронное письмо с вашим предложением по поддержке или сотрудничеству.
+            Отправьте электронное письмо с вашим предложением по поддержке или
+            сотрудничеству.
           </ListItem>
 
           <ListItem

@@ -1,8 +1,8 @@
-@import "tailwindcss/base";
-@import "base";
+@import 'tailwindcss/base';
+@import 'base';
 
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 @keyframes animate-slide {
   0% {

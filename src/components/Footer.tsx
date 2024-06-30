@@ -1,21 +1,20 @@
-import type { HTMLProps } from "react";
+import type { HTMLProps } from 'react';
 
-import cx from "@/utils/cx";
-import Button from "@/components/Button";
-import Container from "@/components/Container";
-import { Logo } from "@/components/Logo";
+import cx from '@/utils/cx';
+import Button from '@/components/Button';
+import Container from '@/components/Container';
+import { Logo } from '@/components/Logo';
 
 export interface IAppFooter extends HTMLProps<HTMLDivElement> {}
 
 export default function Footer({ className, ...props }: IAppFooter) {
   return (
     <footer
-      className={cx("relative z-20 py-24 text-center", className)}
+      className={cx('relative z-20 py-24 text-center', className)}
       {...props}
     >
       <Container className="max-w-screen-md">
         <div className="grid place-items-center">
-
           <Logo />
 
           <p className="mt-10 opacity-60">
@@ -30,7 +29,6 @@ export default function Footer({ className, ...props }: IAppFooter) {
               Связаться с нами
             </Button>
           </div>
-
         </div>
       </Container>
     </footer>

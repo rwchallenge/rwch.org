@@ -3,11 +3,11 @@ import {
   type ReactNode,
   Fragment,
   useId,
-  useState
-} from "react";
-import { Field, Label, Radio, RadioGroup } from '@headlessui/react'
+  useState,
+} from 'react';
+import { Field, Label, Radio, RadioGroup } from '@headlessui/react';
 
-import cx from "@/utils/cx";
+import cx from '@/utils/cx';
 
 interface Props extends HTMLProps<HTMLFormElement> {
   children?: ReactNode;
@@ -17,7 +17,7 @@ interface Props extends HTMLProps<HTMLFormElement> {
 const { PUBLIC_YOOMONEY } = import.meta.env;
 const supportSums = ['100', '200', '500', '1000', '5000', '15000'];
 
-export default function PayYoomoney({ label} : Props) {
+export default function PayYoomoney({ label }: Props) {
   const manualSumInputId = useId();
   const [summa, setSumma] = useState(supportSums[2]);
 
@@ -28,7 +28,12 @@ export default function PayYoomoney({ label} : Props) {
       <input type="hidden" name="quickpay-form" value="button" />
 
       <div>
-        <label htmlFor={manualSumInputId} className="block text-sm font-medium leading-6 text-gray-100">Сумма поддержки</label>
+        <label
+          htmlFor={manualSumInputId}
+          className="block text-sm font-medium leading-6 text-gray-100"
+        >
+          Сумма поддержки
+        </label>
         <div className="relative mt-2 rounded-md shadow-sm">
           <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3">
             <span className="text-gray-500 sm:text-sm">₽</span>
@@ -44,9 +49,9 @@ export default function PayYoomoney({ label} : Props) {
               e.target.validity.valid && setSumma(e.target.value)
             }
             className={cx(
-              "block w-full rounded-md border-0 py-1.5 pl-8 pr-8 sm:text-sm sm:leading-6",
-              "bg-zinc-50 text-zinc-950 placeholder:text-zinc-400",
-              "focus:ring-4 focus:ring-emerald-400",
+              'block w-full rounded-md border-0 py-1.5 pl-8 pr-8 sm:text-sm sm:leading-6',
+              'bg-zinc-50 text-zinc-950 placeholder:text-zinc-400',
+              'focus:ring-4 focus:ring-emerald-400',
             )}
             placeholder="0"
             maxLength={8}
@@ -65,39 +70,41 @@ export default function PayYoomoney({ label} : Props) {
         >
           {supportSums.map((value) => (
             <Field key={value}>
-            <Radio
-              key={value}
-              value={value}
-              className={({ checked }) =>
-                cx(
-                  'h-full w-full',
-                  'cursor-pointer bg-white/10 text-white/80 border-white/20 shadow-sm',
-                  checked ? 'ring-2 ring-emerald-400 text-emerald-400' : '',
-                  'group relative flex items-center justify-center rounded-md border py-3 px-4',
-                  'text-sm font-medium uppercase hover:bg-white/15 focus:outline-none sm:flex-1'
-                )
-              }
-            >
-              {({ checked }) => (
-                <Fragment>
-                  <Label
-                    as="span"
-                    className={cx(
-                        checked ? 'text-emerald-400' : 'text-white/80'
-                    )}
-                  >
-                    {`${value} ₽`}
-                  </Label>
-                  <span
-                    className={cx(
-                      checked ? 'border-emerald-400 text-emerald-400' : 'border-transparent',
-                      'pointer-events-none absolute -inset-px rounded-md'
-                    )}
-                    aria-hidden="true"
-                  />
-                </Fragment>
-              )}
-            </Radio>
+              <Radio
+                key={value}
+                value={value}
+                className={({ checked }) =>
+                  cx(
+                    'h-full w-full',
+                    'cursor-pointer border-white/20 bg-white/10 text-white/80 shadow-sm',
+                    checked ? 'text-emerald-400 ring-2 ring-emerald-400' : '',
+                    'group relative flex items-center justify-center rounded-md border px-4 py-3',
+                    'text-sm font-medium uppercase hover:bg-white/15 focus:outline-none sm:flex-1',
+                  )
+                }
+              >
+                {({ checked }) => (
+                  <Fragment>
+                    <Label
+                      as="span"
+                      className={cx(
+                        checked ? 'text-emerald-400' : 'text-white/80',
+                      )}
+                    >
+                      {`${value} ₽`}
+                    </Label>
+                    <span
+                      className={cx(
+                        checked
+                          ? 'border-emerald-400 text-emerald-400'
+                          : 'border-transparent',
+                        'pointer-events-none absolute -inset-px rounded-md',
+                      )}
+                      aria-hidden="true"
+                    />
+                  </Fragment>
+                )}
+              </Radio>
             </Field>
           ))}
         </RadioGroup>

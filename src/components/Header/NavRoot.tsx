@@ -17,11 +17,11 @@ export default function NavigationRoot({ children }: PropsWithChildren) {
 
         <NavigationMenu.Indicator
           className={cx(
-            "z-[1] flex h-[10px] items-end justify-center overflow-hidden",
-            "data-[state=visible]:animate-fadeIn",
-            "data-[state=visible]:animate-fadeIn",
-            "data-[state=hidden]:animate-fadeOut",
-            "transition-[width,transform_250ms_ease]",
+            'z-[1] flex h-[10px] items-end justify-center overflow-hidden',
+            'data-[state=visible]:animate-fadeIn',
+            'data-[state=visible]:animate-fadeIn',
+            'data-[state=hidden]:animate-fadeOut',
+            'transition-[width,transform_250ms_ease]',
           )}
         >
           <svg
@@ -43,14 +43,14 @@ export default function NavigationRoot({ children }: PropsWithChildren) {
       <div className="absolute left-20 right-0 top-full flex w-full justify-center perspective-[2000px]">
         <NavigationMenu.Viewport
           className={cx(
-            "relative mt-[7px] bg-white text-zinc-900",
-            "origin-[top_center] overflow-hidden rounded-xl",
-            "transition-[width,_height] duration-300",
-            "data-[state=open]:animate-scaleIn",
-            "data-[state=open]:animate-scaleIn",
-            "data-[state=closed]:animate-scaleOut",
-            "w-[var(--radix-navigation-menu-viewport-width)]",
-            "h-[var(--radix-navigation-menu-viewport-height)]",
+            'relative mt-[7px] bg-white text-zinc-900',
+            'origin-[top_center] overflow-hidden rounded-xl',
+            'transition-[width,_height] duration-300',
+            'data-[state=open]:animate-scaleIn',
+            'data-[state=open]:animate-scaleIn',
+            'data-[state=closed]:animate-scaleOut',
+            'w-[var(--radix-navigation-menu-viewport-width)]',
+            'h-[var(--radix-navigation-menu-viewport-height)]',
           )}
         />
       </div>
@@ -62,11 +62,11 @@ export function NewNavigationTrigger({ children }: NavigationMenuTriggerProps) {
   return (
     <NavigationMenu.Trigger
       className={cx(
-        "group flex select-none items-center gap-0.5",
-        "rounded-full px-3 py-2",
-        "opacity-60 hover:bg-white/5 hover:opacity-100",
-        "data-[state=open]:bg-white/5",
-        "data-[state=open]:opacity-100",
+        'group flex select-none items-center gap-0.5',
+        'rounded-full px-3 py-2',
+        'opacity-60 hover:bg-white/5 hover:opacity-100',
+        'data-[state=open]:bg-white/5',
+        'data-[state=open]:opacity-100',
       )}
     >
       {children}
@@ -74,8 +74,8 @@ export function NewNavigationTrigger({ children }: NavigationMenuTriggerProps) {
         width={15}
         height={15}
         className={cx(
-          "duration opacity-60 transition-transform ease-in",
-          "group-data-[state=open]:-rotate-180",
+          'duration opacity-60 transition-transform ease-in',
+          'group-data-[state=open]:-rotate-180',
         )}
         strokeWidth={1.5}
       />
@@ -90,11 +90,11 @@ export function NewNavigationContent({
   return (
     <NavigationMenu.Content
       className={cx(
-        "data-[motion=from-start]:animate-enterFromLeft",
-        "data-[motion=from-end]:animate-enterFromRight",
-        "data-[motion=to-start]:animate-exitToLeft",
-        "data-[motion=to-end]:animate-exitToRight",
-        "absolute left-0 top-0 w-auto",
+        'data-[motion=from-start]:animate-enterFromLeft',
+        'data-[motion=from-end]:animate-enterFromRight',
+        'data-[motion=to-start]:animate-exitToLeft',
+        'data-[motion=to-end]:animate-exitToRight',
+        'absolute left-0 top-0 w-auto',
       )}
       {...props}
     >
@@ -109,16 +109,19 @@ interface ListItemProps extends NavigationMenuLinkProps {
 }
 
 const ListItem = React.forwardRef(
-  (props: ListItemProps, forwardedRef: React.ForwardedRef<HTMLAnchorElement>) => {
+  (
+    props: ListItemProps,
+    forwardedRef: React.ForwardedRef<HTMLAnchorElement>,
+  ) => {
     const { children, className, title1, icon, ...otherProps } = props;
 
     return (
       <NavigationMenu.Link asChild {...otherProps}>
         <a
           className={cx(
-            "flex select-none items-center gap-5 rounded-xl p-5",
-            "bg-black/5",
-            "hover:bg-black/10",
+            'flex select-none items-center gap-5 rounded-xl p-5',
+            'bg-black/5',
+            'hover:bg-black/10',
             className,
           )}
           ref={forwardedRef}

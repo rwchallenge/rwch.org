@@ -1,11 +1,16 @@
-import Button from "@/components/Button";
+import Button from '@/components/Button';
 
 export default function SupportTableEnterprise() {
   return (
     <div className="items-center rounded-3xl border-2 border-emerald-300/10 bg-emerald-300/3 px-10 py-8 text-left text-emerald-100 md:mx-32 md:flex md:px-16 md:py-10">
       <div className="grow">
-        <h4 className="text-2xl font-semibold text-emerald-400">Сотрудничество</h4>
-        <p className="lg:max-w-2xl">Готовы делать классные активности совместно с другими командами (огранизациями). </p>
+        <h4 className="text-2xl font-semibold text-emerald-400">
+          Сотрудничество
+        </h4>
+        <p className="lg:max-w-2xl">
+          Готовы делать классные активности совместно с другими командами
+          (огранизациями).{' '}
+        </p>
 
         <Button
           type="button"
@@ -44,7 +49,7 @@ export default function SupportTableEnterprise() {
 const Icon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="inline-flex text-emerald-400 min-h-5 min-w-5"
+    className="inline-flex min-h-5 min-w-5 text-emerald-400"
     width="20"
     height="20"
     viewBox="0 0 24 24"

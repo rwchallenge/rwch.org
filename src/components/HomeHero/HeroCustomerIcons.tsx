@@ -10,7 +10,7 @@ export function Advertisement() {
       strokeLinejoin="round"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 12m-10 0a10 10 0 1 0 20 0a10 10 0 1 0 -20 0" />
       <path d="M7 15v-4.5a1.5 1.5 0 0 1 3 0v4.5" />
       <path d="M7 13h3" />
@@ -31,7 +31,7 @@ export function NewParnter() {
       strokeLinejoin="round"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
       <path d="M15 12h-6" />
       <path d="M12 9v6" />
@@ -41,11 +41,7 @@ export function NewParnter() {
 
 export function RWChallenge() {
   return (
-    <svg
-      height={32}
-      viewBox="-5 0 265 80"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg height={32} viewBox="-5 0 265 80" xmlns="http://www.w3.org/2000/svg">
       <g transform="translate(-77.947 33.407)">
         <g transform="translate(4.6538 -.74645)">
           <text
@@ -76,13 +72,11 @@ export function RWChallenge() {
               transform="translate(-63.264 -431.43)"
               d="m301.18 265.64h17.156l-49.406 137.06h-15.75l-49.125-137.06h16.875l31.5 88.688q5.4375 15.281 8.625 29.719 3.375-15.188 8.8125-30.281z"
             />
-            <path
-              d="m173.32-165.79h17.156l-49.406 137.06h-15.75l6.5357-19.549c3.1429-10.125 6.5268-19.326 10.152-29.388z"
-            />
+            <path d="m173.32-165.79h17.156l-49.406 137.06h-15.75l6.5357-19.549c3.1429-10.125 6.5268-19.326 10.152-29.388z" />
           </g>
         </g>
       </g>
-   </svg>
+    </svg>
   );
 }
 

@@ -6,8 +6,8 @@ export function LogoIcon({
 }: HTMLProps<SVGSVGElement> & {
   lightBg?: boolean;
 }) {
-  const top = lightBg ? "fill-emerald-400" : "fill-emerald-300";
-  const bottom = lightBg ? "fill-emerald-500" : "fill-emerald-400";
+  const top = lightBg ? 'fill-emerald-400' : 'fill-emerald-300';
+  const bottom = lightBg ? 'fill-emerald-500' : 'fill-emerald-400';
 
   return (
     <svg
@@ -43,8 +43,8 @@ export function Logo({
 }: HTMLProps<SVGSVGElement> & {
   lightBg?: boolean;
 }) {
-  const top = lightBg ? "fill-emerald-400" : "fill-emerald-300";
-  const bottom = lightBg ? "fill-emerald-500" : "fill-emerald-400";
+  const top = lightBg ? 'fill-emerald-400' : 'fill-emerald-300';
+  const bottom = lightBg ? 'fill-emerald-500' : 'fill-emerald-400';
 
   return (
     <svg
@@ -88,6 +88,6 @@ export function Logo({
           </g>
         </g>
       </g>
-   </svg>
+    </svg>
   );
 }
