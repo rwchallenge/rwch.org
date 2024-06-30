@@ -25,11 +25,7 @@ const {
           class:list={[
             'inline-flex translate-y-1/4 items-center opacity-0 transition',
             'group-hover/source-box:translate-y-0 group-hover/source-box:opacity-100',
-            category === 'Football' && 'text-blue-400',
-            category === 'Football8' && 'text-blue-400',
-            category === 'Football7' && 'text-blue-400',
-            category === 'Football6' && 'text-blue-400',
-            category === 'Football5' && 'text-blue-400',
+            (category as string).indexOf('Football') === 0 && 'text-blue-400',
             category === 'Volleyball' && 'text-yellow-400',
             category === 'RWAction' && 'text-red-300',
           ]}
@@ -65,11 +61,8 @@ const {
   <div
     class:list={[
       '-mb-1 mt-3 inline-flex items-center gap-2 self-start rounded-full px-2 py-1 text-sm opacity-80',
-      category === 'Football' && 'bg-blue-300/10 text-blue-300',
-      category === 'Football8' && 'bg-blue-300/10 text-blue-300',
-      category === 'Football7' && 'bg-blue-300/10 text-blue-300',
-      category === 'Football6' && 'bg-blue-300/10 text-blue-300',
-      category === 'Football5' && 'bg-blue-300/10 text-blue-300',
+      (category as string).indexOf('Football') === 0 &&
+        'bg-blue-300/10 text-blue-300',
       category === 'Volleyball' && 'bg-yellow-300/10 text-yellow-300',
       category === 'RWAction' && 'bg-red-300/10 text-red-300',
     ]}

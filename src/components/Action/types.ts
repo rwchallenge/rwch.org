@@ -4,6 +4,7 @@ export enum Category {
   Football7 = 'Футбол 7x7',
   Football6 = 'Футбол 6x6',
   Football5 = 'Футзал',
+  FootballB = 'Футбол пляжный',
   Volleyball = 'Волейбол',
   RWAction = 'RW активность',
 }

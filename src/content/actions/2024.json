@@ -83,15 +83,22 @@
     "title": "Primer Football Cup Весна 2024",
     "description": "Чемпионат \"Primer Football Cup\". Весна 2024. Первый дивизион.",
     "category": "Football7",
-    "status": "Active",
+    "status": "Archive",
     "begin": "2024-01-20",
-    "end": "",
+    "end": "2024-06-15",
     "place": {
       "name": "Дворец спортивных игр \"Зенит\"",
       "url": "http://dsizenit.ru",
       "address": "Санкт-Петербург, ул. Бутлерова, д. 9"
     },
-    "video": "https://youtu.be/kr-Bi6MCgA4"
+    "images": [
+      "./images/2024/pfc/01.jpg",
+      "./images/2024/pfc/02.jpg",
+      "./images/2024/pfc/03.jpg",
+      "./images/2024/pfc/04.jpg",
+      "./images/2024/pfc/05.jpg"
+    ],
+    "video": "https://youtu.be/n_BVELe1kD4"
   },
   {
     "id": 6,
@@ -259,10 +266,42 @@
   },
   {
     "id": 11,
+    "slug": "spbchamp-beach",
+    "url": "https://stat.ffspb.org/tournament38657",
+    "title": "Чемпионат СПб по пляжному футболу 2024",
+    "description": "Чемпионат Санкт-Петербурга по пляжному футболу среди мужских команд сезона 2024 года. Высший дивизион.",
+    "category": "FootballB",
+    "status": "Active",
+    "begin": "2024-06-06",
+    "end": "",
+    "place": {
+      "name": "СК \"Nova Arena\"",
+      "url": "https://www.novaarena.ru",
+      "address": "Санкт-Петербург, Гражданский проспект, 100"
+    }
+  },
+  {
+    "id": 12,
+    "slug": "spbcup",
+    "url": "https://stat.ffspb.org/tournament37620",
+    "title": "Кубок СПб по футболу 2024",
+    "description": "Кубок Санкт-Петербурга по футболу среди мужских команд сезона 2024 года.",
+    "category": "Football",
+    "status": "Active",
+    "begin": "2023-05-20",
+    "end": "",
+    "place": {
+      "name": "Стадион \"Кировец\"",
+      "url": "https://stadiumkirovetz.com/",
+      "address": "Санкт-Петербург, Перекопская улица 6-8"
+    }
+  },
+  {
+    "id": 13,
     "slug": "spbchamp",
     "url": "https://stat.ffspb.org/tournament37617",
     "title": "Чемпионат СПб по футболу 2024",
-    "description": "Чемпионат Санкт-Петербурга по футболу среди мужских команд высшей лиги спортивного сезона 2024 года.",
+    "description": "Зональный этап Всероссийских соревнований по футболу среди мужчин «Третья лига» - Чемпионат Санкт-Петербурга по футболу среди мужских команд высшей лиги сезона 2024 года.",
     "welcome": {
       "header": "Приглашение",
       "content": [

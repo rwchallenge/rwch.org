@@ -19,6 +19,7 @@ images:
   - "./images/football/07-sporting.jpg"
   - "./images/football/08-sporting.jpg"
   - "./images/football/09-sporting.jpg"
+  - "./images/football/10-pfc.jpg"
 url: "https://t.me/rw_football"
 draft: false
 ---
@@ -27,12 +28,14 @@ draft: false
 
 ## Сейчас команда играет в ведущих турнирах Санкт-Петербурга:
 - <a href="/actions/2024/spbchamp">Чемпионат города 11х11</a>.
+- <a href="/actions/2024/spbchamp-beach">Чемпионат города по пляжному футболу</a>.
 - <a href="/actions/2024/ole-t1">Суперлига Оле Пари 8х8</a>.
 - <a href="/actions/2024/pfc">ПФК Первый дивизион 7х7</a>.
 - <a href="/actions/2024/sporting">Спортинг лига Первый дивизион 7х7</a>.
 
 ## Достижения команды:
 
+- II место <a href="/actions/2024/pfc">Primer Football Cup Весна 2024</a>, Первый дивизион. Формат: 7х7.
 - II место <a href="/actions/2024/sporting">Спортинг лиги Весна 2024</a>, Первый дивизион. Формат: 7х7.
 - II место <a href="/actions/2023/sporting">Спортинг лиги Осень 2023</a>, Первый дивизион. Формат: 7х7.
 - IV место <a href="/actions/2023/spbchamp">Чемпионата Санкт-Петербурга по футболу среди мужских команд первой лиги сезона 2023 года</a>. Формат: 11х11.
