@@ -354,6 +354,21 @@
       "name": "Дворец спортивных игр \"Зенит\"",
       "url": "http://dsizenit.ru",
       "address": "Санкт-Петербург, ул. Бутлерова, д. 9"
-    }
+    },
+    "images": [
+      "./images/2024/pfc-autumn/01.jpg",
+      "./images/2024/pfc-autumn/02.jpg",
+      "./images/2024/pfc-autumn/03.jpg",
+      "./images/2024/pfc-autumn/04.jpg",
+      "./images/2024/pfc-autumn/05.jpg",
+      "./images/2024/pfc-autumn/06.jpg",
+      "./images/2024/pfc-autumn/07.jpg",
+      "./images/2024/pfc-autumn/08.jpg",
+      "./images/2024/pfc-autumn/09.jpg",
+      "./images/2024/pfc-autumn/10.jpg",
+      "./images/2024/pfc-autumn/11.jpg",
+      "./images/2024/pfc-autumn/12.jpg",
+      "./images/2024/pfc-autumn/13.jpg"
+    ]
   }
 ]
