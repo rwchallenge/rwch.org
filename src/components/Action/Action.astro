@@ -176,7 +176,11 @@ const {
             images && (
               <div class="post mt-8">
                 <h3>Фото</h3>
-                <Carousel numImages={images.length} client:load>
+                <Carousel
+                  numImages={images.length}
+                  autoSlide={true}
+                  client:load
+                >
                   {(images as ImageMetadata[]).map((img, i) => (
                     <Image src={img} width={1024} alt={`Фото ${i}`} />
                   ))}

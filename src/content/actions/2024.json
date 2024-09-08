@@ -80,8 +80,8 @@
     "id": 5,
     "slug": "pfc",
     "url": "https://pfchamp.ru/team/1350374",
-    "title": "Primer Football Cup Весна 2024",
-    "description": "Чемпионат \"Primer Football Cup\". Весна 2024. Первый дивизион.",
+    "title": "Premier Football Cup Весна 2024",
+    "description": "Чемпионат \"Premier Football Cup\". Весна 2024. Первый дивизион.",
     "category": "Football7",
     "status": "Archive",
     "begin": "2024-01-20",
@@ -271,14 +271,21 @@
     "title": "Чемпионат СПб по пляжному футболу 2024",
     "description": "Чемпионат Санкт-Петербурга по пляжному футболу среди мужских команд сезона 2024 года. Высший дивизион.",
     "category": "FootballB",
-    "status": "Active",
+    "status": "Archive",
     "begin": "2024-06-06",
-    "end": "",
+    "end": "2024-08-22",
     "place": {
       "name": "СК \"Nova Arena\"",
       "url": "https://www.novaarena.ru",
       "address": "Санкт-Петербург, Гражданский проспект, 100"
-    }
+    },
+    "images": [
+      "./images/2024/spbchamp-beach/01.jpg",
+      "./images/2024/spbchamp-beach/02.jpg",
+      "./images/2024/spbchamp-beach/03.jpg",
+      "./images/2024/spbchamp-beach/04.jpg",
+      "./images/2024/spbchamp-beach/05.jpg"
+    ]
   },
   {
     "id": 12,
@@ -332,5 +339,21 @@
       "./images/2024/spbchamp/06.jpg",
       "./images/2024/spbchamp/07.jpg"
     ]
+  },
+  {
+    "id": 14,
+    "slug": "pfc-autumn",
+    "url": "https://pfchamp.ru/team/1350374",
+    "title": "Premier Football Cup Осень 2024",
+    "description": "Чемпионат \"Premier Football Cup\". Осень 2024. Первый дивизион.",
+    "category": "Football7",
+    "status": "Active",
+    "begin": "2024-09-07",
+    "end": "",
+    "place": {
+      "name": "Дворец спортивных игр \"Зенит\"",
+      "url": "http://dsizenit.ru",
+      "address": "Санкт-Петербург, ул. Бутлерова, д. 9"
+    }
   }
 ]

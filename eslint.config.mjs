@@ -18,14 +18,7 @@ export default ts.config(
   ...eslintPluginAstro.configs.recommended,
   {
     name: 'Ignore patterns',
-    ignores: [
-      '.astro',
-      '.vscode',
-      'dist',
-      'minecolonies',
-      'node_modules',
-      'public',
-    ],
+    ignores: ['.astro', '.github', '.vscode', 'dist', 'node_modules', 'public'],
   },
   {
     name: 'Application rules (Astro)',

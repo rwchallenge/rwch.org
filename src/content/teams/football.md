@@ -4,29 +4,32 @@ title: 'Футбольная команда RWChallenge (РВЧеллендж)'
 description: 'Мужская команда. Играем в различных форматах.'
 skills:
   - '11x11 Чемпионат СПб'
+  - 'Пляжный футбол Чемпионат СПб'
   - '8x8 Оле Пари'
   - '7x7 Спортинг лига'
   - '7x7 ПФК'
   - '6x6 Оле Премиум'
   - '5x5 (футзал) Кубок Степанова'
 images:
-  - './images/football/01-spbchamp.jpg'
-  - './images/football/02-olepremium.jpg'
-  - './images/football/03-sporting.jpg'
-  - './images/football/04-olepremium.jpg'
-  - './images/football/05-stepcup.jpg'
+  - './images/football/01-spbchamp-beach.jpg'
+  - './images/football/02-pfc.jpg'
+  - './images/football/03-spbchamp24.jpg'
+  - './images/football/04-spbchamp.jpg'
+  - './images/football/05-sporting.jpg'
   - './images/football/06-sporting.jpg'
   - './images/football/07-sporting.jpg'
   - './images/football/08-sporting.jpg'
   - './images/football/09-sporting.jpg'
-  - './images/football/10-pfc.jpg'
+  - './images/football/10-olepremium.jpg'
+  - './images/football/11-olepremium.jpg'
+  - './images/football/12-stepcup.jpg'
 url: 'https://t.me/rw_football'
 draft: false
 ---
 
-Первая игра команды состоялась 26.04.2021 в Кубке любительской лиги Степанова в формате футзала.
+Первая игра команды состоялась 26.04.2021 в Кубке любительской лиги Степанова по футзалу.
 
-## Сейчас команда играет в ведущих турнирах Санкт-Петербурга:
+## Команда играет в ведущих турнирах Санкт-Петербурга:
 
 - <a href="/actions/2024/spbchamp">Чемпионат города 11х11</a>.
 - <a href="/actions/2024/spbchamp-beach">Чемпионат города по пляжному футболу</a>.
@@ -36,7 +39,8 @@ draft: false
 
 ## Достижения команды:
 
-- II место <a href="/actions/2024/pfc">Primer Football Cup Весна 2024</a>, Первый дивизион. Формат: 7х7.
+- I место <a href="/actions/2024/spbchamp-beach">Чемпионат СПб по пляжному футболу 2024</a>, Высший дивизион. Формат: Пляжный футбол.
+- II место <a href="/actions/2024/pfc">Premier Football Cup Весна 2024</a>, Первый дивизион. Формат: 7х7.
 - II место <a href="/actions/2024/sporting">Спортинг лиги Весна 2024</a>, Первый дивизион. Формат: 7х7.
 - II место <a href="/actions/2023/sporting">Спортинг лиги Осень 2023</a>, Первый дивизион. Формат: 7х7.
 - IV место <a href="/actions/2023/spbchamp">Чемпионата Санкт-Петербурга по футболу среди мужских команд первой лиги сезона 2023 года</a>. Формат: 11х11.
