@@ -28,7 +28,7 @@
   {
     "id": 2,
     "slug": "kvl-w-r2",
-    "url": "https://v-open.spb.ru/component/volleychamp/?view=players&tid=1137",
+    "url": "https://v-open.spb.ru/index.php?option=com_volleychamp&view=players&op=3&tid=1137&hid=48",
     "title": "КВЛ Сезон 2023/2024 Второй круг Жен",
     "description": "\"Клуб любителей волейбола\". Сезон 2023/2024. Второй круг. Женская лига \"С\". Женская команда.",
     "category": "Volleyball",
@@ -37,7 +37,7 @@
     "end": "2024-05-05",
     "place": {
       "name": "Школа 553",
-      "url": "https://spbschool553.com/sample-page/kontaktyi",
+      "url": "https://spbschool553.com",
       "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
     },
     "video": "https://youtu.be/AGRcBATtRiU"
@@ -45,7 +45,7 @@
   {
     "id": 3,
     "slug": "kvl-m2-r2",
-    "url": "https://v-open.spb.ru/component/volleychamp/?view=players&tid=1002",
+    "url": "https://v-open.spb.ru/index.php?option=com_volleychamp&view=players&op=3&tid=1002&hid=48",
     "title": "КВЛ Сезон 2023/2024 Второй круг Муж 2",
     "description": "\"Клуб любителей волейбола\". Сезон 2023/2024. Второй круг. Медиум лига Юг. Вторая мужская команда.",
     "category": "Volleyball",
@@ -54,7 +54,7 @@
     "end": "2024-05-15",
     "place": {
       "name": "Школа 553",
-      "url": "https://spbschool553.com/sample-page/kontaktyi",
+      "url": "https://spbschool553.com",
       "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
     },
     "video": "https://youtu.be/9xrsg7AISko"
@@ -62,7 +62,7 @@
   {
     "id": 4,
     "slug": "kvl-m1-r2",
-    "url": "https://v-open.spb.ru/component/volleychamp/?view=players&tid=537",
+    "url": "https://v-open.spb.ru/index.php?option=com_volleychamp&view=players&op=3&tid=537&hid=48",
     "title": "КВЛ Сезон 2023/2024 Второй круг Муж",
     "description": "\"Клуб любителей волейбола\". Сезон 2023/2024. Второй круг. Медиум лига Юг. Первая мужская команда.",
     "category": "Volleyball",
@@ -71,10 +71,13 @@
     "end": "2024-05-15",
     "place": {
       "name": "Школа 553",
-      "url": "https://spbschool553.com/sample-page/kontaktyi",
+      "url": "https://spbschool553.com",
       "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
     },
-    "video": "https://youtu.be/tsonjYcgGoU"
+    "video": "https://youtu.be/tsonjYcgGoU",
+    "images": [
+      "./images/2024/kvl-m1-r2/01.jpg"
+    ]
   },
   {
     "id": 5,
@@ -129,15 +132,29 @@
     "title": "Оле Пари 8x8 Сезон 2024 Первая лига",
     "description": "XVIII сезон 2024. Дивизион \"Московский\". Первая лига. Вторая команда.",
     "category": "Football8",
-    "status": "Active",
+    "status": "Archive",
     "begin": "2024-04-13",
-    "end": "",
+    "end": "2024-10-26",
     "place": {
       "name": "Стадион \"Московский\"",
       "url": "https://sport-mosk.ru",
       "address": "Санкт-Петербург, Московский пр., д.102, корп.2, лит.А"
     },
-    "video": "https://youtu.be/KOhzSD9tj9o"
+    "video": "https://youtu.be/KOhzSD9tj9o",
+    "images": [
+      "./images/2024/ole-t2/01.jpg",
+      "./images/2024/ole-t2/02.jpg",
+      "./images/2024/ole-t2/03.jpg",
+      "./images/2024/ole-t2/04.jpg",
+      "./images/2024/ole-t2/05.jpg",
+      "./images/2024/ole-t2/06.jpg",
+      "./images/2024/ole-t2/07.jpg",
+      "./images/2024/ole-t2/08.jpg",
+      "./images/2024/ole-t2/09.jpg",
+      "./images/2024/ole-t2/10.jpg",
+      "./images/2024/ole-t2/11.jpg",
+      "./images/2024/ole-t2/12.jpg"
+    ]
   },
   {
     "id": 8,
@@ -146,15 +163,35 @@
     "title": "Оле Пари 8x8 Сезон 2024 Суперлига",
     "description": "XVIII сезон 2024. Суперлига. Первая команда.",
     "category": "Football8",
-    "status": "Active",
+    "status": "Archive",
     "begin": "2024-04-14",
-    "end": "",
+    "end": "2024-10-27",
     "place": {
       "name": "СК \"Политехник\"",
       "url": "https://sport.spbstu.ru",
       "address": "Санкт-Петербург, ул. Политехническая, д. 27"
     },
-    "video": "https://youtu.be/IuvS3E4aRUI"
+    "video": "https://youtu.be/IuvS3E4aRUI",
+    "images": [
+      "./images/2024/ole-t1/01.jpg",
+      "./images/2024/ole-t1/02.jpg",
+      "./images/2024/ole-t1/03.jpg",
+      "./images/2024/ole-t1/04.jpg",
+      "./images/2024/ole-t1/05.jpg",
+      "./images/2024/ole-t1/06.jpg",
+      "./images/2024/ole-t1/07.jpg",
+      "./images/2024/ole-t1/08.jpg",
+      "./images/2024/ole-t1/09.jpg",
+      "./images/2024/ole-t1/10.jpg",
+      "./images/2024/ole-t1/11.jpg",
+      "./images/2024/ole-t1/12.jpg",
+      "./images/2024/ole-t1/13.jpg",
+      "./images/2024/ole-t1/14.jpg",
+      "./images/2024/ole-t1/15.jpg",
+      "./images/2024/ole-t1/16.jpg",
+      "./images/2024/ole-t1/17.jpg",
+      "./images/2024/ole-t1/18.jpg"
+    ]
   },
   {
     "id": 9,
@@ -294,14 +331,28 @@
     "title": "Кубок СПб по футболу 2024",
     "description": "Кубок Санкт-Петербурга по футболу среди мужских команд сезона 2024 года.",
     "category": "Football",
-    "status": "Active",
-    "begin": "2023-05-20",
-    "end": "",
+    "status": "Archive",
+    "begin": "2024-05-20",
+    "end": "2024-09-21",
     "place": {
       "name": "Стадион \"Кировец\"",
       "url": "https://stadiumkirovetz.com/",
       "address": "Санкт-Петербург, Перекопская улица 6-8"
-    }
+    },
+    "images": [
+      "./images/2024/spbcup/01.jpg",
+      "./images/2024/spbcup/02.jpg",
+      "./images/2024/spbcup/03.jpg",
+      "./images/2024/spbcup/04.jpg",
+      "./images/2024/spbcup/05.jpg",
+      "./images/2024/spbcup/06.jpg",
+      "./images/2024/spbcup/07.jpg",
+      "./images/2024/spbcup/08.jpg",
+      "./images/2024/spbcup/09.jpg",
+      "./images/2024/spbcup/10.jpg",
+      "./images/2024/spbcup/11.jpg",
+      "./images/2024/spbcup/12.jpg"
+    ]
   },
   {
     "id": 13,
@@ -321,9 +372,9 @@
       ]
     },
     "category": "Football",
-    "status": "Active",
+    "status": "Archive",
     "begin": "2024-05-16",
-    "end": "",
+    "end": "2024-10-09",
     "place": {
       "name": "СК \"Nova Arena\"",
       "url": "https://www.novaarena.ru",
@@ -370,5 +421,57 @@
       "./images/2024/pfc-autumn/12.jpg",
       "./images/2024/pfc-autumn/13.jpg"
     ]
+  },
+  {
+    "id": 15,
+    "slug": "kvl-w-r1",
+    "url": "https://v-open.spb.ru/component/volleychamp/?view=players&tid=1215",
+    "title": "КВЛ Сезон 2024/2025 Первый круг Жен",
+    "description": "\"Клуб любителей волейбола\". Сезон 2024/2025. Первый круг. Женская лига \"С\". Женская команда.",
+    "category": "Volleyball",
+    "status": "Active",
+    "begin": "2024-10-13",
+    "end": "",
+    "place": {
+      "name": "Школа 553",
+      "url": "https://spbschool553.com",
+      "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
+    },
+    "images": [
+      "./images/2024/kvl-w-r1/01.jpg",
+      "./images/2024/kvl-w-r1/02.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "kvl-m2-r1",
+    "url": "https://v-open.spb.ru/component/volleychamp/?view=players&tid=1002",
+    "title": "КВЛ Сезон 2024/2025 Первый круг Муж 2",
+    "description": "\"Клуб любителей волейбола\". Сезон 2024/2025. Первый круг. Медиум лига Юг. Вторая мужская команда.",
+    "category": "Volleyball",
+    "status": "Active",
+    "begin": "2024-10-10",
+    "end": "",
+    "place": {
+      "name": "Школа 553",
+      "url": "https://spbschool553.com",
+      "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
+    }
+  },
+  {
+    "id": 17,
+    "slug": "kvl-m1-r1",
+    "url": "https://v-open.spb.ru/component/volleychamp/?view=players&tid=537",
+    "title": "КВЛ Сезон 2024/2025 Первый круг Муж",
+    "description": "\"Клуб любителей волейбола\". Сезон 2024/2025. Первый круг. Медиум лига Юг. Первая мужская команда.",
+    "category": "Volleyball",
+    "status": "Active",
+    "begin": "2024-10-09",
+    "end": "",
+    "place": {
+      "name": "Школа 553",
+      "url": "https://spbschool553.com",
+      "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
+    }
   }
 ]

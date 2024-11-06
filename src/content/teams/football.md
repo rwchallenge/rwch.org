@@ -11,6 +11,7 @@ skills:
   - '6x6 Оле Премиум'
   - '5x5 (футзал) Кубок Степанова'
 images:
+  - "./images/football/01-spbcup24.jpg"
   - './images/football/01-spbchamp-beach.jpg'
   - './images/football/02-pfc.jpg'
   - './images/football/03-spbchamp24.jpg'
@@ -39,6 +40,7 @@ draft: false
 
 ## Достижения команды:
 
+- I место <a href="/actions/2024/spbcup">Кубок СПб по футболу среди мужских команд сезона 2024 года</a>.
 - I место <a href="/actions/2024/spbchamp-beach">Чемпионат СПб по пляжному футболу 2024</a>, Высший дивизион. Формат: Пляжный футбол.
 - II место <a href="/actions/2024/pfc">Premier Football Cup Весна 2024</a>, Первый дивизион. Формат: 7х7.
 - II место <a href="/actions/2024/sporting">Спортинг лиги Весна 2024</a>, Первый дивизион. Формат: 7х7.
