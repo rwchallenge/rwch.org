@@ -39,23 +39,23 @@ const Carousel = ({
       <div className="absolute inset-0 flex items-center justify-between p-4">
         <button
           onClick={prev}
-          className="rounded-full bg-white/80 p-1 text-gray-800 shadow hover:bg-white"
+          className="rounded-full bg-white/80 p-1 text-gray-800 shadow-sm hover:bg-white"
         >
           <IconChevronLeft />
         </button>
         <button
           onClick={next}
-          className="rounded-full bg-white/80 p-1 text-gray-800 shadow hover:bg-white"
+          className="rounded-full bg-white/80 p-1 text-gray-800 shadow-sm hover:bg-white"
         >
           <IconChevronRight />
         </button>
       </div>
-      <div className="absolute bottom-4 left-0 right-0">
+      <div className="absolute right-0 bottom-4 left-0">
         <div className="flex items-center justify-center gap-2">
           {[...Array<number>(numImages)].map((_, i) => (
             <div
               key={i}
-              className={`h-1.5 w-1.5 rounded-full bg-white transition-all ${curr === i ? 'p-0.5' : 'bg-opacity-50'}`}
+              className={`h-1.5 w-1.5 rounded-full bg-white transition-all ${curr === i ? 'p-0.5' : 'bg-white/50'}`}
             />
           ))}
         </div>

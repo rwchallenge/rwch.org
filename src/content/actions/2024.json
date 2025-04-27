@@ -75,9 +75,7 @@
       "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
     },
     "video": "https://youtu.be/tsonjYcgGoU",
-    "images": [
-      "./images/2024/kvl-m1-r2/01.jpg"
-    ]
+    "images": ["./images/2024/kvl-m1-r2/01.jpg"]
   },
   {
     "id": 5,
@@ -398,9 +396,9 @@
     "title": "Premier Football Cup Осень 2024",
     "description": "Чемпионат \"Premier Football Cup\". Осень 2024. Первый дивизион.",
     "category": "Football7",
-    "status": "Active",
+    "status": "Archive",
     "begin": "2024-09-07",
-    "end": "",
+    "end": "2024-12-21",
     "place": {
       "name": "Дворец спортивных игр \"Зенит\"",
       "url": "http://dsizenit.ru",
@@ -419,7 +417,10 @@
       "./images/2024/pfc-autumn/10.jpg",
       "./images/2024/pfc-autumn/11.jpg",
       "./images/2024/pfc-autumn/12.jpg",
-      "./images/2024/pfc-autumn/13.jpg"
+      "./images/2024/pfc-autumn/13.jpg",
+      "./images/2024/pfc-autumn/14.jpg",
+      "./images/2024/pfc-autumn/15.jpg",
+      "./images/2024/pfc-autumn/16.jpg"
     ]
   },
   {
@@ -429,9 +430,9 @@
     "title": "КВЛ Сезон 2024/2025 Первый круг Жен",
     "description": "\"Клуб любителей волейбола\". Сезон 2024/2025. Первый круг. Женская лига \"С\". Женская команда.",
     "category": "Volleyball",
-    "status": "Active",
+    "status": "Archive",
     "begin": "2024-10-13",
-    "end": "",
+    "end": "2024-12-22",
     "place": {
       "name": "Школа 553",
       "url": "https://spbschool553.com",
@@ -439,8 +440,12 @@
     },
     "images": [
       "./images/2024/kvl-w-r1/01.jpg",
-      "./images/2024/kvl-w-r1/02.jpg"
-    ]
+      "./images/2024/kvl-w-r1/02.jpg",
+      "./images/2024/kvl-w-r1/03.jpg",
+      "./images/2024/kvl-w-r1/04.jpg",
+      "./images/2024/kvl-w-r1/05.jpg"
+    ],
+    "video": "https://www.youtube.com/watch?v=OPou9UtCDNA"
   },
   {
     "id": 16,
@@ -449,14 +454,21 @@
     "title": "КВЛ Сезон 2024/2025 Первый круг Муж 2",
     "description": "\"Клуб любителей волейбола\". Сезон 2024/2025. Первый круг. Медиум лига Юг. Вторая мужская команда.",
     "category": "Volleyball",
-    "status": "Active",
+    "status": "Archive",
     "begin": "2024-10-10",
-    "end": "",
+    "end": "2024-12-22",
     "place": {
       "name": "Школа 553",
       "url": "https://spbschool553.com",
       "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
-    }
+    },
+    "images": [
+      "./images/2024/kvl-m2-r1/01.jpg",
+      "./images/2024/kvl-m2-r1/02.jpg",
+      "./images/2024/kvl-m2-r1/03.jpg",
+      "./images/2024/kvl-m2-r1/04.jpg"
+    ],
+    "video": "https://www.youtube.com/watch?v=EicMFJJXYM8"
   },
   {
     "id": 17,
@@ -465,13 +477,19 @@
     "title": "КВЛ Сезон 2024/2025 Первый круг Муж",
     "description": "\"Клуб любителей волейбола\". Сезон 2024/2025. Первый круг. Медиум лига Юг. Первая мужская команда.",
     "category": "Volleyball",
-    "status": "Active",
+    "status": "Archive",
     "begin": "2024-10-09",
-    "end": "",
+    "end": "2024-12-18",
     "place": {
       "name": "Школа 553",
       "url": "https://spbschool553.com",
       "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
-    }
+    },
+    "images": [
+      "./images/2024/kvl-m1-r1/01.jpg",
+      "./images/2024/kvl-m1-r1/02.jpg",
+      "./images/2024/kvl-m1-r1/03.jpg",
+      "./images/2024/kvl-m1-r1/04.jpg"
+    ]
   }
 ]

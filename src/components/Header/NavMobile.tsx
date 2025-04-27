@@ -67,6 +67,10 @@ const NavItems: {
     href: '/about',
   },
   {
+    name: 'Активности 2025',
+    href: '/actions/2025',
+  },
+  {
     name: 'Активности 2024',
     href: '/actions/2024',
   },

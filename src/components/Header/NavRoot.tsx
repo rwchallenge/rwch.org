@@ -40,7 +40,7 @@ export default function NavigationRoot({ children }: PropsWithChildren) {
         </NavigationMenu.Indicator>
       </NavigationMenu.List>
 
-      <div className="absolute left-20 right-0 top-full flex w-full justify-center perspective-[2000px]">
+      <div className="absolute top-full right-0 left-20 flex w-full justify-center perspective-[2000px]">
         <NavigationMenu.Viewport
           className={cx(
             'relative mt-[7px] bg-white text-zinc-900',
@@ -62,7 +62,7 @@ export function NewNavigationTrigger({ children }: NavigationMenuTriggerProps) {
   return (
     <NavigationMenu.Trigger
       className={cx(
-        'group flex select-none items-center gap-0.5',
+        'group flex items-center gap-0.5 select-none',
         'rounded-full px-3 py-2',
         'opacity-60 hover:bg-white/5 hover:opacity-100',
         'data-[state=open]:bg-white/5',
@@ -90,11 +90,11 @@ export function NewNavigationContent({
   return (
     <NavigationMenu.Content
       className={cx(
-        'data-[motion=from-start]:animate-enterFromLeft',
-        'data-[motion=from-end]:animate-enterFromRight',
-        'data-[motion=to-start]:animate-exitToLeft',
-        'data-[motion=to-end]:animate-exitToRight',
-        'absolute left-0 top-0 w-auto',
+        'data-[motion=from-start]:animate-enter-from-left',
+        'data-[motion=from-end]:animate-enter-from-right',
+        'data-[motion=to-start]:animate-exit-to-left',
+        'data-[motion=to-end]:animate-exit-to-right',
+        'absolute top-0 left-0 w-auto',
       )}
       {...props}
     >
@@ -119,7 +119,7 @@ const ListItem = React.forwardRef(
       <NavigationMenu.Link asChild {...otherProps}>
         <a
           className={cx(
-            'flex select-none items-center gap-5 rounded-xl p-5',
+            'flex items-center gap-5 rounded-xl p-5 select-none',
             'bg-black/5',
             'hover:bg-black/10',
             className,

@@ -23,6 +23,8 @@ export async function getStaticPaths() {
 ---
 
 <style is:global>
+  @reference "tailwindcss";
+
   .faq [data-state='open'] + [data-state='closed'] {
     @apply border-t-transparent;
   }

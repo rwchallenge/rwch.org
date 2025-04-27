@@ -47,7 +47,6 @@ export function RWChallenge() {
           <text
             x="178.52498"
             y="-9.1375799"
-            fontFamily="'Open Sans'"
             fontSize="30px"
             strokeWidth=".32"
             fill="currentColor"

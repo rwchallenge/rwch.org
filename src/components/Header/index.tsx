@@ -26,7 +26,7 @@ export default function Header({
   return (
     <header
       className={cx(
-        'fixed inset-x-0 top-0 z-50 hidden bg-zinc-950/80 backdrop-blur transition will-change-auto md:block',
+        'fixed inset-x-0 top-0 z-50 hidden bg-zinc-950/80 backdrop-blur-sm transition will-change-auto md:block',
         className,
       )}
       {...props}

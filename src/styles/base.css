@@ -20,7 +20,7 @@
   h4,
   h5,
   h6 {
-    @apply font-medium leading-tight;
+    @apply leading-tight font-medium;
   }
 
   h1,

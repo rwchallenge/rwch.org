@@ -30,11 +30,11 @@ export default function PayYoomoney({ label }: Props) {
       <div>
         <label
           htmlFor={manualSumInputId}
-          className="block text-sm font-medium leading-6 text-gray-100"
+          className="block text-sm leading-6 font-medium text-gray-100"
         >
           Сумма поддержки
         </label>
-        <div className="relative mt-2 rounded-md shadow-sm">
+        <div className="relative mt-2 rounded-md shadow-xs">
           <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3">
             <span className="text-gray-500 sm:text-sm">₽</span>
           </div>
@@ -49,7 +49,7 @@ export default function PayYoomoney({ label }: Props) {
               e.target.validity.valid && setSumma(e.target.value)
             }
             className={cx(
-              'block w-full rounded-md border-0 py-1.5 pl-8 pr-8 sm:text-sm sm:leading-6',
+              'block w-full rounded-md border-0 py-1.5 pr-8 pl-8 sm:text-sm sm:leading-6',
               'bg-zinc-50 text-zinc-950 placeholder:text-zinc-400',
               'focus:ring-4 focus:ring-emerald-400',
             )}
@@ -76,10 +76,10 @@ export default function PayYoomoney({ label }: Props) {
                 className={({ checked }) =>
                   cx(
                     'h-full w-full',
-                    'cursor-pointer border-white/20 bg-white/10 text-white/80 shadow-sm',
+                    'cursor-pointer border-white/20 bg-white/10 text-white/80 shadow-xs',
                     checked ? 'text-emerald-400 ring-2 ring-emerald-400' : '',
                     'group relative flex items-center justify-center rounded-md border px-4 py-3',
-                    'text-sm font-medium uppercase hover:bg-white/15 focus:outline-none sm:flex-1',
+                    'text-sm font-medium uppercase hover:bg-white/15 focus:outline-hidden sm:flex-1',
                   )
                 }
               >

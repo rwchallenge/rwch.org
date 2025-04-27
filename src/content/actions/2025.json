@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "slug": "kvl-w-r2",
+    "url": "https://v-open.spb.ru/component/volleychamp/?view=players&tid=1215",
+    "title": "КВЛ Сезон 2024/2025 Второй круг Жен",
+    "description": "\"Клуб любителей волейбола\". Сезон 2024/2025. Второй круг. Женская лига \"С3\". Женская команда.",
+    "category": "Volleyball",
+    "status": "Archive",
+    "begin": "2025-02-09",
+    "end": "2025-04-19",
+    "place": {
+      "name": "Школа 553",
+      "url": "https://spbschool553.com",
+      "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
+    }
+  },
+  {
+    "id": 2,
+    "slug": "kvl-m2-r2",
+    "url": "https://v-open.spb.ru/component/volleychamp/?view=players&tid=1002",
+    "title": "КВЛ Сезон 2024/2025 Второй круг Муж 2",
+    "description": "\"Клуб любителей волейбола\". Сезон 2024/2025. Второй круг. Медиум лига Юг 2. Вторая мужская команда.",
+    "category": "Volleyball",
+    "status": "Active",
+    "begin": "2025-0-31",
+    "end": "",
+    "place": {
+      "name": "Школа 553",
+      "url": "https://spbschool553.com",
+      "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
+    }
+  },
+  {
+    "id": 3,
+    "slug": "kvl-m1-r2",
+    "url": "https://v-open.spb.ru/component/volleychamp/?view=players&tid=537",
+    "title": "КВЛ Сезон 2024/2025 Второй круг Муж",
+    "description": "\"Клуб любителей волейбола\". Сезон 2023/2024. Второй круг. Медиум лига Юг 1. Первая мужская команда.",
+    "category": "Volleyball",
+    "status": "Active",
+    "begin": "2025-02-05",
+    "end": "",
+    "place": {
+      "name": "Школа 553",
+      "url": "https://spbschool553.com",
+      "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
+    }
+  },
+  {
+    "id": 4,
+    "slug": "spbsupercup",
+    "url": "https://stat.ffspb.org/tournament40565",
+    "title": "Суперкубок СПб по футболу",
+    "description": "Региональные соревнования \"Суперкубок Федерации футбола\" спортивного сезона 2025",
+    "category": "Football",
+    "status": "Target",
+    "begin": "2025-05-08",
+    "end": ""
+  },
+  {
+    "id": 5,
+    "slug": "spbcup",
+    "url": "https://stat.ffspb.org/tournament40557",
+    "title": "Кубок СПб по футболу 2025",
+    "description": "Кубок Санкт-Петербурга по футболу среди мужских команд спортивного сезона 2025 года.",
+    "category": "Football",
+    "status": "Target",
+    "begin": "2025-05-20",
+    "end": ""
+  },
+  {
+    "id": 6,
+    "slug": "spbchamp",
+    "url": "https://stat.ffspb.org/tournament40553",
+    "title": "Чемпионат СПб по футболу 2025",
+    "description": "Зональный этап Всероссийских соревнований по футболу среди мужчин «Третья лига» - Чемпионат Санкт-Петербурга по футболу среди мужских команд высшей лиги спортивного сезона 2025.",
+    "welcome": {
+      "header": "Приглашение",
+      "content": [
+        "<p>",
+        "Ищем поддержку или <a href='mailto:fc@rwch.org'>сотрудничество</a> на данную активность.",
+        "</p>"
+      ]
+    },
+    "category": "Football",
+    "status": "Target",
+    "begin": "2024-05-14",
+    "end": "",
+    "place": {
+      "name": "СК \"Nova Arena\"",
+      "url": "https://www.novaarena.ru",
+      "address": "Санкт-Петербург, Гражданский проспект, 100"
+    }
+  }
+]

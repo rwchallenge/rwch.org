@@ -42,7 +42,7 @@ const AccordionTrigger = React.forwardRef(
           className={cx(
             'group flex w-full items-center justify-between',
             'p-6 opacity-60',
-            'text-lg font-medium leading-none',
+            'text-lg leading-none font-medium',
             'hover:bg-white/3',
             'data-[state=open]:text-emerald-400',
             'data-[state=open]:bg-transparent',
@@ -79,8 +79,8 @@ const AccordionContent = React.forwardRef(
       <Accordion.Content
         className={cx(
           'faq-body',
-          'data-[state=open]:animate-slideDown',
-          'data-[state=closed]:animate-slideUp',
+          'data-[state=open]:animate-slide-down',
+          'data-[state=closed]:animate-slide-up',
           'overflow-hidden',
           className,
         )}

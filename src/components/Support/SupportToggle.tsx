@@ -23,7 +23,7 @@ export default function ProductToggle({ product }: { product: string }) {
               key={key}
               href={`/support${key === '/' ? '' : key}`}
               className={cx(
-                'relative flex cursor-pointer select-none items-center gap-1',
+                'relative flex cursor-pointer items-center gap-1 select-none',
                 'rounded-lg px-3 py-1.5 text-zinc-400 transition',
                 'hover:bg-white/10',
                 isActive && '!text-zinc-950 hover:bg-transparent',
@@ -33,7 +33,7 @@ export default function ProductToggle({ product }: { product: string }) {
               {isActive && (
                 <motion.span
                   layoutId="bg"
-                  className="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-2xl"
+                  className="absolute top-0 left-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-2xl"
                   transition={{
                     duration: 0.2,
                   }}

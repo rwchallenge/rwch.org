@@ -23,7 +23,7 @@ export default function PageHeaderTitle({
   return (
     <Tag
       className={cx(
-        'font-display font-bold !leading-title',
+        'font-display leading-title! font-bold',
         size[as],
         className,
       )}

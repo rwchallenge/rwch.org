@@ -15,7 +15,7 @@ export default function SupportTableEnterprise() {
         <Button
           type="button"
           href="mailto:support@rwch.org"
-          className="-ml-1 mt-4 hidden bg-emerald-400 font-medium text-zinc-950 md:inline-flex"
+          className="mt-4 -ml-1 hidden bg-emerald-400 font-medium text-zinc-950 md:inline-flex"
         >
           Напишите нам
         </Button>
@@ -38,7 +38,7 @@ export default function SupportTableEnterprise() {
       <Button
         type="button"
         href="mailto:support@rwch.org"
-        className="-ml-1 mt-6 bg-emerald-400 font-medium text-zinc-950 md:hidden"
+        className="mt-6 -ml-1 bg-emerald-400 font-medium text-zinc-950 md:hidden"
       >
         Напишите нам
       </Button>

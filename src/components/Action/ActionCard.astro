@@ -12,7 +12,7 @@ const {
 ---
 
 <a
-  class="group/source-box flex flex-col rounded-3xl bg-white/5 p-6 backdrop-blur transition hover:scale-[1.02] hover:bg-white/10 md:p-8"
+  class="group/source-box flex flex-col rounded-3xl bg-white/5 p-6 backdrop-blur-sm transition hover:scale-[1.02] hover:bg-white/10 md:p-8"
   href={href}
 >
   <h5 class="font-display flex items-center gap-2 text-xl font-medium">
@@ -42,7 +42,7 @@ const {
     new Date(end).getFullYear() === new Date().getFullYear() ? (
       <div
         class:list={[
-          '-mb-1 mt-3 inline-flex items-center gap-2 self-start rounded-full px-2 py-1 text-sm opacity-80',
+          'mt-3 -mb-1 inline-flex items-center gap-2 self-start rounded-full px-2 py-1 text-sm opacity-80',
           status === 'Active' && 'bg-emerald-300/10 text-emerald-400',
           status === 'Target' && 'bg-pink-300/10 text-pink-400',
           status === 'Archive' && 'bg-gray-300/10 text-gray-400',
@@ -58,7 +58,7 @@ const {
 
   <div
     class:list={[
-      '-mb-1 mt-3 inline-flex items-center gap-2 self-start rounded-full px-2 py-1 text-sm opacity-80',
+      'mt-3 -mb-1 inline-flex items-center gap-2 self-start rounded-full px-2 py-1 text-sm opacity-80',
       (category as string).indexOf('Football') === 0 &&
         'bg-blue-300/10 text-blue-300',
       category === 'Volleyball' && 'bg-yellow-300/10 text-yellow-300',

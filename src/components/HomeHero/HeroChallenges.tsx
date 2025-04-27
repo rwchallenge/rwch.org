@@ -116,7 +116,7 @@ function HomeHeroChallenge({
     children as ReactElement,
     (child: ReactElement) => {
       return cloneElement(child, {
-        ...child.props,
+        ...(child.props as HTMLProps<HTMLElement>),
         activeChallenge,
         href,
       } as HTMLProps<HTMLElement>);
@@ -128,7 +128,7 @@ function HomeHeroChallenge({
       className={cx(
         'group/hero-challenge',
         'relative flex flex-col items-center p-6 md:p-8',
-        'cursor-default bg-black/10 backdrop-blur transition dark:bg-white/5',
+        'cursor-default bg-black/10 backdrop-blur-sm transition dark:bg-white/5',
         'rounded-lg',
         'xl:first:!rounded-l-4xl xl:last:!rounded-r-4xl',
         'hover:scale-[1.02] hover:bg-black/15 hover:dark:bg-white/10',
@@ -150,7 +150,7 @@ function HeroChallengeTitle({
     <h3
       className={cx(
         'flex items-center gap-1 text-zinc-950 dark:text-zinc-50',
-        'font-display text-xl font-medium leading-none md:text-2xl',
+        'font-display text-xl leading-none font-medium md:text-2xl',
         className,
       )}
     >
