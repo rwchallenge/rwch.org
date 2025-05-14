@@ -22,9 +22,9 @@
     "title": "КВЛ Сезон 2024/2025 Второй круг Муж 2",
     "description": "\"Клуб любителей волейбола\". Сезон 2024/2025. Второй круг. Медиум лига Юг 2. Вторая мужская команда.",
     "category": "Volleyball",
-    "status": "Active",
-    "begin": "2025-0-31",
-    "end": "",
+    "status": "Archive",
+    "begin": "2025-01-31",
+    "end": "2025-04-27",
     "place": {
       "name": "Школа 553",
       "url": "https://spbschool553.com",
@@ -54,9 +54,27 @@
     "title": "Суперкубок СПб по футболу",
     "description": "Региональные соревнования \"Суперкубок Федерации футбола\" спортивного сезона 2025",
     "category": "Football",
-    "status": "Target",
+    "status": "Archive",
     "begin": "2025-05-08",
-    "end": ""
+    "end": "2025-05-08",
+    "images": [
+      "./images/2025/spbsupercup/01.jpg",
+      "./images/2025/spbsupercup/02.jpg",
+      "./images/2025/spbsupercup/03.jpg",
+      "./images/2025/spbsupercup/04.jpg",
+      "./images/2025/spbsupercup/05.jpg",
+      "./images/2025/spbsupercup/06.jpg",
+      "./images/2025/spbsupercup/07.jpg",
+      "./images/2025/spbsupercup/08.jpg",
+      "./images/2025/spbsupercup/09.jpg",
+      "./images/2025/spbsupercup/10.jpg",
+      "./images/2025/spbsupercup/11.jpg"
+    ],
+    "place": {
+      "name": "СК \"Nova Arena\"",
+      "url": "https://www.novaarena.ru",
+      "address": "Санкт-Петербург, Гражданский проспект, 100"
+    }
   },
   {
     "id": 5,
@@ -66,8 +84,13 @@
     "description": "Кубок Санкт-Петербурга по футболу среди мужских команд спортивного сезона 2025 года.",
     "category": "Football",
     "status": "Target",
-    "begin": "2025-05-20",
-    "end": ""
+    "begin": "2025-06-02",
+    "end": "",
+    "place": {
+      "name": "СКА Арена",
+      "url": "https://skaarena.ru/",
+      "address": "Санкт-Петербург, пр. Юрия Гагарина, 8"
+    }
   },
   {
     "id": 6,
@@ -85,7 +108,7 @@
     },
     "category": "Football",
     "status": "Target",
-    "begin": "2024-05-14",
+    "begin": "2025-05-23",
     "end": "",
     "place": {
       "name": "СК \"Nova Arena\"",
