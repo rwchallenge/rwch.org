@@ -38,9 +38,9 @@
     "title": "КВЛ Сезон 2024/2025 Второй круг Муж",
     "description": "\"Клуб любителей волейбола\". Сезон 2023/2024. Второй круг. Медиум лига Юг 1. Первая мужская команда.",
     "category": "Volleyball",
-    "status": "Active",
+    "status": "Archive",
     "begin": "2025-02-05",
-    "end": "",
+    "end": "2025-05-18",
     "place": {
       "name": "Школа 553",
       "url": "https://spbschool553.com",
@@ -57,6 +57,7 @@
     "status": "Archive",
     "begin": "2025-05-08",
     "end": "2025-05-08",
+    "video": "https://vkvideo.ru/video-212289738_456239834",
     "images": [
       "./images/2025/spbsupercup/01.jpg",
       "./images/2025/spbsupercup/02.jpg",

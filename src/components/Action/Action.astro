@@ -26,6 +26,21 @@ const {
   video,
   result,
 } = Astro.props;
+
+let vkVideoUrl: string | undefined;
+
+if (video && (video as string).indexOf('//vk') >= 0) {
+  const vkVideoSrc = video as string;
+  const startVarsPos = vkVideoSrc.indexOf('/video') + 6;
+  const vkVideoVars = vkVideoSrc.substring(startVarsPos).split('_');
+
+  if (vkVideoVars.length === 2) {
+    const vkVideoOid = vkVideoVars[0];
+    const vkVideoId = vkVideoVars[1];
+
+    vkVideoUrl = `https://vkvideo.ru/video_ext.php?oid=${vkVideoOid}&id=${vkVideoId}&hd=2`;
+  }
+}
 ---
 
 <main>
@@ -158,7 +173,19 @@ const {
                 <div class="mt-4 xl:grid xl:grid-cols-12">
                   <p />
                   <p class="xl:col-span-10 xl:col-start-2">
-                    <YouTube id={video} />
+                    {(video as string).indexOf('youtu') > 0 && (
+                      <YouTube id={video} />
+                    )}
+
+                    {vkVideoUrl && (
+                      <iframe
+                        src={vkVideoUrl}
+                        width="100%"
+                        height="480"
+                        allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
+                        allowfullscreen
+                      />
+                    )}
                   </p>
                   <p />
                 </div>
