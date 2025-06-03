@@ -2,6 +2,7 @@
 import { Image } from 'astro:assets';
 
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Icon, { ICON_NAMES } from '@/components/Icon';
 import Bg from '@/components/Bg';
 import Container from '@/components/Container';
 import {
@@ -15,35 +16,43 @@ import PageHeaderDesc from '@/components/PageHeaderDesc';
 import PageHeaderTitle from '@/components/PageHeaderTitle';
 import teamImg from '@/content/teams/images/team.jpg';
 import ownerImg from '@/content/investors/images/owner.jpg';
+import winterfest23Img from '@/content/about/images/winterfest23.jpg';
+import rwcafe23Img from '@/content/about/images/rwcafe23.jpg';
+import summerfest22Img from '@/content/about/images/summerfest22.jpg';
+import spbchampBeachImg from '@/content/about/images/football/spbchamp-beach.jpg';
+import spbcup24Img from '@/content/about/images/football/spbcup24.jpg';
+import spbsupercup25Img from '@/content/about/images/football/spbsupercup25.jpg';
+import team1Img from '@/content/about/images/volleyball/team1.jpg';
+import team2Img from '@/content/about/images/volleyball/team2.jpg';
+import teamWImg from '@/content/about/images/volleyball/team-w.jpg';
 
 import '@/styles/post.css';
 ---
 
 <BaseLayout title="О нас">
   <main class="relative z-0 text-center">
-    <Bg />
+    <Bg className="bg-fuchsia-500" />
 
     <section class="py-16 md:pt-20 md:pb-32">
       <Container className="max-w-screen-lg">
         {/* header */}
         <header>
-          <PageHeaderTitle>
-            Инвестируем в развитие
-            <br />
-            реального мира
-          </PageHeaderTitle>
+          <PageHeaderTitle> Real World Challenge </PageHeaderTitle>
 
-          <PageHeaderDesc className="mt-2">
-            <span class="grid gap-1 md:gap-2">
-              <span>
-                Наши усилия направлены на то, чтобы делать реальную жизнь
-                интереснее и доступнее в любом уголке нашей планеты.
-              </span>
-              <span>
-                Фокусом нашего внимания являются игровые и обучающие проекты в
-                реальном мире.
-              </span>
+          <PageHeaderDesc className="mt-2 grid gap-1 md:gap-2">
+            <span>
+              «Real World Challenge» («RWChallenge» или «РВЧеллендж») -
+              сообщество любителей различных активностей в реальном мире.
             </span>
+            <span>
+              Наши усилия направлены на то, чтобы делать реальную жизнь
+              интереснее и доступнее в любом уголке нашей планеты.
+            </span>
+            <span>
+              Фокусом нашего внимания являются игровые и обучающие проекты в
+              реальном мире.
+            </span>
+            <span> Выбери живую реальность. Выбери живую жизнь. </span>
           </PageHeaderDesc>
         </header>
 
@@ -83,8 +92,450 @@ import '@/styles/post.css';
       </Container>
     </section>
 
+    <section class="py-16 md:pt-20 md:pb-32">
+      <Container className="max-w-screen-lg">
+        <header>
+          <PageHeaderTitle as="h2"> Наши мероприятия </PageHeaderTitle>
+        </header>
+
+        <div class="post leading-p mt-10 grid gap-6 md:mt-20 md:grid-cols-3">
+          <div class="flex flex-col items-center">
+            <Image
+              src={winterfest23Img}
+              alt="Зимний сбор 2023"
+              width={200}
+              height={200}
+              loading="lazy"
+              class="object-cover"
+            />
+            <h3
+              class="font-display mt-4 mb-1! text-center text-xl font-semibold"
+            >
+              Зимний сбор 2023 всех команд и финал нашего игрового проекта
+              RWGames
+            </h3>
+            <ul class="text-left">
+              <li>
+                <a href="/actions/2023/rwgames-final-fest/">
+                  Подробнее об активности
+                </a>
+              </li>
+              <li>
+                <a href="https://youtu.be/OhGh43ZI1Co" target="_blank">
+                  <span class="ml-auto">
+                    Видеообзор на Youtube от одного из участников
+                  </span>
+                  <Icon
+                    icon={ICON_NAMES.ArrowUpRight}
+                    className="ml-auto opacity-60"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://youtu.be/fUQIOZOWBqE" target="_blank">
+                  <span class="ml-auto">
+                    Видеообзор на Youtube от другого участника
+                  </span>
+                  <Icon
+                    icon={ICON_NAMES.ArrowUpRight}
+                    className="ml-auto opacity-60"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex flex-col items-center">
+            <Image
+              src={rwcafe23Img}
+              alt="RWCafe 2023"
+              height={200}
+              loading="lazy"
+              class="object-cover"
+            />
+            <h3
+              class="font-display mt-4 mb-1! text-center text-xl font-semibold"
+            >
+              Новогодний сбор всех команд в игровом формате «мировое кафе»
+              RWCafe 23
+            </h3>
+            <ul class="text-left">
+              <li>
+                <a href="/actions/2023/rwcafe/"> Подробнее об активности </a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex flex-col items-center">
+            <Image
+              src={summerfest22Img}
+              alt="Летний сбор 2022"
+              height={200}
+              loading="lazy"
+              class="object-cover"
+            />
+            <h3
+              class="font-display mt-4 mb-1! text-center text-xl font-semibold"
+            >
+              Летний сбор 2022 всех команд в игровом формате
+            </h3>
+            <ul class="text-left">
+              <li>
+                <a href="/actions/2022/summer-fest/">
+                  Подробнее об активности
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://vkvideo.ru/video-204268670_456239050"
+                  target="_blank"
+                >
+                  <span class="ml-auto">
+                    Видеообзор на VK от одного из участников
+                  </span>
+                  <Icon
+                    icon={ICON_NAMES.ArrowUpRight}
+                    className="ml-auto opacity-60"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href=" https://vk.com/video-204268670_456239139"
+                  target="_blank"
+                >
+                  <span class="ml-auto"> Видеообзор на VK </span>
+                  <Icon
+                    icon={ICON_NAMES.ArrowUpRight}
+                    className="ml-auto opacity-60"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="post leading-p mx-auto max-w-7xl px-6 lg:px-8">
+          <dl
+            class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-2"
+          >
+            <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+              <dt class="text-base/7">
+                <span class="opacity-60">
+                  реализовано для сообщества, а также для организаций и семейных
+                  праздников, см. раздел
+                </span>
+                <a href="/actions/2025/"> «Активности» </a>
+                <span class="opacity-60"><br />(с тегом «RW активность»)</span>
+              </dt>
+              <dd
+                class="order-first text-3xl font-semibold tracking-tight sm:text-5xl"
+              >
+                Более 30 активностей
+              </dd>
+            </div>
+            <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+              <dt class="text-base/7 opacity-60">
+                приняли участие в наших активностях
+              </dt>
+              <dd
+                class="order-first text-3xl font-semibold tracking-tight sm:text-5xl"
+              >
+                Более 500 человек
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </Container>
+    </section>
+
+    <section class="py-16 md:pt-20 md:pb-32">
+      <Container className="max-w-screen-lg">
+        <header>
+          <PageHeaderTitle as="h2"> Наша футбольная команда </PageHeaderTitle>
+          <PageHeaderDesc className="mt-2">
+            <span>Мужская команда. Играем в различных форматах.</span>
+            <span>
+              <br />
+              Подробнее: <a
+                href="/teams/football/"
+                class="font-medium text-emerald-600 hover:underline dark:text-emerald-400"
+              >
+                страничка команды
+              </a>, <a
+                href="/football-present-short.pdf"
+                target="_blank"
+                class="font-medium text-emerald-600 hover:underline dark:text-emerald-400"
+              >
+                презентация команды (короткая версия) (pdf)
+              </a>, <a
+                href="/football-present.pdf"
+                target="_blank"
+                class="font-medium text-emerald-600 hover:underline dark:text-emerald-400"
+              >
+                презентация команды (pdf)
+              </a>.
+            </span>
+          </PageHeaderDesc>
+        </header>
+
+        <div class="post leading-p mt-10 grid gap-6 md:mt-20 md:grid-cols-3">
+          <div class="flex flex-col items-center">
+            <Image
+              src={spbchampBeachImg}
+              alt="Победитель чемпионата Санкт-Петербурга по пляжному футболу 2024 высшего дивизиона"
+              height={200}
+              loading="lazy"
+              class="object-cover"
+            />
+            <h3
+              class="font-display mt-4 mb-1! text-center text-xl font-semibold"
+            >
+              Победитель чемпионата Санкт-Петербурга по пляжному футболу 2024
+              высшего дивизиона
+            </h3>
+            <ul class="text-left">
+              <li>
+                <a href="/actions/2024/spbchamp-beach/">
+                  Подробнее об активности
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://vkvideo.ru/video-121636282_456243893"
+                  target="_blank"
+                >
+                  <span class="ml-auto"> Видеообзор на VK </span>
+                  <Icon
+                    icon={ICON_NAMES.ArrowUpRight}
+                    className="ml-auto opacity-60"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex flex-col items-center">
+            <Image
+              src={spbcup24Img}
+              alt="Победитель кубка Санкт-Петербурга по футболу 2024 года"
+              height={200}
+              loading="lazy"
+              class="object-cover"
+            />
+            <h3
+              class="font-display mt-4 mb-1! text-center text-xl font-semibold"
+            >
+              Победитель кубка Санкт-Петербурга по футболу 2024 года
+            </h3>
+            <ul class="text-left">
+              <li>
+                <a href="/actions/2024/spbcup/"> Подробнее об активности </a>
+              </li>
+              <li>
+                <a
+                  href="https://vk.com/clip-204268670_456239126"
+                  target="_blank"
+                >
+                  <span class="ml-auto"> Короткое видео на VK </span>
+                  <Icon
+                    icon={ICON_NAMES.ArrowUpRight}
+                    className="ml-auto opacity-60"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://vkvideo.ru/video-212289738_456239572"
+                  target="_blank"
+                >
+                  <span class="ml-auto"> Видеообзор на VK </span>
+                  <Icon
+                    icon={ICON_NAMES.ArrowUpRight}
+                    className="ml-auto opacity-60"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex flex-col items-center">
+            <Image
+              src={spbsupercup25Img}
+              alt="Обладатель суперкубка Санкт-Петербурга по футболу 2025"
+              height={200}
+              loading="lazy"
+              class="object-cover"
+            />
+            <h3
+              class="font-display mt-4 mb-1! text-center text-xl font-semibold"
+            >
+              Обладатель суперкубка Санкт-Петербурга по футболу 2025
+            </h3>
+            <ul class="text-left">
+              <li>
+                <a href="/actions/2025/spbsupercup/">
+                  Подробнее об активности
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://vkvideo.ru/video-212289738_456239834"
+                  target="_blank"
+                >
+                  <span class="ml-auto"> Видеообзор на VK </span>
+                  <Icon
+                    icon={ICON_NAMES.ArrowUpRight}
+                    className="ml-auto opacity-60"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="post leading-p mx-auto max-w-7xl px-6 lg:px-8">
+          <dl
+            class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-2"
+          >
+            <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+              <dt class="text-base/7 opacity-60">
+                сыграно в различных форматах
+              </dt>
+              <dd
+                class="order-first text-3xl font-semibold tracking-tight sm:text-5xl"
+              >
+                Более 22 турниров
+              </dd>
+            </div>
+            <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+              <dt class="text-base/7 opacity-60">
+                разного достоинства заслужила команда
+              </dt>
+              <dd
+                class="order-first text-3xl font-semibold tracking-tight sm:text-5xl"
+              >
+                10 трофеев
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </Container>
+    </section>
+
+    <section class="py-16 md:pt-20 md:pb-32">
+      <Container className="max-w-screen-lg">
+        <header>
+          <PageHeaderTitle as="h2"> Наши волейбольные команды </PageHeaderTitle>
+          <PageHeaderDesc className="mt-2">
+            <span>
+              Две мужские команды и одна женская. Играем в классический
+              волейбол.
+            </span>
+            <span>
+              <br />
+              Подробнее см. на <a
+                href="/teams/volleyball/"
+                class="font-medium text-emerald-600 hover:underline dark:text-emerald-400"
+              >
+                страничке команды
+              </a>
+            </span>
+          </PageHeaderDesc>
+        </header>
+
+        <div class="post leading-p mt-10 grid gap-6 md:mt-20 md:grid-cols-3">
+          <div class="flex flex-col items-center">
+            <Image
+              src={team1Img}
+              alt="Первая мужская команда"
+              height={200}
+              loading="lazy"
+              class="object-cover"
+            />
+            <h3
+              class="font-display mt-4 mb-1! text-center text-xl font-semibold"
+            >
+              Первая мужская команда
+            </h3>
+            <ul class="text-left">
+              <li>
+                <a href="/actions/2024/kvl-m1-r1">
+                  КВЛ Сезон 2024/2025 Первый круг Муж
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex flex-col items-center">
+            <Image
+              src={teamWImg}
+              alt="Женская команда"
+              height={200}
+              loading="lazy"
+              class="object-cover"
+            />
+            <h3
+              class="font-display mt-4 mb-1! text-center text-xl font-semibold"
+            >
+              Женская команда
+            </h3>
+            <ul class="text-left">
+              <li>
+                <a href="/actions/2024/kvl-w-r1">
+                  КВЛ Сезон 2024/2025 Первый круг Жен
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex flex-col items-center">
+            <Image
+              src={team2Img}
+              alt="Вторая мужская команда"
+              height={200}
+              loading="lazy"
+              class="object-cover"
+            />
+            <h3
+              class="font-display mt-4 mb-1! text-center text-xl font-semibold"
+            >
+              Вторая мужская команда
+            </h3>
+            <ul class="text-left">
+              <li>
+                <a href="/actions/2024/kvl-m2-r1">
+                  КВЛ Сезон 2024/2025 Первый круг Муж 2
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="post leading-p mx-auto max-w-7xl px-6 lg:px-8">
+          <dl
+            class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-2"
+          >
+            <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+              <dt class="text-base/7 opacity-60">
+                сыграно в различных турнирах
+              </dt>
+              <dd
+                class="order-first text-3xl font-semibold tracking-tight sm:text-5xl"
+              >
+                Более 25 турниров
+              </dd>
+            </div>
+            <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+              <dt class="text-base/7 opacity-60">
+                разного достоинства заслужили команды
+              </dt>
+              <dd
+                class="order-first text-3xl font-semibold tracking-tight sm:text-5xl"
+              >
+                7 трофеев
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </Container>
+    </section>
+
     <section class="relative py-16 md:py-28">
-      <Bg className="top-32 h-1/2 bg-yellow-500" />
       <Container className="max-w-screen-lg">
         <header>
           <PageHeaderTitle as="h2">Наша команда</PageHeaderTitle>
@@ -99,7 +550,7 @@ import '@/styles/post.css';
         <div class="group/investor flex flex-col items-center">
           <p class="mt-4">
             <Image
-              class="rounded-3xl object-cover grayscale transition group-hover/investor:mix-blend-normal group-hover/investor:grayscale-0"
+              class="rounded-3xl object-cover"
               width={860}
               src={teamImg}
               alt="Команда"
@@ -127,7 +578,7 @@ import '@/styles/post.css';
               width={80}
               height={80}
               loading="lazy"
-              class="rounded-full object-cover grayscale transition group-hover/investor:mix-blend-normal group-hover/investor:grayscale-0"
+              class="rounded-full object-cover"
             />
 
             <p

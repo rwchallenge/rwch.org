@@ -85,7 +85,7 @@
     "description": "Кубок Санкт-Петербурга по футболу среди мужских команд спортивного сезона 2025 года.",
     "category": "Football",
     "status": "Target",
-    "begin": "2025-06-02",
+    "begin": "2025-06-09",
     "end": "",
     "place": {
       "name": "СКА Арена",
@@ -102,14 +102,58 @@
     "welcome": {
       "header": "Приглашение",
       "content": [
-        "<p>",
-        "Ищем поддержку или <a href='mailto:fc@rwch.org'>сотрудничество</a> на данную активность.",
-        "</p>"
+        "<p style='margin-bottom: 1rem'>Ищем поддержку и <a href='mailto:fc@rwch.org'>сотрудничество</a> на данную активность:</p>",
+        "<ul>",
+        "<li><a href='/teams/football/'>страничка команды</a>,</li>",
+        "<li><a href='/football-present-short.pdf' target='_blank'>презентация команды (короткая версия) (pdf)</a>,</li>",
+        "<li><a href='/football-present.pdf' target='_blank'>презентация команды (pdf)</a>.</li>",
+        "</ul>"
+      ]
+    },
+    "category": "Football",
+    "status": "Active",
+    "begin": "2025-05-23",
+    "end": "",
+    "place": {
+      "name": "СК \"Nova Arena\"",
+      "url": "https://www.novaarena.ru",
+      "address": "Санкт-Петербург, Гражданский проспект, 100"
+    },
+    "video": "https://vk.com/video-212289738_456239856",
+    "images": [
+      "./images/2025/spbchamp/01.jpg",
+      "./images/2025/spbchamp/02.jpg",
+      "./images/2025/spbchamp/03.jpg",
+      "./images/2025/spbchamp/04.jpg",
+      "./images/2025/spbchamp/05.jpg",
+      "./images/2025/spbchamp/06.jpg",
+      "./images/2025/spbchamp/07.jpg",
+      "./images/2025/spbchamp/08.jpg",
+      "./images/2025/spbchamp/09.jpg",
+      "./images/2025/spbchamp/10.jpg",
+      "./images/2025/spbchamp/11.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "ruscup",
+    "url": "https://www.rfs.ru/cup",
+    "title": "FONBET Кубка России 2025/2026",
+    "description": "FONBET Кубка России 2025/2026.",
+    "welcome": {
+      "header": "Приглашение",
+      "content": [
+        "<p style='margin-bottom: 1rem'>Ищем поддержку и <a href='mailto:fc@rwch.org'>сотрудничество</a> на данную активность:</p>",
+        "<ul>",
+        "<li><a href='/teams/football/'>страничка команды</a>,</li>",
+        "<li><a href='/football-present-short.pdf' target='_blank'>презентация команды (короткая версия) (pdf)</a>,</li>",
+        "<li><a href='/football-present.pdf' target='_blank'>презентация команды (pdf)</a>.</li>",
+        "</ul>"
       ]
     },
     "category": "Football",
     "status": "Target",
-    "begin": "2025-05-23",
+    "begin": "2025-08-30",
     "end": "",
     "place": {
       "name": "СК \"Nova Arena\"",
