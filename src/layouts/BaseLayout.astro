@@ -53,7 +53,7 @@ const { PUBLIC_YANDEX_METRIKA } = import.meta.env;
       type="website"
     />
   </head>
-  <body class="pt-[70px] md:pt-[80px]">
+  <body class="pt-[70px] md:pt-20">
     <Header client:load />
     <HeaderMobile client:load />
     <slot />
@@ -91,11 +91,11 @@ const { PUBLIC_YANDEX_METRIKA } = import.meta.env;
             return;
           }
         }
-        (k = e.createElement(t)),
+        ((k = e.createElement(t)),
           (a = e.getElementsByTagName(t)[0]),
           (k.async = 1),
           (k.src = r),
-          a.parentNode.insertBefore(k, a);
+          a.parentNode.insertBefore(k, a));
       })(
         window,
         document,

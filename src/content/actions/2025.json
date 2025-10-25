@@ -190,9 +190,7 @@
       "url": "https://spbschool553.com",
       "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
     },
-    "images": [
-      "./images/2025/kvl-w-r1/01.jpg"
-    ]
+    "images": ["./images/2025/kvl-w-r1/01.jpg"]
   },
   {
     "id": 9,
