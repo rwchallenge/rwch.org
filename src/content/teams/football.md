@@ -11,6 +11,7 @@ skills:
   - '6x6 Оле Премиум'
   - '5x5 (футзал) Кубок Степанова'
 images:
+  - './images/football/01-russiacup.jpg'
   - './images/football/01-spbcup24.jpg'
   - './images/football/01-spbsupercup25.jpg'
   - './images/football/01-spbchamp-beach.jpg'
@@ -33,10 +34,11 @@ draft: false
 Первая игра команды состоялась 26.04.2021 в Кубке любительской лиги Степанова по футзалу.
 
 ## Ищем поддержку и сотрудничество
+
 - <a href="/football-present-short.pdf" target="_blank">Презентация команды (короткая версия) (pdf)</a>.
 - <a href="/football-present.pdf" target="_blank">Презентация команды (pdf)</a>.
 
-## Команда играет в ведущих турнирах Санкт-Петербурга:
+## Команда играет в ведущих турнирах Санкт-Петербурга
 
 - <a href="/actions/2025/spbchamp">Чемпионат города 11х11</a>.
 - <a href="/actions/2024/spbchamp-beach">Чемпионат города по пляжному футболу</a>.
@@ -44,7 +46,7 @@ draft: false
 - <a href="/actions/2024/pfc">ПФК Первый дивизион 7х7</a>.
 - <a href="/actions/2024/sporting">Спортинг лига Первый дивизион 7х7</a>.
 
-## Достижения команды:
+## Достижения команды
 
 - I место <a href="/actions/2025/spbsupercup">Суперкубок СПб по футболу 2025</a>. Формат: 11х11.
 - II место <a href="/actions/2024/pfc-autumn">Premier Football Cup Осень 2024</a>, Первый дивизион. Формат: 7х7.

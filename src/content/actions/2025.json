@@ -84,9 +84,9 @@
     "title": "Кубок СПб по футболу 2025",
     "description": "Кубок Санкт-Петербурга по футболу среди мужских команд спортивного сезона 2025 года.",
     "category": "Football",
-    "status": "Target",
+    "status": "Archive",
     "begin": "2025-06-09",
-    "end": "",
+    "end": "2025-06-09",
     "place": {
       "name": "СКА Арена",
       "url": "https://skaarena.ru/",
@@ -111,9 +111,9 @@
       ]
     },
     "category": "Football",
-    "status": "Active",
+    "status": "Archive",
     "begin": "2025-05-23",
-    "end": "",
+    "end": "2025-10-15",
     "place": {
       "name": "СК \"Nova Arena\"",
       "url": "https://www.novaarena.ru",
@@ -142,6 +142,7 @@
     "description": "FONBET Кубка России 2025/2026.",
     "welcome": {
       "header": "Приглашение",
+      "image": "./images/2025/ruscup/title.jpg",
       "content": [
         "<p style='margin-bottom: 1rem'>Ищем поддержку и <a href='mailto:fc@rwch.org'>сотрудничество</a> на данную активность:</p>",
         "<ul>",
@@ -152,13 +153,77 @@
       ]
     },
     "category": "Football",
-    "status": "Target",
-    "begin": "2025-08-30",
-    "end": "",
+    "status": "Archive",
+    "begin": "2025-08-05",
+    "end": "2025-08-05",
     "place": {
       "name": "СК \"Nova Arena\"",
       "url": "https://www.novaarena.ru",
       "address": "Санкт-Петербург, Гражданский проспект, 100"
+    },
+    "video": "https://vk.com/video-204268670_456239143",
+    "images": [
+      "./images/2025/ruscup/01.jpg",
+      "./images/2025/ruscup/02.jpg",
+      "./images/2025/ruscup/03.jpg",
+      "./images/2025/ruscup/04.jpg",
+      "./images/2025/ruscup/05.jpg",
+      "./images/2025/ruscup/06.jpg",
+      "./images/2025/ruscup/07.jpg",
+      "./images/2025/ruscup/08.jpg",
+      "./images/2025/ruscup/09.jpg",
+      "./images/2025/ruscup/10.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "kvl-w-r1",
+    "url": "https://v-open.spb.ru/component/volleychamp/?view=players&tid=1215",
+    "title": "КВЛ Сезон 2025/2026 Первый круг Жен",
+    "description": "\"Клуб любителей волейбола\". Сезон 2025/2026. Первый круг. Женская лига \"С\". Женская команда.",
+    "category": "Volleyball",
+    "status": "Active",
+    "begin": "2025-10-12",
+    "end": "",
+    "place": {
+      "name": "Школа 553",
+      "url": "https://spbschool553.com",
+      "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
+    },
+    "images": [
+      "./images/2025/kvl-w-r1/01.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "kvl-m2-r1",
+    "url": "https://v-open.spb.ru/component/volleychamp/?view=players&tid=1306",
+    "title": "КВЛ Сезон 2025/2026 Первый круг Муж 2",
+    "description": "\"Клуб любителей волейбола\". Сезон 2025/2026. Первый круг. Медиум лига Юг. Вторая мужская команда.",
+    "category": "Volleyball",
+    "status": "Active",
+    "begin": "2025-10-12",
+    "end": "",
+    "place": {
+      "name": "Школа 553",
+      "url": "https://spbschool553.com",
+      "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
+    }
+  },
+  {
+    "id": 10,
+    "slug": "kvl-m1-r1",
+    "url": "https://v-open.spb.ru/component/volleychamp/?view=players&tid=920",
+    "title": "КВЛ Сезон 2025/2026 Первый круг Муж",
+    "description": "\"Клуб любителей волейбола\". Сезон 2025/2026. Первый круг. Медиум лига Юг. Первая мужская команда.",
+    "category": "Volleyball",
+    "status": "Active",
+    "begin": "2025-10-12",
+    "end": "",
+    "place": {
+      "name": "Школа 553",
+      "url": "https://spbschool553.com",
+      "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
     }
   }
 ]
