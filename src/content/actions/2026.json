@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "slug": "kvl-m2-r1",
+    "url": "https://v-open.spb.ru/component/volleychamp/?view=players&tid=1306",
+    "title": "КВЛ Сезон 2025/2026 Второй круг Муж 2",
+    "description": "\"Клуб любителей волейбола\". Сезон 2025/2026. Второй круг. Медиум-Юг 2. Вторая мужская команда.",
+    "category": "Volleyball",
+    "status": "Active",
+    "begin": "2026-02-06",
+    "end": "",
+    "place": {
+      "name": "Школа 553",
+      "url": "https://spbschool553.com",
+      "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
+    }
+  },
+  {
+    "id": 2,
+    "slug": "kvl-m1-r1",
+    "url": "https://v-open.spb.ru/component/volleychamp/?view=players&tid=920",
+    "title": "КВЛ Сезон 2025/2026 Второй круг Муж",
+    "description": "\"Клуб любителей волейбола\". Сезон 2025/2026. Второй круг. Медиум-Юг 1. Первая мужская команда.",
+    "category": "Volleyball",
+    "status": "Active",
+    "begin": "2026-02-07",
+    "end": "",
+    "place": {
+      "name": "Школа 553",
+      "url": "https://spbschool553.com",
+      "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
+    },
+    "images": ["./images/2026/kvl-m1-r1/01.jpg"],
+    "video": "https://vk.com/video-204270291_456239132"
+  },
+  {
+    "id": 3,
+    "slug": "kvl-w-r1",
+    "url": "https://v-open.spb.ru/component/volleychamp/?view=players&tid=1215",
+    "title": "КВЛ Сезон 2025/2026 Второй круг Жен",
+    "description": "\"Клуб любителей волейбола\". Сезон 2025/2026. Второй круг. Женская Лига Лайт-Юг 2. Женская команда.",
+    "category": "Volleyball",
+    "status": "Active",
+    "begin": "2026-02-08",
+    "end": "",
+    "place": {
+      "name": "Школа 553",
+      "url": "https://spbschool553.com",
+      "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
+    },
+    "images": ["./images/2026/kvl-w-r1/01.jpg"]
+  },
+  {
+    "id": 4,
+    "slug": "spbchamp",
+    "url": "https://stat.ffspb.org/tournament44314",
+    "title": "Чемпионат СПб по футболу 2026",
+    "description": "Зональный этап Всероссийских соревнований по футболу среди мужчин «Третья лига» - Чемпионат Санкт-Петербурга по футболу среди мужских команд высшей лиги спортивного сезона 2026.",
+    "welcome": {
+      "header": "Приглашение",
+      "content": [
+        "<p style='margin-bottom: 1rem'>Ищем поддержку и <a href='mailto:fc@rwch.org'>сотрудничество</a> на данную активность:</p>",
+        "<ul>",
+        "<li><a href='/teams/football/'>страничка команды</a>,</li>",
+        "<li><a href='/football-present-short.pdf' target='_blank'>презентация команды (короткая версия) (pdf)</a>,</li>",
+        "<li><a href='/football-present.pdf' target='_blank'>презентация команды (pdf)</a>.</li>",
+        "</ul>"
+      ]
+    },
+    "category": "Football",
+    "status": "Target",
+    "begin": "2026-05-01",
+    "end": "",
+    "place": {
+      "name": "СК \"Nova Arena\"",
+      "url": "https://www.novaarena.ru",
+      "address": "Санкт-Петербург, Гражданский проспект, 100"
+    },
+    "video": "https://vk.com/video-204268670_456239143",
+    "images": [
+      "./images/2026/spbchamp/01.jpg",
+      "./images/2026/spbchamp/02.jpg",
+      "./images/2026/spbchamp/03.jpg",
+      "./images/2026/spbchamp/04.jpg",
+      "./images/2026/spbchamp/05.jpg",
+      "./images/2026/spbchamp/06.jpg"
+    ]
+  }
+]

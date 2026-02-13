@@ -15,12 +15,21 @@ export default function NavigationItemAction() {
       <NewNavigationContent>
         <div className="grid w-[500px] gap-4 p-6">
           <ListItem
+            href="/actions/2026"
+            title1="2026"
+            icon={<IconCalendar strokeWidth={1.5} />}
+            className="hover:bg-amber-50 hover:text-amber-900"
+          >
+            Активности текущего года.
+          </ListItem>
+
+          <ListItem
             href="/actions/2025"
             title1="2025"
             icon={<IconCalendar strokeWidth={1.5} />}
             className="hover:bg-amber-50 hover:text-amber-900"
           >
-            Активности текущего года.
+            Активности 2025 года.
           </ListItem>
 
           <ListItem

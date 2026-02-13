@@ -138,8 +138,8 @@
     "id": 7,
     "slug": "ruscup",
     "url": "https://www.rfs.ru/cup",
-    "title": "FONBET Кубка России 2025/2026",
-    "description": "FONBET Кубка России 2025/2026.",
+    "title": "FONBET Кубок России 2025/2026",
+    "description": "FONBET Кубок России 2025/2026.",
     "welcome": {
       "header": "Приглашение",
       "image": "./images/2025/ruscup/title.jpg",
@@ -182,15 +182,18 @@
     "title": "КВЛ Сезон 2025/2026 Первый круг Жен",
     "description": "\"Клуб любителей волейбола\". Сезон 2025/2026. Первый круг. Женская лига \"С\". Женская команда.",
     "category": "Volleyball",
-    "status": "Active",
+    "status": "Archive",
     "begin": "2025-10-12",
-    "end": "",
+    "end": "2025-12-21",
     "place": {
       "name": "Школа 553",
       "url": "https://spbschool553.com",
       "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
     },
-    "images": ["./images/2025/kvl-w-r1/01.jpg"]
+    "images": [
+      "./images/2025/kvl-w-r1/01.jpg",
+      "./images/2025/kvl-w-r1/02.jpg"
+    ]
   },
   {
     "id": 9,
@@ -199,9 +202,9 @@
     "title": "КВЛ Сезон 2025/2026 Первый круг Муж 2",
     "description": "\"Клуб любителей волейбола\". Сезон 2025/2026. Первый круг. Медиум лига Юг. Вторая мужская команда.",
     "category": "Volleyball",
-    "status": "Active",
+    "status": "Archive",
     "begin": "2025-10-12",
-    "end": "",
+    "end": "2025-12-10",
     "place": {
       "name": "Школа 553",
       "url": "https://spbschool553.com",
@@ -215,13 +218,14 @@
     "title": "КВЛ Сезон 2025/2026 Первый круг Муж",
     "description": "\"Клуб любителей волейбола\". Сезон 2025/2026. Первый круг. Медиум лига Юг. Первая мужская команда.",
     "category": "Volleyball",
-    "status": "Active",
+    "status": "Archive",
     "begin": "2025-10-12",
-    "end": "",
+    "end": "2025-12-24",
     "place": {
       "name": "Школа 553",
       "url": "https://spbschool553.com",
       "address": "Санкт-Петербург, ул. Ярослава Гашека, 4, корп. 4"
-    }
+    },
+    "images": ["./images/2025/kvl-m1-r1/01.jpg"]
   }
 ]
