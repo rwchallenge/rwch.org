@@ -18,7 +18,7 @@ export default function NavigationItemResource() {
       <NewNavigationTrigger>Ресурсы</NewNavigationTrigger>
 
       <NewNavigationContent>
-        <div className="grid w-[500px] gap-4 p-6">
+        <div className="grid w-125 gap-4 p-6">
           <ListItem
             href="/resources/people"
             title1="Люди"

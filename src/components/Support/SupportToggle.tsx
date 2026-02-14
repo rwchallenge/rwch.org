@@ -26,7 +26,7 @@ export default function ProductToggle({ product }: { product: string }) {
                 'relative flex cursor-pointer items-center gap-1 select-none',
                 'rounded-lg px-3 py-1.5 text-zinc-400 transition',
                 'hover:bg-white/10',
-                isActive && '!text-zinc-950 hover:bg-transparent',
+                isActive && 'text-zinc-950! hover:bg-transparent',
               )}
               data-astro-prefetch
             >

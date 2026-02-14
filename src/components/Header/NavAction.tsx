@@ -13,7 +13,7 @@ export default function NavigationItemAction() {
       <NewNavigationTrigger>Активности </NewNavigationTrigger>
 
       <NewNavigationContent>
-        <div className="grid w-[500px] gap-4 p-6">
+        <div className="grid w-125 gap-4 p-6">
           <ListItem
             href="/actions/2026"
             title1="2026"

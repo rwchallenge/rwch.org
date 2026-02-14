@@ -17,7 +17,7 @@ export default function NavigationRoot({ children }: PropsWithChildren) {
 
         <NavigationMenu.Indicator
           className={cx(
-            'z-[1] flex h-[10px] items-end justify-center overflow-hidden',
+            'z-1 flex h-2.5 items-end justify-center overflow-hidden',
             'data-[state=visible]:animate-fadeIn',
             'data-[state=visible]:animate-fadeIn',
             'data-[state=hidden]:animate-fadeOut',
@@ -43,14 +43,14 @@ export default function NavigationRoot({ children }: PropsWithChildren) {
       <div className="absolute top-full right-0 left-20 flex w-full justify-center perspective-[2000px]">
         <NavigationMenu.Viewport
           className={cx(
-            'relative mt-[7px] bg-white text-zinc-900',
+            'relative mt-1.75 bg-white text-zinc-900',
             'origin-[top_center] overflow-hidden rounded-xl',
-            'transition-[width,_height] duration-300',
+            'transition-[width,height] duration-300',
             'data-[state=open]:animate-scaleIn',
             'data-[state=open]:animate-scaleIn',
             'data-[state=closed]:animate-scaleOut',
-            'w-[var(--radix-navigation-menu-viewport-width)]',
-            'h-[var(--radix-navigation-menu-viewport-height)]',
+            'w-(--radix-navigation-menu-viewport-width)',
+            'h-(--radix-navigation-menu-viewport-height)',
           )}
         />
       </div>

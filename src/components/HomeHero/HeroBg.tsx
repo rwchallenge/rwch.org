@@ -9,7 +9,7 @@ export default function HomeHeroBg({
   return (
     <div
       className={cx(
-        'absolute top-1/2 left-1/2 -z-10 h-[400px] w-[800px]',
+        'absolute top-1/2 left-1/2 -z-10 h-100 w-200',
         '-translate-x-1/2 -translate-y-1/2',
         'opacity-10 blur-[100px]',
         'bg-emerald-500',

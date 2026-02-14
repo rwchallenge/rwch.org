@@ -11,7 +11,7 @@ export default function HomeHeroSlogan({
       className={cx(
         'inline-flex flex-col gap-1 transition',
         'font-display text-6xl leading-none font-bold md:text-[8rem]',
-        'bg-gradient-to-r from-20% bg-clip-text text-transparent',
+        'bg-linear-to-r from-20% bg-clip-text text-transparent',
         'from-emerald-400 to-yellow-300',
         activeChallenge === Challenge.PLAY && 'from-red-500 to-red-200',
         activeChallenge === Challenge.SHARE && 'from-blue-500 to-blue-200',

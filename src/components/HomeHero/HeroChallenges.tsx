@@ -32,7 +32,7 @@ export default function HomeHeroChallenges({
         <HeroChallengeDesc>в существующих активностях</HeroChallengeDesc>
         <HeroChallengeCta
           className={cx(
-            activeChallenge === Challenge.PLAY && '!bg-red-500 !text-white',
+            activeChallenge === Challenge.PLAY && 'bg-red-500! text-white!',
           )}
         >
           Принять вызов
@@ -52,7 +52,7 @@ export default function HomeHeroChallenges({
         </HeroChallengeDesc>
         <HeroChallengeCta
           className={cx(
-            activeChallenge === Challenge.SHARE && '!bg-blue-500 !text-white',
+            activeChallenge === Challenge.SHARE && 'bg-blue-500! text-white!',
           )}
         >
           Вдохновить(ся)
@@ -71,7 +71,7 @@ export default function HomeHeroChallenges({
         <HeroChallengeCta
           className={cx(
             activeChallenge === Challenge.CREATE &&
-              '!bg-orange-500 !text-white',
+              'bg-orange-500! text-white!',
           )}
         >
           Бросить вызов
@@ -92,7 +92,7 @@ export default function HomeHeroChallenges({
         <HeroChallengeCta
           className={cx(
             activeChallenge === Challenge.SUPPORT &&
-              '!bg-purple-500 !text-white',
+              'bg-purple-500! text-white!',
           )}
         >
           Поддержать
@@ -130,7 +130,7 @@ function HomeHeroChallenge({
         'relative flex flex-col items-center p-6 md:p-8',
         'cursor-default bg-black/10 backdrop-blur-sm transition dark:bg-white/5',
         'rounded-lg',
-        'xl:first:!rounded-l-4xl xl:last:!rounded-r-4xl',
+        'xl:first:rounded-l-4xl! xl:last:rounded-r-4xl!',
         'hover:scale-[1.02] hover:bg-black/15 hover:dark:bg-white/10',
         className,
       )}

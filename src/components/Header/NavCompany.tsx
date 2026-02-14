@@ -13,7 +13,7 @@ export default function NavigationItemCompany() {
       <NewNavigationTrigger>Команды</NewNavigationTrigger>
 
       <NewNavigationContent>
-        <div className="grid w-[500px] gap-4 p-6">
+        <div className="grid w-125 gap-4 p-6">
           <ListItem
             href="/teams/football"
             title1="Футбольная"

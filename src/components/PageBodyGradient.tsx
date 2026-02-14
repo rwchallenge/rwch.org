@@ -12,8 +12,8 @@ export default function PageBodyGradient({
   return (
     <div
       className={cx(
-        'absolute inset-x-0 top-0 -z-10 h-[800px]',
-        'bg-gradient-to-b',
+        'absolute inset-x-0 top-0 -z-10 h-200',
+        'bg-linear-to-b',
         isBlogPage
           ? [
               'from-zinc-100/80 to-zinc-50',

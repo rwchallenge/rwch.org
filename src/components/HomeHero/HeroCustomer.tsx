@@ -10,7 +10,7 @@ export default function HomeHeroPartner() {
       {/* logos */}
       <div className={cx('relative -mx-6 mt-6 overflow-hidden md:mx-0')}>
         <div
-          className="inline-block overflow-hidden whitespace-nowrap md:!animate-none"
+          className="inline-block overflow-hidden whitespace-nowrap md:animate-none!"
           style={{
             animationDuration: '20s',
             animationTimingFunction: 'linear',

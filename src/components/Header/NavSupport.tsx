@@ -18,7 +18,7 @@ export default function NavigationItemCompany() {
       <NewNavigationTrigger>Поддержать</NewNavigationTrigger>
 
       <NewNavigationContent>
-        <div className="grid w-[500px] gap-4 p-6">
+        <div className="grid w-125 gap-4 p-6">
           <ListItem
             href="/#community"
             title1="Участием"
